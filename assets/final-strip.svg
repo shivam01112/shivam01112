@@ -25,9 +25,9 @@
   <path d="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" fill="#020617" opacity="0.38">
     <animate attributeName="d" values="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z;M0 126C178 180 330 96 504 144C678 190 808 98 974 138C1112 172 1190 134 1280 104V230H0V126Z;M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" dur="8s" repeatCount="indefinite" />
   </path>
-  <path d="M70 116C222 62 340 154 498 114C660 72 780 144 934 108C1074 76 1154 92 1210 70" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 20" filter="url(#glow)">
+  <path d="M70 158C222 104 340 196 498 156C660 114 780 186 934 150C1074 118 1154 134 1210 112" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 20" filter="url(#glow)">
     <animate attributeName="stroke-dashoffset" values="0;-240" dur="4s" repeatCount="indefinite" />
   </path>
-  <text x="640" y="74" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Thanks for visiting</text>
-  <text x="640" y="116" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Learning, building, refining, and shipping better frontend experiences.</text>
+  <text x="640" y="68" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Thanks for visiting</text>
+  <text x="640" y="105" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Learning, building, refining, and shipping better frontend experiences.</text>
 </svg>

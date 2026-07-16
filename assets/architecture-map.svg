@@ -27,12 +27,12 @@
   <text x="74" y="136" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">How I think through a frontend build</text>
   <text x="74" y="172" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Structure first, motion second, polish always.</text>
 
-  <path d="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" stroke="#1E293B" stroke-width="18" stroke-linecap="round" />
-  <path d="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" stroke="url(#flow)" stroke-width="8" stroke-linecap="round" stroke-dasharray="28 22" filter="url(#glow)">
+  <path d="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" stroke="#1E293B" stroke-width="18" stroke-linecap="round" />
+  <path d="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" stroke="url(#flow)" stroke-width="8" stroke-linecap="round" stroke-dasharray="28 22" filter="url(#glow)">
     <animate attributeName="stroke-dashoffset" values="0;-250" dur="4s" repeatCount="indefinite" />
   </path>
   <circle r="13" fill="#22C55E" filter="url(#glow)">
-    <animateMotion dur="6.2s" repeatCount="indefinite" path="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" />
+    <animateMotion dur="6.2s" repeatCount="indefinite" path="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" />
   </circle>
 
   <g transform="translate(70 216)">
@@ -42,7 +42,7 @@
       <text x="28" y="78" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">layout, spacing</text>
       <text x="28" y="102" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">visual hierarchy</text>
     </g>
-    <g transform="translate(206 82)">
+    <g transform="translate(206 0)">
       <rect width="184" height="132" rx="24" fill="#172554" stroke="#60A5FA" />
       <text x="28" y="46" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Components</text>
       <text x="28" y="78" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="14">reusable blocks</text>
@@ -54,7 +54,7 @@
       <text x="28" y="78" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">hooks, context</text>
       <text x="28" y="102" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">predictable data</text>
     </g>
-    <g transform="translate(618 82)">
+    <g transform="translate(618 0)">
       <rect width="184" height="132" rx="24" fill="#422006" stroke="#FBBF24" />
       <text x="28" y="46" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">API</text>
       <text x="28" y="78" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">loading states</text>
@@ -66,7 +66,7 @@
       <text x="28" y="78" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">motion, empty UI</text>
       <text x="28" y="102" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">accessibility</text>
     </g>
-    <g transform="translate(1030 82)">
+    <g transform="translate(1030 0)">
       <rect width="134" height="132" rx="24" fill="#111827" stroke="#94A3B8" />
       <text x="28" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Ship</text>
       <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="14">build</text>

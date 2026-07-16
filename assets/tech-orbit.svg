@@ -1,13 +1,13 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Tech orbit</title>
   <desc id="desc">Animated orbit of frontend technologies around React.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617" />
       <stop offset="0.5" stop-color="#061B34" />
       <stop offset="1" stop-color="#111827" />
     </linearGradient>
-    <linearGradient id="orbit" x1="260" y1="90" x2="1020" y2="430" gradientUnits="userSpaceOnUse">
+    <linearGradient id="orbit" x1="260" y1="120" x2="1020" y2="560" gradientUnits="userSpaceOnUse">
       <stop stop-color="#38BDF8" />
       <stop offset="0.42" stop-color="#22C55E" />
       <stop offset="0.72" stop-color="#FBBF24" />
@@ -22,19 +22,19 @@
     </filter>
   </defs>
 
-  <rect width="1280" height="520" rx="30" fill="url(#bg)" />
+  <rect width="1280" height="640" rx="30" fill="url(#bg)" />
   <text x="74" y="86" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">TECH ORBIT</text>
   <text x="74" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">Tools around the interface</text>
   <text x="74" y="174" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">A frontend stack for building sharp, responsive, component-driven products.</text>
 
-  <g transform="translate(640 278)">
-    <circle r="188" stroke="#1E293B" stroke-width="2" />
-    <circle r="134" stroke="#1E293B" stroke-width="2" />
-    <circle r="82" stroke="#1E293B" stroke-width="2" />
-    <circle r="188" stroke="url(#orbit)" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 22" opacity="0.8" filter="url(#glow)">
+  <g transform="translate(650 365)">
+    <circle r="170" stroke="#1E293B" stroke-width="2" />
+    <circle r="122" stroke="#1E293B" stroke-width="2" />
+    <circle r="76" stroke="#1E293B" stroke-width="2" />
+    <circle r="170" stroke="url(#orbit)" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 22" opacity="0.8" filter="url(#glow)">
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
     </circle>
-    <circle r="134" stroke="url(#orbit)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 18" opacity="0.7">
+    <circle r="122" stroke="url(#orbit)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 18" opacity="0.7">
       <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite" />
     </circle>
 
@@ -42,35 +42,35 @@
     <text x="0" y="-8" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="900">React</text>
     <text x="0" y="25" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">component thinking</text>
 
-    <g transform="translate(-314 -140)">
+    <g transform="translate(-465 -70)">
       <rect width="150" height="70" rx="22" fill="#422006" stroke="#FBBF24" />
       <text x="75" y="43" text-anchor="middle" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">JavaScript</text>
-      <animateTransform attributeName="transform" type="translate" values="-314 -140;-314 -154;-314 -140" dur="4s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="-465 -70;-465 -84;-465 -70" dur="4s" repeatCount="indefinite" />
     </g>
-    <g transform="translate(202 -156)">
+    <g transform="translate(300 -105)">
       <rect width="150" height="70" rx="22" fill="#172554" stroke="#60A5FA" />
       <text x="75" y="43" text-anchor="middle" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">TypeScript</text>
-      <animateTransform attributeName="transform" type="translate" values="202 -156;202 -138;202 -156" dur="4.4s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="300 -105;300 -87;300 -105" dur="4.4s" repeatCount="indefinite" />
     </g>
-    <g transform="translate(-362 94)">
+    <g transform="translate(-420 118)">
       <rect width="150" height="70" rx="22" fill="#052E2B" stroke="#22C55E" />
       <text x="75" y="43" text-anchor="middle" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Tailwind</text>
-      <animateTransform attributeName="transform" type="translate" values="-362 94;-362 78;-362 94" dur="4.8s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="-420 118;-420 102;-420 118" dur="4.8s" repeatCount="indefinite" />
     </g>
-    <g transform="translate(238 104)">
+    <g transform="translate(310 118)">
       <rect width="150" height="70" rx="22" fill="#4C0519" stroke="#FB7185" />
       <text x="75" y="43" text-anchor="middle" fill="#FFE4E6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Redux</text>
-      <animateTransform attributeName="transform" type="translate" values="238 104;238 88;238 104" dur="5.1s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="310 118;310 102;310 118" dur="5.1s" repeatCount="indefinite" />
     </g>
-    <g transform="translate(-76 -236)">
+    <g transform="translate(30 -230)">
       <rect width="150" height="70" rx="22" fill="#1E1B4B" stroke="#A78BFA" />
       <text x="75" y="43" text-anchor="middle" fill="#EDE9FE" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Vite</text>
-      <animateTransform attributeName="transform" type="translate" values="-76 -236;-76 -220;-76 -236" dur="4.2s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="30 -230;30 -214;30 -230" dur="4.2s" repeatCount="indefinite" />
     </g>
-    <g transform="translate(-76 190)">
+    <g transform="translate(-75 178)">
       <rect width="150" height="70" rx="22" fill="#111827" stroke="#94A3B8" />
       <text x="75" y="43" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">GitHub</text>
-      <animateTransform attributeName="transform" type="translate" values="-76 190;-76 204;-76 190" dur="4.6s" repeatCount="indefinite" />
+      <animateTransform attributeName="transform" type="translate" values="-75 178;-75 192;-75 178" dur="4.6s" repeatCount="indefinite" />
     </g>
   </g>
 </svg>

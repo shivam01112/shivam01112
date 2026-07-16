@@ -98,10 +98,10 @@
     </g>
   </g>
 
-  <g transform="translate(870 358)">
-    <rect width="250" height="86" rx="24" fill="#020617" opacity="0.58" stroke="#155E75" />
-    <text x="26" y="35" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800">CURRENT MODE</text>
-    <text x="26" y="62" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">build -> refine -> ship</text>
+  <g transform="translate(625 438)">
+    <rect width="470" height="64" rx="22" fill="#020617" opacity="0.72" stroke="#155E75" />
+    <text x="26" y="39" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="900">CURRENT MODE</text>
+    <text x="176" y="39" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">build -> refine -> ship</text>
   </g>
 
   <circle r="9" fill="#22C55E" filter="url(#glow)">
