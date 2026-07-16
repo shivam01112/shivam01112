@@ -1,0 +1,61 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project direction showcase</title>
+  <desc id="desc">Animated cards for frontend project directions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.42" stop-color="#082F49" />
+      <stop offset="1" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="110" y1="70" x2="1070" y2="350" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" />
+      <stop offset="0.5" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-40%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="430" rx="30" fill="url(#bg)" />
+  <text x="70" y="82" fill="#ECFEFF" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900">Project Direction</text>
+  <text x="70" y="118" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="19">The kind of frontend work I am building and improving.</text>
+
+  <g transform="translate(70 162)">
+    <rect width="320" height="190" rx="26" fill="#030712" opacity="0.72" stroke="#155E75" />
+    <rect x="28" y="28" width="70" height="14" rx="7" fill="#38BDF8">
+      <animate attributeName="width" values="70;124;70" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <text x="28" y="82" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">React Interfaces</text>
+    <text x="28" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Reusable components, page</text>
+    <text x="28" y="145" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">sections, routing, and state.</text>
+  </g>
+
+  <g transform="translate(440 162)">
+    <rect width="320" height="190" rx="26" fill="#030712" opacity="0.72" stroke="#166534" />
+    <rect x="28" y="28" width="96" height="14" rx="7" fill="#22C55E">
+      <animate attributeName="width" values="96;150;96" dur="3.4s" repeatCount="indefinite" />
+    </rect>
+    <text x="28" y="82" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">API Web Apps</text>
+    <text x="28" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Loading states, errors,</text>
+    <text x="28" y="145" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">forms, and useful data UI.</text>
+  </g>
+
+  <g transform="translate(810 162)">
+    <rect width="320" height="190" rx="26" fill="#030712" opacity="0.72" stroke="#A16207" />
+    <rect x="28" y="28" width="82" height="14" rx="7" fill="#FBBF24">
+      <animate attributeName="width" values="82;132;82" dur="3.8s" repeatCount="indefinite" />
+    </rect>
+    <text x="28" y="82" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="900">Creative UI</text>
+    <text x="28" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Motion, hover states,</text>
+    <text x="28" y="145" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">cards, dashboards, polish.</text>
+  </g>
+
+  <path d="M92 372C272 394 362 338 522 368C684 398 826 340 1100 372" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 18" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-216" dur="4s" repeatCount="indefinite" />
+  </path>
+</svg>
