@@ -1,119 +1,137 @@
 <!--
-Profile README setup:
-1. Replace YOUR_NAME with your real name.
-2. Replace YOUR_USERNAME with your GitHub username.
-3. Replace portfolio, LinkedIn, email, and project links with your real links.
-4. Remove any skill badge that does not match your real experience.
+Profile README for Shivam Negi.
+To publish as your GitHub profile, put this README in a repository with the exact same name as your GitHub username.
+The contribution snake below is generated automatically by .github/workflows/snake.yml after GitHub Actions runs.
 -->
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,100:22C55E&height=190&section=header&text=Hi%2C%20I%27m%20YOUR_NAME&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Profile header" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:020617,45:0EA5E9,100:22C55E&text=Shivam%20Negi&fontColor=FFFFFF&fontSize=58&fontAlignY=36&animation=twinkling&desc=Frontend%20Developer%20%7C%20React%20Builder%20%7C%20Creative%20Web%20Interfaces&descSize=18&descAlignY=58" alt="Shivam Negi profile header" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0EA5E9&center=true&vCenter=true&width=720&lines=Full-Stack+Developer;Frontend+%7C+Backend+%7C+Problem+Solving;Building+clean%2C+fast%2C+user-focused+software" alt="Typing animation" />
-
-  <p>
-    <a href="https://github.com/YOUR_USERNAME?tab=followers">
-      <img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=for-the-badge&color=0EA5E9&labelColor=0F172A" alt="GitHub followers" />
-    </a>
-    <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=0EA5E9&label=Profile+Views" alt="Profile views" />
-  </p>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=860&lines=I+build+clean+and+responsive+frontends;React+interfaces+with+smooth+user+experiences;Turning+ideas+into+polished+web+products" alt="Typing animation for Shivam Negi" />
 </div>
-
-## About Me
-
-I am a software developer focused on building practical, polished, and reliable digital products. I enjoy turning ideas into clean user experiences, writing maintainable code, and improving a little with every project I ship.
-
-- Currently working on: full-stack projects, portfolio apps, and real-world problem solving
-- Learning more about: system design, cloud deployment, and better developer workflows
-- Open to: collaboration, freelance work, internships, and interesting product ideas
-- Goal: build software that is useful, fast, and pleasant to use
-
-## Tech Stack
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS3" />
-  <img src="https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-111827?style=for-the-badge&logo=express&logoColor=ffffff" alt="Express" />
-  <img src="https://img.shields.io/badge/MongoDB-111827?style=for-the-badge&logo=mongodb&logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-111827?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
-
-</div>
-
-## Featured Projects
 
 <table>
   <tr>
-    <td width="50%">
-      <h3 align="center">Project One</h3>
-      <p align="center">
-        <a href="https://github.com/YOUR_USERNAME/project-one">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=project-one&theme=github_dark&hide_border=true" alt="Project One" />
-        </a>
+    <td width="58%">
+      <h2>Frontend Developer</h2>
+      <p>
+        I am Shivam Negi, a frontend developer focused on building modern, responsive,
+        and user-friendly web experiences. I like clean UI, smooth interactions, and code
+        that stays easy to understand after the project grows.
       </p>
-      <p align="center">A short, clear description of what this project does and why it matters.</p>
+      <p>
+        <b>Focus:</b> React, JavaScript, responsive layouts, component-based UI, API integration,
+        and polished frontend details.
+      </p>
     </td>
-    <td width="50%">
-      <h3 align="center">Project Two</h3>
-      <p align="center">
-        <a href="https://github.com/YOUR_USERNAME/project-two">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=project-two&theme=github_dark&hide_border=true" alt="Project Two" />
-        </a>
-      </p>
-      <p align="center">A short, clear description of what this project does and what you learned from it.</p>
+    <td width="42%">
+      <img src="./assets/frontend-flow.svg" alt="Animated frontend workflow graphic" width="100%" />
     </td>
   </tr>
 </table>
 
-## GitHub Analytics
+## What I Do
+
+<table>
+  <tr>
+    <td width="33%">
+      <h3>React UI</h3>
+      <p>Reusable components, clean state flow, hooks, props, routing, and scalable page structure.</p>
+    </td>
+    <td width="33%">
+      <h3>Responsive Design</h3>
+      <p>Layouts that feel natural on mobile, tablet, and desktop with careful spacing and hierarchy.</p>
+    </td>
+    <td width="33%">
+      <h3>Frontend Polish</h3>
+      <p>Animations, hover states, loading states, empty states, forms, and small UX details that matter.</p>
+    </td>
+  </tr>
+</table>
+
+## Skills
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=github-dark-blue&hide_border=true" alt="GitHub streak" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=github_dark&hide_border=true" alt="Top languages" />
+  <img src="https://skillicons.dev/icons?i=react,js,ts,html,css,tailwind,bootstrap,redux,vite,nodejs,git,github,vscode,figma&theme=dark&perline=7" alt="Frontend development skill icons" />
 </div>
+
+<br />
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark&hide_border=true&area=true" alt="Contribution graph" />
+  <img src="https://img.shields.io/badge/React-0F172A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/JavaScript-0F172A?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Responsive_UI-0F172A?style=for-the-badge&logo=css3&logoColor=22C55E" alt="Responsive UI" />
+  <img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
 </div>
 
-## Contribution Animation
+## Creative Frontend Stack
+
+| Area | Tools And Skills |
+| --- | --- |
+| Core frontend | HTML, CSS, JavaScript, TypeScript |
+| Framework | React, React Router, reusable components |
+| Styling | Tailwind CSS, Bootstrap, responsive design |
+| State and data | Hooks, Context API, Redux basics, REST APIs |
+| Tooling | Vite, npm, Git, GitHub, VS Code |
+| Design sense | Layout, spacing, color, accessibility, micro-interactions |
+
+## Project Showcase
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Interactive React Interfaces</h3>
+      <p>
+        Component-driven pages with smooth navigation, reusable UI blocks,
+        and responsive layouts for real users.
+      </p>
+      <p><b>Best for:</b> portfolio apps, dashboards, landing pages, and product UI.</p>
+    </td>
+    <td width="50%">
+      <h3>API Connected Web Apps</h3>
+      <p>
+        Frontend projects that connect with APIs, handle loading and error states,
+        and present data in a clear visual structure.
+      </p>
+      <p><b>Best for:</b> weather apps, ecommerce UI, admin panels, and search tools.</p>
+    </td>
+  </tr>
+</table>
+
+## Contribution Snake
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-snake.svg" />
+    <img src="./assets/github-contribution-snake.svg" alt="Animated GitHub contribution snake" width="100%" />
   </picture>
 </div>
 
-## Achievements
+## Current Goals
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=algolia&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
-</div>
+- Build more polished React projects
+- Improve frontend architecture and performance
+- Practice clean UI design and better accessibility
+- Create useful web apps that solve real problems
 
 ## Connect With Me
 
+<!-- Replace # with your real portfolio, LinkedIn, and email links. -->
+
 <div align="center">
-  <a href="https://your-portfolio-link.com">
+  <a href="#">
     <img src="https://img.shields.io/badge/Portfolio-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="#">
+    <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="#">
     <img src="https://img.shields.io/badge/Email-22C55E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,100:0EA5E9&height=120&section=footer" alt="Footer wave" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:22C55E,50:0EA5E9,100:020617" alt="Footer wave" />
 </div>

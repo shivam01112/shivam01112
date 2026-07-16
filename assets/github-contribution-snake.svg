@@ -1,0 +1,32 @@
+<svg width="1000" height="240" viewBox="0 0 1000 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated GitHub contribution snake placeholder</title>
+  <desc id="desc">A placeholder contribution snake animation. GitHub Actions will replace this file with the real contribution snake.</desc>
+  <defs>
+    <linearGradient id="snake" x1="60" y1="70" x2="940" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9" />
+      <stop offset="0.55" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#F59E0B" />
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect x="6" y="6" width="14" height="14" rx="4" fill="#D8DEE9" />
+    </pattern>
+    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="240" rx="24" fill="#F8FAFC" />
+  <rect x="42" y="48" width="916" height="112" fill="url(#grid)" opacity="0.95" />
+  <path d="M70 72H190V100H330V128H470V100H610V128H750V100H900" stroke="#CBD5E1" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <path id="route" d="M70 72H190V100H330V128H470V100H610V128H750V100H900" stroke="url(#snake)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="42 22" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-256" dur="4s" repeatCount="indefinite" />
+  </path>
+  <circle r="14" fill="#22C55E" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M70 72H190V100H330V128H470V100H610V128H750V100H900" />
+  </circle>
+  <text x="500" y="202" text-anchor="middle" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Contribution snake will update automatically with GitHub Actions</text>
+</svg>

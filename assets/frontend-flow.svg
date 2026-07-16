@@ -1,0 +1,81 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated frontend workflow</title>
+  <desc id="desc">A stylized animated frontend interface with code, cards, and flowing connection lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.5" stop-color="#0F172A" />
+      <stop offset="1" stop-color="#052E2B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="90" x2="780" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="0.55" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#F59E0B" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="560" rx="32" fill="url(#bg)" />
+  <path d="M70 120C190 35 290 185 400 105C520 20 650 70 790 32" stroke="#1E293B" stroke-width="2" />
+  <path d="M100 500C240 420 350 545 485 450C610 360 720 425 825 350" stroke="#1E293B" stroke-width="2" />
+
+  <g opacity="0.55">
+    <circle cx="122" cy="104" r="5" fill="#38BDF8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="735" cy="88" r="5" fill="#22C55E">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="790" cy="380" r="5" fill="#F59E0B">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g transform="translate(70 92)">
+    <rect width="370" height="318" rx="24" fill="#0B1120" stroke="#1E293B" stroke-width="2" />
+    <rect width="370" height="54" rx="24" fill="#111827" />
+    <circle cx="34" cy="27" r="7" fill="#EF4444" />
+    <circle cx="58" cy="27" r="7" fill="#F59E0B" />
+    <circle cx="82" cy="27" r="7" fill="#22C55E" />
+    <text x="112" y="33" fill="#94A3B8" font-family="Consolas, monospace" font-size="17">shivam-ui.jsx</text>
+
+    <rect x="34" y="86" width="104" height="13" rx="6.5" fill="#38BDF8" opacity="0.9">
+      <animate attributeName="width" values="104;148;104" dur="3s" repeatCount="indefinite" />
+    </rect>
+    <rect x="34" y="122" width="260" height="13" rx="6.5" fill="#334155" />
+    <rect x="62" y="154" width="212" height="13" rx="6.5" fill="#22C55E" opacity="0.9">
+      <animate attributeName="width" values="212;268;212" dur="3.2s" repeatCount="indefinite" />
+    </rect>
+    <rect x="62" y="186" width="156" height="13" rx="6.5" fill="#F59E0B" opacity="0.9" />
+    <rect x="34" y="222" width="286" height="13" rx="6.5" fill="#334155" />
+    <rect x="62" y="254" width="198" height="13" rx="6.5" fill="#38BDF8" opacity="0.75">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.6s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g transform="translate(485 110)">
+    <rect width="345" height="270" rx="28" fill="#F8FAFC" />
+    <rect x="28" y="28" width="128" height="18" rx="9" fill="#0F172A" />
+    <rect x="28" y="64" width="244" height="14" rx="7" fill="#CBD5E1" />
+    <rect x="28" y="92" width="190" height="14" rx="7" fill="#CBD5E1" />
+    <rect x="28" y="132" width="128" height="84" rx="18" fill="#E0F2FE" />
+    <rect x="178" y="132" width="128" height="84" rx="18" fill="#DCFCE7" />
+    <rect x="28" y="232" width="278" height="12" rx="6" fill="#E2E8F0" />
+    <circle cx="284" cy="42" r="20" fill="url(#accent)" filter="url(#glow)">
+      <animate attributeName="r" values="16;23;16" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <path id="flowPath" d="M420 250C468 208 510 198 560 220C620 246 660 220 710 170" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="16 18" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-136" dur="3.2s" repeatCount="indefinite" />
+  </path>
+
+  <text x="70" y="480" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Frontend ideas into real interfaces</text>
+  <text x="70" y="515" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="18">React - JavaScript - Responsive UI - Creative details</text>
+</svg>
