@@ -1,0 +1,82 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering console</title>
+  <desc id="desc">Animated frontend engineering console showing workflow, quality, and code thinking.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816" />
+      <stop offset="0.46" stop-color="#081827" />
+      <stop offset="1" stop-color="#042F2E" />
+    </linearGradient>
+    <linearGradient id="accent" x1="94" y1="84" x2="1186" y2="434" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="0.5" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-50%" width="180%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="520" rx="30" fill="url(#bg)" />
+  <rect x="42" y="38" width="1196" height="444" rx="26" fill="#020617" opacity="0.62" stroke="#1E3A4C" />
+
+  <text x="76" y="88" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">ENGINEERING CONSOLE</text>
+  <text x="76" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900">Frontend work with a production mindset</text>
+  <text x="76" y="172" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Clean components, predictable state, responsive UI, and small details that make the product feel finished.</text>
+
+  <g transform="translate(76 220)">
+    <rect width="548" height="218" rx="24" fill="#030712" stroke="#164E63" />
+    <rect width="548" height="52" rx="24" fill="#0F172A" />
+    <circle cx="30" cy="26" r="6" fill="#EF4444" />
+    <circle cx="52" cy="26" r="6" fill="#FBBF24" />
+    <circle cx="74" cy="26" r="6" fill="#22C55E" />
+    <text x="104" y="33" fill="#94A3B8" font-family="Consolas, monospace" font-size="15">component-quality.check</text>
+    <text x="28" y="88" fill="#22D3EE" font-family="Consolas, monospace" font-size="18">$ npm run build-ui</text>
+    <text x="28" y="124" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">layout: responsive</text>
+    <text x="28" y="158" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">state: predictable</text>
+    <text x="28" y="192" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">details: animated and polished</text>
+    <rect x="318" y="75" width="170" height="14" rx="7" fill="#334155" />
+    <rect x="318" y="75" width="128" height="14" rx="7" fill="#38BDF8">
+      <animate attributeName="width" values="84;170;128;170" dur="5s" repeatCount="indefinite" />
+    </rect>
+    <rect x="318" y="116" width="170" height="14" rx="7" fill="#334155" />
+    <rect x="318" y="116" width="146" height="14" rx="7" fill="#22C55E">
+      <animate attributeName="width" values="112;170;146;170" dur="4.6s" repeatCount="indefinite" />
+    </rect>
+    <rect x="318" y="157" width="170" height="14" rx="7" fill="#334155" />
+    <rect x="318" y="157" width="118" height="14" rx="7" fill="#FBBF24">
+      <animate attributeName="width" values="72;164;118;164" dur="4.8s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <g transform="translate(676 220)">
+    <g>
+      <rect width="246" height="96" rx="22" fill="#082F49" stroke="#0EA5E9" />
+      <text x="24" y="38" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">UI Systems</text>
+      <text x="24" y="68" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">Reusable sections and components</text>
+    </g>
+    <g transform="translate(278 0)">
+      <rect width="246" height="96" rx="22" fill="#052E2B" stroke="#22C55E" />
+      <text x="24" y="38" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Performance</text>
+      <text x="24" y="68" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">Fast pages and clean rendering</text>
+    </g>
+    <g transform="translate(0 122)">
+      <rect width="246" height="96" rx="22" fill="#422006" stroke="#FBBF24" />
+      <text x="24" y="38" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">User Flow</text>
+      <text x="24" y="68" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">Forms, errors, loading states</text>
+    </g>
+    <g transform="translate(278 122)">
+      <rect width="246" height="96" rx="22" fill="#1E1B4B" stroke="#A78BFA" />
+      <text x="24" y="38" fill="#EDE9FE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Code Quality</text>
+      <text x="24" y="68" fill="#DDD6FE" font-family="Inter, Arial, sans-serif" font-size="14">Readable, organized, maintainable</text>
+    </g>
+  </g>
+
+  <path d="M624 330C672 278 704 382 752 330C804 274 856 382 914 330C968 282 1012 374 1066 316" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 16" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-180" dur="3.4s" repeatCount="indefinite" />
+  </path>
+</svg>

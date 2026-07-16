@@ -1,42 +1,48 @@
 <!--
-Profile README for Shivam Negi.
-GitHub username: shivam01112
-Tip: add your real portfolio, LinkedIn, and email links in the Connect section.
+Shivam Negi - GitHub profile README
+Username: shivam01112
+Built as a visual frontend engineering dashboard with local SVG animation assets.
 -->
 
 <div align="center">
-  <img src="./assets/hero.svg" alt="Shivam Negi animated frontend developer profile hero" width="100%" />
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=900&lines=Frontend+Developer+focused+on+React;Clean+UI+%2B+Responsive+Layouts+%2B+Smooth+Interactions;Building+creative+web+experiences+one+component+at+a+time" alt="Typing animation" />
+  <img src="./assets/command-center.svg" alt="Shivam Negi frontend developer command center" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/about-panel.svg" alt="About Shivam Negi animated frontend profile panel" width="100%" />
+  <a href="https://github.com/shivam01112">
+    <img src="https://img.shields.io/badge/GitHub-shivam01112-020617?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub profile" />
+  </a>
+  <img src="https://img.shields.io/badge/Frontend-React_Developer-06B6D4?style=for-the-badge&logo=react&logoColor=white&labelColor=111827" alt="React frontend developer" />
+  <img src="https://img.shields.io/badge/Focus-Clean_UI_and_Performance-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827" alt="Clean UI and performance" />
 </div>
 
-## Skill Lab
+<br />
 
 <div align="center">
-  <img src="./assets/skills-showcase.svg" alt="Animated frontend skill showcase" width="100%" />
+  <img src="./assets/engineering-console.svg" alt="Frontend engineering console with animated code and quality signals" width="100%" />
 </div>
 
-## Frontend Stack
+<br />
 
 <div align="center">
-  <img src="./assets/stack-roadmap.svg" alt="Animated frontend stack roadmap" width="100%" />
+  <img src="./assets/tech-orbit.svg" alt="Animated frontend technology orbit for React JavaScript TypeScript Tailwind GitHub and Vite" width="100%" />
 </div>
 
-## Project Direction
+<br />
 
 <div align="center">
-  <img src="./assets/project-showcase.svg" alt="Creative project showcase for frontend work" width="100%" />
+  <img src="./assets/architecture-map.svg" alt="Animated frontend architecture map from design to deploy" width="100%" />
 </div>
 
-## Contribution Snake
+<br />
+
+<div align="center">
+  <img src="./assets/project-lab.svg" alt="Animated project lab showing frontend project directions" width="100%" />
+</div>
+
+<br />
 
 <div align="center">
   <picture>
@@ -46,25 +52,22 @@ Tip: add your real portfolio, LinkedIn, and email links in the Connect section.
   </picture>
 </div>
 
-## Connect
+<br />
 
 <div align="center">
-  <a href="https://github.com/shivam01112">
-    <img src="https://img.shields.io/badge/GitHub-shivam01112-0B1120?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub profile" />
+  <a href="#">
+    <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827" alt="Portfolio" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-14B8A6?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0F172A" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/LinkedIn-Add_Link-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-Add_Link-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0F172A" alt="LinkedIn" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Email-Add_Email-22C55E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0F172A" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Add_Email-22C55E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
   </a>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/contact-footer.svg" alt="Animated footer wave" width="100%" />
+  <img src="./assets/final-strip.svg" alt="Animated closing strip for Shivam Negi profile" width="100%" />
 </div>

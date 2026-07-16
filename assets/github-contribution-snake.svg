@@ -1,21 +1,23 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1280" height="340" viewBox="0 0 1280 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Animated GitHub contribution snake</title>
-  <desc id="desc">A colorful animated contribution snake placeholder that is replaced by GitHub Actions.</desc>
+  <desc id="desc">A premium animated contribution snake preview. GitHub Actions replaces this file with the real contribution snake.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="340" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F8FAFC" />
-      <stop offset="1" stop-color="#ECFEFF" />
+      <stop offset="0.55" stop-color="#ECFEFF" />
+      <stop offset="1" stop-color="#F7FEE7" />
     </linearGradient>
-    <linearGradient id="snake" x1="90" y1="130" x2="1080" y2="190" gradientUnits="userSpaceOnUse">
+    <linearGradient id="snake" x1="94" y1="158" x2="1184" y2="212" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0EA5E9" />
-      <stop offset="0.48" stop-color="#22C55E" />
-      <stop offset="1" stop-color="#F59E0B" />
+      <stop offset="0.42" stop-color="#22C55E" />
+      <stop offset="0.72" stop-color="#F59E0B" />
+      <stop offset="1" stop-color="#FB7185" />
     </linearGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <rect x="8" y="8" width="16" height="16" rx="5" fill="#CBD5E1" opacity="0.85" />
+      <rect x="8" y="8" width="16" height="16" rx="5" fill="#CBD5E1" opacity="0.86" />
     </pattern>
-    <filter id="glow" x="-30%" y="-70%" width="160%" height="240%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -23,25 +25,18 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="34" fill="url(#bg)" />
-  <text x="72" y="68" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900">Contribution Snake</text>
-  <text x="72" y="98" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="16">This preview becomes your real GitHub contribution snake after Actions runs.</text>
+  <rect width="1280" height="340" rx="32" fill="url(#bg)" />
+  <text x="72" y="72" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Contribution Snake</text>
+  <text x="72" y="104" fill="#475569" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Real GitHub contribution snake will be generated automatically by the workflow.</text>
 
-  <rect x="72" y="128" width="1056" height="96" fill="url(#grid)" />
-  <path d="M92 152H230V184H390V216H552V184H718V152H874V184H1020V152H1104" stroke="#E2E8F0" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
-  <path d="M92 152H230V184H390V216H552V184H718V152H874V184H1020V152H1104" stroke="url(#snake)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="44 24" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-272" dur="4s" repeatCount="indefinite" />
+  <rect x="72" y="134" width="1136" height="112" rx="24" fill="#FFFFFF" opacity="0.72" />
+  <rect x="92" y="150" width="1096" height="80" fill="url(#grid)" />
+  <path d="M104 172H254V204H424V236H590V204H760V172H930V204H1080V172H1174" stroke="#E2E8F0" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M104 172H254V204H424V236H590V204H760V172H930V204H1080V172H1174" stroke="url(#snake)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="46 24" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-280" dur="4s" repeatCount="indefinite" />
   </path>
-  <circle r="17" fill="#22C55E" filter="url(#glow)">
-    <animateMotion dur="6.5s" repeatCount="indefinite" path="M92 152H230V184H390V216H552V184H718V152H874V184H1020V152H1104" />
+  <circle r="18" fill="#22C55E" filter="url(#glow)">
+    <animateMotion dur="6.5s" repeatCount="indefinite" path="M104 172H254V204H424V236H590V204H760V172H930V204H1080V172H1174" />
   </circle>
-  <circle cx="1064" cy="268" r="5" fill="#0EA5E9">
-    <animate attributeName="opacity" values="0.25;1;0.25" dur="2s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1088" cy="268" r="5" fill="#22C55E">
-    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="1112" cy="268" r="5" fill="#F59E0B">
-    <animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" repeatCount="indefinite" />
-  </circle>
+  <text x="640" y="295" text-anchor="middle" fill="#0F172A" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">preview now - real contribution path after GitHub Actions runs</text>
 </svg>

@@ -1,0 +1,33 @@
+<svg width="1280" height="230" viewBox="0 0 1280 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Final strip</title>
+  <desc id="desc">Animated closing strip for the GitHub profile.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.48" stop-color="#082F49" />
+      <stop offset="1" stop-color="#064E3B" />
+    </linearGradient>
+    <linearGradient id="line" x1="60" y1="114" x2="1220" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8" />
+      <stop offset="0.5" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="230" rx="30" fill="url(#bg)" />
+  <path d="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" fill="#020617" opacity="0.38">
+    <animate attributeName="d" values="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z;M0 126C178 180 330 96 504 144C678 190 808 98 974 138C1112 172 1190 134 1280 104V230H0V126Z;M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" dur="8s" repeatCount="indefinite" />
+  </path>
+  <path d="M70 116C222 62 340 154 498 114C660 72 780 144 934 108C1074 76 1154 92 1210 70" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 20" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-240" dur="4s" repeatCount="indefinite" />
+  </path>
+  <text x="640" y="74" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Thanks for visiting</text>
+  <text x="640" y="116" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Learning, building, refining, and shipping better frontend experiences.</text>
+</svg>

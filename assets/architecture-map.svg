@@ -1,0 +1,76 @@
+<svg width="1280" height="540" viewBox="0 0 1280 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Frontend architecture map</title>
+  <desc id="desc">Animated frontend architecture map from design to deployment.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="540" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.45" stop-color="#0B1120" />
+      <stop offset="1" stop-color="#052E2B" />
+    </linearGradient>
+    <linearGradient id="flow" x1="118" y1="278" x2="1162" y2="278" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" />
+      <stop offset="0.34" stop-color="#38BDF8" />
+      <stop offset="0.66" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-70%" width="180%" height="240%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="540" rx="30" fill="url(#bg)" />
+  <text x="74" y="84" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">ARCHITECTURE MAP</text>
+  <text x="74" y="136" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">How I think through a frontend build</text>
+  <text x="74" y="172" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Structure first, motion second, polish always.</text>
+
+  <path d="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" stroke="#1E293B" stroke-width="18" stroke-linecap="round" />
+  <path d="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" stroke="url(#flow)" stroke-width="8" stroke-linecap="round" stroke-dasharray="28 22" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-250" dur="4s" repeatCount="indefinite" />
+  </path>
+  <circle r="13" fill="#22C55E" filter="url(#glow)">
+    <animateMotion dur="6.2s" repeatCount="indefinite" path="M134 282C248 202 342 356 454 282C558 214 642 350 750 282C858 214 942 350 1048 282C1092 254 1136 248 1180 264" />
+  </circle>
+
+  <g transform="translate(70 216)">
+    <g>
+      <rect width="184" height="132" rx="24" fill="#082F49" stroke="#0EA5E9" />
+      <text x="28" y="46" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Design</text>
+      <text x="28" y="78" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">layout, spacing</text>
+      <text x="28" y="102" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">visual hierarchy</text>
+    </g>
+    <g transform="translate(206 82)">
+      <rect width="184" height="132" rx="24" fill="#172554" stroke="#60A5FA" />
+      <text x="28" y="46" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Components</text>
+      <text x="28" y="78" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="14">reusable blocks</text>
+      <text x="28" y="102" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="14">clean props</text>
+    </g>
+    <g transform="translate(412 0)">
+      <rect width="184" height="132" rx="24" fill="#052E2B" stroke="#22C55E" />
+      <text x="28" y="46" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">State</text>
+      <text x="28" y="78" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">hooks, context</text>
+      <text x="28" y="102" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">predictable data</text>
+    </g>
+    <g transform="translate(618 82)">
+      <rect width="184" height="132" rx="24" fill="#422006" stroke="#FBBF24" />
+      <text x="28" y="46" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">API</text>
+      <text x="28" y="78" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">loading states</text>
+      <text x="28" y="102" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">error handling</text>
+    </g>
+    <g transform="translate(824 0)">
+      <rect width="184" height="132" rx="24" fill="#4C0519" stroke="#FB7185" />
+      <text x="28" y="46" fill="#FFE4E6" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Polish</text>
+      <text x="28" y="78" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">motion, empty UI</text>
+      <text x="28" y="102" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">accessibility</text>
+    </g>
+    <g transform="translate(1030 82)">
+      <rect width="134" height="132" rx="24" fill="#111827" stroke="#94A3B8" />
+      <text x="28" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Ship</text>
+      <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="14">build</text>
+      <text x="28" y="102" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="14">deploy</text>
+    </g>
+  </g>
+</svg>

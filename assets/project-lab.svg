@@ -1,0 +1,62 @@
+<svg width="1280" height="500" viewBox="0 0 1280 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project lab</title>
+  <desc id="desc">Animated project lab for frontend projects and goals.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617" />
+      <stop offset="0.5" stop-color="#081827" />
+      <stop offset="1" stop-color="#052E2B" />
+    </linearGradient>
+    <linearGradient id="accent" x1="86" y1="116" x2="1194" y2="392" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" />
+      <stop offset="0.48" stop-color="#22C55E" />
+      <stop offset="1" stop-color="#FBBF24" />
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="500" rx="30" fill="url(#bg)" />
+  <text x="74" y="86" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">PROJECT LAB</text>
+  <text x="74" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">Building interfaces that look finished</text>
+  <text x="74" y="174" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Portfolio apps, dashboards, API products, landing pages, and creative UI experiments.</text>
+
+  <g transform="translate(72 224)">
+    <g>
+      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#155E75" />
+      <rect x="26" y="28" width="108" height="14" rx="7" fill="#38BDF8">
+        <animate attributeName="width" values="80;160;108" dur="3.2s" repeatCount="indefinite" />
+      </rect>
+      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">Dashboard UI</text>
+      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Charts, filters, tables,</text>
+      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">and clean admin screens.</text>
+    </g>
+    <g transform="translate(392 0)">
+      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#166534" />
+      <rect x="26" y="28" width="126" height="14" rx="7" fill="#22C55E">
+        <animate attributeName="width" values="84;178;126" dur="3.5s" repeatCount="indefinite" />
+      </rect>
+      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">API Products</text>
+      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Search, loading, forms,</text>
+      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">errors, and useful states.</text>
+    </g>
+    <g transform="translate(784 0)">
+      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#A16207" />
+      <rect x="26" y="28" width="94" height="14" rx="7" fill="#FBBF24">
+        <animate attributeName="width" values="70;152;94" dur="3.8s" repeatCount="indefinite" />
+      </rect>
+      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">Creative Web</text>
+      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Motion, microinteractions,</text>
+      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">and memorable UI systems.</text>
+    </g>
+  </g>
+
+  <path d="M76 440C236 388 346 470 514 426C676 384 788 464 954 426C1080 398 1160 418 1206 384" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 22" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-260" dur="4.2s" repeatCount="indefinite" />
+  </path>
+</svg>
