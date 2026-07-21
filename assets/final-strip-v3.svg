@@ -1,0 +1,64 @@
+<svg width="1280" height="430" viewBox="0 0 1280 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cinematic closing command portal</title>
+  <desc id="desc">A fully animated futuristic closing scene with a holographic portal, bold message, live terminal, energy trails, and orbiting particles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="430"><stop stop-color="#020617"/><stop offset=".38" stop-color="#061831"/><stop offset=".7" stop-color="#15102F"/><stop offset="1" stop-color="#043A32"/></linearGradient>
+    <linearGradient id="spectrum" x1="30" y1="0" x2="1250" y2="0"><stop stop-color="#22D3EE"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".54" stop-color="#A78BFA"/><stop offset=".78" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10243E" stop-opacity=".95"/><stop offset=".58" stop-color="#07101F" stop-opacity=".94"/><stop offset="1" stop-color="#0A1B25" stop-opacity=".9"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#fff"/><stop offset=".13" stop-color="#67E8F9"/><stop offset=".38" stop-color="#38BDF8"/><stop offset=".68" stop-color="#7C3AED" stop-opacity=".7"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" stroke="#7DD3FC" stroke-width=".55" opacity=".075"/><circle cx="1" cy="1" r="1" fill="#E0F2FE" opacity=".14"/></pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8H8" stroke="#E0F2FE" stroke-width="1" opacity=".025"/></pattern>
+    <filter id="glow" x="-100%" y="-120%" width="300%" height="340%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="deep" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="25" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-35%" y="-40%" width="180%" height="220%"><feDropShadow dx="0" dy="24" stdDeviation="18" flood-color="#00030C" flood-opacity=".82"/></filter>
+  </defs>
+  <rect width="1280" height="430" rx="34" fill="url(#bg)"/><rect width="1280" height="430" rx="34" fill="url(#grid)"/><rect width="1280" height="430" rx="34" fill="url(#scan)"/><rect x="1" y="1" width="1278" height="428" rx="33" stroke="url(#spectrum)" stroke-opacity=".36"/>
+  <circle cx="1160" cy="40" r="180" fill="#22C55E" opacity=".05"><animate attributeName="r" values="150;215;150" dur="9s" repeatCount="indefinite"/></circle><circle cx="120" cy="410" r="160" fill="#0EA5E9" opacity=".055"><animate attributeName="cy" values="410;360;410" dur="8s" repeatCount="indefinite"/></circle>
+
+  <!-- command header -->
+  <g transform="translate(42 30)"><rect width="1196" height="46" rx="16" fill="#020817" fill-opacity=".7" stroke="#164E63"/><circle cx="24" cy="23" r="5" fill="#22C55E" filter="url(#glow)"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="40" y="28" fill="#86EFAC" font-family="Consolas, monospace" font-size="11" font-weight="800">TRANSMISSION COMPLETE</text><text x="218" y="28" fill="#475569" font-family="Consolas, monospace" font-size="11">//</text><text x="244" y="28" fill="#7DD3FC" font-family="Consolas, monospace" font-size="11">NEXT_MISSION READY</text><g transform="translate(1020 11)"><rect width="146" height="24" rx="12" fill="#15102B" stroke="#8B5CF6"/><text x="73" y="16" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, monospace" font-size="9">WOW MODE: ENABLED</text></g></g>
+
+  <!-- left holographic portal -->
+  <g transform="translate(220 232)">
+    <circle r="132" fill="url(#core)" opacity=".16"><animate attributeName="r" values="112;148;112" dur="5s" repeatCount="indefinite"/></circle>
+    <ellipse rx="142" ry="72" stroke="#38BDF8" stroke-width="3" stroke-dasharray="13 17" opacity=".72" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-180" dur="3.6s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="92" ry="138" stroke="#A78BFA" stroke-width="2" stroke-dasharray="7 15" opacity=".58"><animate attributeName="stroke-dashoffset" values="0;132" dur="4.2s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="112" ry="46" stroke="#22C55E" stroke-width="2" stroke-dasharray="5 13" opacity=".48" transform="rotate(-30)"><animate attributeName="stroke-dashoffset" values="0;-108" dur="2.8s" repeatCount="indefinite"/></ellipse>
+    <circle r="76" fill="url(#core)" opacity=".74" filter="url(#deep)"/>
+    <g>
+      <polygon points="0,-56 62,-26 0,6 -62,-26" fill="#123B5D" stroke="#67E8F9"/>
+      <polygon points="-62,-26 0,6 0,74 -62,42" fill="#071E33" stroke="#38BDF8"/>
+      <polygon points="62,-26 0,6 0,74 62,42" fill="#2B174D" stroke="#A78BFA"/>
+      <path d="M0 6V74M-62-26L0 6l62-32" stroke="#BAE6FD" stroke-opacity=".52"/>
+      <text x="0" y="-17" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial" font-size="15" font-weight="900">CREATE</text><text x="0" y="39" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, monospace" font-size="10">SHIP_WOW</text>
+      <animateTransform attributeName="transform" type="translate" values="0 3;0 -10;0 3" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="4.8s" repeatCount="indefinite" path="M-142 0A142 72 0 1 0 142 0A142 72 0 1 0-142 0"/></circle><circle r="5" fill="#22C55E" filter="url(#glow)"><animateMotion begin="-2.4s" dur="4.8s" repeatCount="indefinite" path="M-142 0A142 72 0 1 0 142 0A142 72 0 1 0-142 0"/></circle>
+    <text x="0" y="156" text-anchor="middle" fill="#64748B" font-family="Consolas, monospace" font-size="10">PORTAL STABLE // 100%</text>
+  </g>
+
+  <!-- center closing message -->
+  <g transform="translate(405 120)">
+    <text y="18" fill="#67E8F9" font-family="Consolas, monospace" font-size="12" font-weight="800" letter-spacing="3">THANKS FOR ENTERING MY ORBIT</text>
+    <text y="76" fill="#F8FAFC" font-family="Inter, Arial" font-size="48" font-weight="900" letter-spacing="-1">Let&apos;s create the</text>
+    <text y="132" fill="#FFFFFF" font-family="Inter, Arial" font-size="58" font-weight="900" letter-spacing="-2">NEXT <tspan fill="#67E8F9">WOW.</tspan></text>
+    <rect y="150" width="424" height="5" rx="2.5" fill="#172033"/><rect y="150" width="68" height="5" rx="2.5" fill="url(#spectrum)" filter="url(#glow)"><animate attributeName="width" values="36;424;186;424;36" dur="5s" repeatCount="indefinite"/></rect>
+    <text y="188" fill="#CBD5E1" font-family="Inter, Arial" font-size="17">Bold ideas. Clean systems. Unforgettable motion.</text>
+    <g transform="translate(0 216)"><rect width="174" height="46" rx="15" fill="#082F49" stroke="#0EA5E9"/><circle cx="22" cy="23" r="5" fill="#38BDF8" filter="url(#glow)"/><text x="38" y="29" fill="#E0F2FE" font-family="Inter, Arial" font-size="12" font-weight="900">BUILD TOGETHER</text><animateTransform attributeName="transform" type="translate" values="0 216;0 210;0 216" dur="4.2s" repeatCount="indefinite"/></g><g transform="translate(190 216)"><rect width="154" height="46" rx="15" fill="#15102B" stroke="#8B5CF6"/><circle cx="22" cy="23" r="5" fill="#A78BFA" filter="url(#glow)"/><text x="38" y="29" fill="#EDE9FE" font-family="Inter, Arial" font-size="12" font-weight="900">SHIP MAGIC</text><animateTransform attributeName="transform" type="translate" values="190 216;190 223;190 216" dur="4.6s" repeatCount="indefinite"/></g>
+  </g>
+
+  <!-- right live console -->
+  <g transform="translate(920 104)" filter="url(#shadow)">
+    <rect x="10" y="12" width="304" height="236" rx="24" fill="#22C55E" opacity=".1"/><rect width="304" height="236" rx="24" fill="url(#panel)" stroke="#22C55E"/>
+    <rect width="304" height="48" rx="24" fill="#0D1B2B"/><circle cx="24" cy="24" r="5" fill="#FB7185"/><circle cx="44" cy="24" r="5" fill="#FBBF24"/><circle cx="64" cy="24" r="5" fill="#22C55E"/><text x="88" y="29" fill="#94A3B8" font-family="Consolas, monospace" font-size="11">next.mission</text>
+    <g transform="translate(22 74)" font-family="Consolas, monospace" font-size="12"><text fill="#22D3EE">$ init collaboration</text><g transform="translate(0 34)"><text fill="#64748B">01</text><text x="28" fill="#A7F3D0">ideas</text><text x="88" fill="#94A3B8">........</text><text x="170" fill="#22C55E">READY</text><animate attributeName="opacity" values=".2;1;1" keyTimes="0;.25;1" dur="3.6s" repeatCount="indefinite"/></g><g transform="translate(0 64)"><text fill="#64748B">02</text><text x="28" fill="#BAE6FD">energy</text><text x="88" fill="#94A3B8">.......</text><text x="170" fill="#38BDF8">MAX</text><animate attributeName="opacity" values=".2;.2;1;1" keyTimes="0;.25;.5;1" dur="3.6s" repeatCount="indefinite"/></g><g transform="translate(0 94)"><text fill="#64748B">03</text><text x="28" fill="#DDD6FE">result</text><text x="88" fill="#94A3B8">.......</text><text x="170" fill="#A78BFA">WOW</text><animate attributeName="opacity" values=".2;.2;.2;1" keyTimes="0;.35;.58;1" dur="3.6s" repeatCount="indefinite"/></g></g>
+    <rect x="22" y="190" width="260" height="10" rx="5" fill="#172033"/><rect x="22" y="190" width="32" height="10" rx="5" fill="url(#spectrum)" filter="url(#glow)"><animate attributeName="width" values="24;260;260;24" keyTimes="0;.65;.86;1" dur="3.6s" repeatCount="indefinite"/></rect><text x="22" y="220" fill="#86EFAC" font-family="Consolas, monospace" font-size="10">● READY TO CREATE</text>
+    <rect y="50" width="304" height="3" fill="#67E8F9" opacity=".5"><animate attributeName="y" values="50;228;50" dur="4.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.55;0" dur="4.4s" repeatCount="indefinite"/></rect>
+    <animateTransform attributeName="transform" type="translate" values="920 104;920 96;920 104" dur="5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- cinematic energy floor -->
+  <path d="M24 414C170 382 300 430 448 402C600 376 720 430 866 400C1010 370 1112 402 1256 360" stroke="#111C30" stroke-width="18" stroke-linecap="round"/>
+  <path d="M24 414C170 382 300 430 448 402C600 376 720 430 866 400C1010 370 1112 402 1256 360" stroke="url(#spectrum)" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 20" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-228" dur="3.6s" repeatCount="indefinite"/></path>
+  <circle r="8" fill="#fff" filter="url(#glow)"><animateMotion dur="6.4s" repeatCount="indefinite" path="M24 414C170 382 300 430 448 402C600 376 720 430 866 400C1010 370 1112 402 1256 360"/></circle><circle r="6" fill="#22C55E" filter="url(#glow)"><animateMotion begin="-2.1s" dur="6.4s" repeatCount="indefinite" path="M24 414C170 382 300 430 448 402C600 376 720 430 866 400C1010 370 1112 402 1256 360"/></circle><circle r="5" fill="#A78BFA" filter="url(#glow)"><animateMotion begin="-4.2s" dur="6.4s" repeatCount="indefinite" path="M24 414C170 382 300 430 448 402C600 376 720 430 866 400C1010 370 1112 402 1256 360"/></circle>
+</svg>

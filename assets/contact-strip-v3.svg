@@ -1,0 +1,51 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shivam Negi communication command deck</title>
+  <desc id="desc">A cinematic animated communication deck with GitHub, portfolio, and collaboration channels.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300"><stop stop-color="#020617"/><stop offset=".42" stop-color="#07182E"/><stop offset=".7" stop-color="#16102D"/><stop offset="1" stop-color="#04372F"/></linearGradient>
+    <linearGradient id="spectrum" x1="38" y1="0" x2="1242" y2="0"><stop stop-color="#22D3EE"/><stop offset=".36" stop-color="#38BDF8"/><stop offset=".62" stop-color="#A78BFA"/><stop offset=".83" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#7DD3FC" stroke-width=".5" opacity=".075"/><circle cx="1" cy="1" r="1" fill="#E0F2FE" opacity=".14"/></pattern>
+    <filter id="glow" x="-100%" y="-120%" width="300%" height="340%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-40%" width="170%" height="220%"><feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#00030C" flood-opacity=".82"/></filter>
+    <clipPath id="clip1"><rect x="50" y="84" width="366" height="164" rx="25"/></clipPath><clipPath id="clip2"><rect x="457" y="84" width="366" height="164" rx="25"/></clipPath><clipPath id="clip3"><rect x="864" y="84" width="366" height="164" rx="25"/></clipPath>
+  </defs>
+  <rect width="1280" height="300" rx="32" fill="url(#bg)"/><rect width="1280" height="300" rx="32" fill="url(#grid)"/><rect x="1" y="1" width="1278" height="298" rx="31" stroke="url(#spectrum)" stroke-opacity=".34"/>
+  <circle cx="1110" cy="10" r="150" fill="#22C55E" opacity=".05"><animate attributeName="r" values="130;180;130" dur="8s" repeatCount="indefinite"/></circle><circle cx="170" cy="292" r="120" fill="#0EA5E9" opacity=".055"><animate attributeName="cy" values="292;258;292" dur="7s" repeatCount="indefinite"/></circle>
+  <g transform="translate(50 30)"><text y="16" fill="#67E8F9" font-family="Consolas, monospace" font-size="12" font-weight="800" letter-spacing="2">OPEN CHANNELS // CONNECTION DECK</text><text y="42" fill="#CBD5E1" font-family="Inter, Arial" font-size="13">Choose a signal. Start a conversation. Build something unforgettable.</text></g>
+  <g transform="translate(1042 30)"><rect width="186" height="36" rx="18" fill="#052E2B" stroke="#22C55E"/><circle cx="22" cy="18" r="5" fill="#22C55E" filter="url(#glow)"><animate attributeName="opacity" values="1;.15;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="38" y="22" fill="#86EFAC" font-family="Consolas, monospace" font-size="10">AVAILABLE FOR MAGIC</text></g>
+
+  <path d="M70 268C212 226 318 286 452 254C590 220 704 286 844 250C994 212 1100 262 1210 222" stroke="#172033" stroke-width="12" stroke-linecap="round"/>
+  <path d="M70 268C212 226 318 286 452 254C590 220 704 286 844 250C994 212 1100 262 1210 222" stroke="url(#spectrum)" stroke-width="4" stroke-linecap="round" stroke-dasharray="15 18" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-198" dur="3.5s" repeatCount="indefinite"/></path>
+
+  <g filter="url(#shadow)" font-family="Inter, Arial">
+    <!-- GitHub channel -->
+    <g transform="translate(50 84)"><g>
+      <rect x="8" y="10" width="366" height="164" rx="25" fill="#0EA5E9" opacity=".11"/><rect width="366" height="164" rx="25" fill="#061321" stroke="#0EA5E9"/>
+      <path d="M0 54H366" stroke="#155E75"/><circle cx="26" cy="27" r="6" fill="#38BDF8" filter="url(#glow)"/><text x="44" y="31" fill="#67E8F9" font-family="Consolas, monospace" font-size="10">CHANNEL_01 // GITHUB</text><text x="326" y="31" fill="#475569" font-family="Consolas, monospace" font-size="10">LIVE</text>
+      <g transform="translate(26 76)"><circle cx="30" cy="30" r="30" fill="#082F49" stroke="#38BDF8"/><circle cx="30" cy="30" r="39" stroke="#38BDF8" stroke-dasharray="7 12" opacity=".45"><animate attributeName="stroke-dashoffset" values="0;-76" dur="3s" repeatCount="indefinite"/></circle><path d="M19 38c0-12 5-20 11-20s11 8 11 20M20 29h20M30 18v28" stroke="#BAE6FD" stroke-width="2.5" stroke-linecap="round"/></g>
+      <text x="102" y="94" fill="#94A3B8" font-family="Consolas, monospace" font-size="10">PROFILE_NODE</text><text x="102" y="122" fill="#F8FAFC" font-size="20" font-weight="900">@shivam01112</text><text x="102" y="146" fill="#7DD3FC" font-family="Consolas, monospace" font-size="10">EXPLORE SOURCE →</text>
+      <rect x="-100" y="0" width="80" height="164" fill="url(#shine)" opacity=".32" transform="skewX(-18)"><animate attributeName="x" values="-100;430" dur="4.4s" repeatCount="indefinite"/></rect>
+      <animateTransform attributeName="transform" type="translate" values="0 2;0 -7;0 2" dur="4.8s" repeatCount="indefinite"/>
+    </g></g>
+    <!-- Portfolio channel -->
+    <g transform="translate(457 84)"><g>
+      <rect x="8" y="10" width="366" height="164" rx="25" fill="#A78BFA" opacity=".11"/><rect width="366" height="164" rx="25" fill="#15102B" stroke="#8B5CF6"/>
+      <path d="M0 54H366" stroke="#3B2462"/><circle cx="26" cy="27" r="6" fill="#A78BFA" filter="url(#glow)"/><text x="44" y="31" fill="#C4B5FD" font-family="Consolas, monospace" font-size="10">CHANNEL_02 // PORTFOLIO</text><text x="298" y="31" fill="#A78BFA" font-family="Consolas, monospace" font-size="10">LAUNCHING</text>
+      <g transform="translate(26 76)"><circle cx="30" cy="30" r="30" fill="#2E1065" stroke="#A78BFA"/><path d="M15 40l12-15 8 8 12-17" stroke="#EDE9FE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="30" cy="30" r="39" stroke="#A78BFA" stroke-dasharray="4 11" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;60" dur="2.4s" repeatCount="indefinite"/></circle></g>
+      <text x="102" y="94" fill="#94A3B8" font-family="Consolas, monospace" font-size="10">EXPERIENCE_NODE</text><text x="102" y="122" fill="#F8FAFC" font-size="20" font-weight="900">Portfolio online</text><text x="102" y="146" fill="#C4B5FD" font-family="Consolas, monospace" font-size="10">ENTER THE EXPERIENCE →</text>
+      <rect x="-100" y="0" width="80" height="164" fill="url(#shine)" opacity=".28" transform="skewX(-18)"><animate attributeName="x" values="-100;430" dur="4.8s" begin="-1.6s" repeatCount="indefinite"/></rect>
+      <animateTransform attributeName="transform" type="translate" values="0 -6;0 6;0 -6" dur="5.2s" repeatCount="indefinite"/>
+    </g></g>
+    <!-- Collaboration channel -->
+    <g transform="translate(864 84)"><g>
+      <rect x="8" y="10" width="366" height="164" rx="25" fill="#22C55E" opacity=".11"/><rect width="366" height="164" rx="25" fill="#071F1B" stroke="#22C55E"/>
+      <path d="M0 54H366" stroke="#166534"/><circle cx="26" cy="27" r="6" fill="#22C55E" filter="url(#glow)"><animate attributeName="r" values="5;9;5" dur="1.7s" repeatCount="indefinite"/></circle><text x="44" y="31" fill="#86EFAC" font-family="Consolas, monospace" font-size="10">CHANNEL_03 // COLLABORATE</text><text x="316" y="31" fill="#22C55E" font-family="Consolas, monospace" font-size="10">OPEN</text>
+      <g transform="translate(26 76)"><circle cx="30" cy="30" r="30" fill="#064E3B" stroke="#22C55E"/><circle cx="30" cy="30" r="12" fill="#22C55E" opacity=".22"><animate attributeName="r" values="10;22;10" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".4;.05;.4" dur="2s" repeatCount="indefinite"/></circle><circle cx="30" cy="30" r="7" fill="#4ADE80" filter="url(#glow)"/><circle cx="30" cy="30" r="39" stroke="#22C55E" stroke-dasharray="3 12" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-60" dur="2.2s" repeatCount="indefinite"/></circle></g>
+      <text x="102" y="94" fill="#94A3B8" font-family="Consolas, monospace" font-size="10">STATUS_NODE</text><text x="102" y="122" fill="#F8FAFC" font-size="20" font-weight="900">Let&apos;s build WOW</text><text x="102" y="146" fill="#86EFAC" font-family="Consolas, monospace" font-size="10">START A SIGNAL →</text>
+      <rect x="-100" y="0" width="80" height="164" fill="url(#shine)" opacity=".26" transform="skewX(-18)"><animate attributeName="x" values="-100;430" dur="4.2s" begin="-.8s" repeatCount="indefinite"/></rect>
+      <animateTransform attributeName="transform" type="translate" values="0 5;0 -7;0 5" dur="4.6s" repeatCount="indefinite"/>
+    </g></g>
+  </g>
+  <circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" path="M70 268C212 226 318 286 452 254C590 220 704 286 844 250C994 212 1100 262 1210 222"/></circle><circle r="5" fill="#A78BFA" filter="url(#glow)"><animateMotion begin="-3s" dur="6s" repeatCount="indefinite" path="M70 268C212 226 318 286 452 254C590 220 704 286 844 250C994 212 1100 262 1210 222"/></circle>
+</svg>

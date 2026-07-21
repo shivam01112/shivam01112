@@ -11,7 +11,7 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 <br />
 
 <div align="center">
-  <img src="./assets/signal-strip.svg" alt="Frontend engineering signal strip" width="100%" />
+  <img src="./assets/signal-strip-v3.svg" alt="Animated frontend capability matrix" width="100%" />
 </div>
 
 <br />
@@ -52,12 +52,12 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 
 <div align="center">
   <a href="https://github.com/shivam01112">
-    <img src="./assets/contact-strip.svg" alt="Connect with Shivam Negi on GitHub" width="100%" />
+    <img src="./assets/contact-strip-v3.svg" alt="Animated connection deck for Shivam Negi" width="100%" />
   </a>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/final-strip-v2.svg" alt="Animated closing strip for Shivam Negi profile" width="100%" />
+  <img src="./assets/final-strip-v3.svg" alt="Cinematic animated closing portal for Shivam Negi" width="100%" />
 </div>
