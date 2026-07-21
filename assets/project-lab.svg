@@ -1,62 +1,55 @@
-<svg width="1280" height="500" viewBox="0 0 1280 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Project lab</title>
-  <desc id="desc">Animated project lab for frontend projects and goals.</desc>
+<svg width="1280" height="590" viewBox="0 0 1280 590" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated project laboratory</title><desc id="desc">Three animated product interface cards for dashboards, API products, and creative web experiences.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617" />
-      <stop offset="0.5" stop-color="#081827" />
-      <stop offset="1" stop-color="#052E2B" />
-    </linearGradient>
-    <linearGradient id="accent" x1="86" y1="116" x2="1194" y2="392" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" />
-      <stop offset="0.48" stop-color="#22C55E" />
-      <stop offset="1" stop-color="#FBBF24" />
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="590"><stop stop-color="#020617"/><stop offset=".48" stop-color="#07172B"/><stop offset="1" stop-color="#04322F"/></linearGradient>
+    <linearGradient id="accent" x1="50" y1="0" x2="1230" y2="0"><stop stop-color="#22D3EE"/><stop offset=".45" stop-color="#A78BFA"/><stop offset=".72" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#7DD3FC" opacity=".13"/></pattern>
+    <filter id="glow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-35%" width="170%" height="200%"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#00030C" flood-opacity=".78"/></filter>
   </defs>
+  <rect width="1280" height="590" rx="32" fill="url(#bg)"/><rect width="1280" height="590" rx="32" fill="url(#dots)"/><rect x="1" y="1" width="1278" height="588" rx="31" stroke="url(#accent)" stroke-opacity=".24"/>
+  <g transform="translate(62 40)"><text y="22" fill="#67E8F9" font-family="Consolas, monospace" font-size="15" font-weight="800" letter-spacing="2">PROJECT LAB // SELECTED DIRECTIONS</text><text y="73" fill="#F8FAFC" font-family="Inter, Arial" font-size="38" font-weight="900">Interfaces that feel alive</text><text y="109" fill="#B6CDDA" font-family="Inter, Arial" font-size="18">Product thinking, crisp UI, and motion that turns every interaction into feedback.</text></g>
+  <g transform="translate(1060 53)"><rect width="150" height="40" rx="20" fill="#071E1B" stroke="#22C55E"/><circle cx="22" cy="20" r="5" fill="#22C55E" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="38" y="25" fill="#BBF7D0" font-family="Consolas, monospace" font-size="11">LAB ONLINE</text></g>
 
-  <rect width="1280" height="500" rx="30" fill="url(#bg)" />
-  <text x="74" y="86" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">PROJECT LAB</text>
-  <text x="74" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">Building interfaces that look finished</text>
-  <text x="74" y="174" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Portfolio apps, dashboards, API products, landing pages, and creative UI experiments.</text>
+  <g transform="translate(50 190)" filter="url(#shadow)">
+    <!-- dashboard card -->
+    <g transform="translate(0 0)"><g>
+      <rect x="10" y="14" width="360" height="292" rx="28" fill="#0EA5E9" opacity=".1"/><rect width="360" height="292" rx="28" fill="#030A17" stroke="#0EA5E9"/>
+      <rect width="360" height="50" rx="28" fill="#0A1A2E"/><circle cx="24" cy="25" r="5" fill="#38BDF8"/><text x="42" y="30" fill="#BAE6FD" font-family="Consolas, monospace" font-size="11">dashboard.ui</text><text x="314" y="30" fill="#22C55E" font-family="Consolas, monospace" font-size="10">LIVE</text>
+      <text x="22" y="88" fill="#F8FAFC" font-family="Inter, Arial" font-size="23" font-weight="900">Dashboard UI</text><text x="22" y="112" fill="#64748B" font-family="Inter, Arial" font-size="12">Data that tells a clear story</text>
+      <g transform="translate(22 136)"><rect width="94" height="62" rx="14" fill="#071C31" stroke="#155E75"/><text x="14" y="23" fill="#64748B" font-family="Consolas, monospace" font-size="9">VISITORS</text><text x="14" y="48" fill="#67E8F9" font-family="Inter, Arial" font-size="20" font-weight="900">24.8K</text></g>
+      <g transform="translate(128 136)"><rect width="94" height="62" rx="14" fill="#071C31" stroke="#155E75"/><text x="14" y="23" fill="#64748B" font-family="Consolas, monospace" font-size="9">GROWTH</text><text x="14" y="48" fill="#86EFAC" font-family="Inter, Arial" font-size="20" font-weight="900">+38%</text></g>
+      <path d="M236 190L252 174L270 181L290 150L308 160L332 132" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)" stroke-dasharray="140" stroke-dashoffset="140"><animate attributeName="stroke-dashoffset" values="140;0;0;140" keyTimes="0;.55;.85;1" dur="4s" repeatCount="indefinite"/></path>
+      <g transform="translate(22 220)" fill="#38BDF8"><rect width="26" height="42" rx="6"><animate attributeName="height" values="22;50;42;22" dur="2.1s" repeatCount="indefinite"/><animate attributeName="y" values="20;-8;0;20" dur="2.1s" repeatCount="indefinite"/></rect><rect x="38" width="26" height="42" rx="6" opacity=".8"><animate attributeName="height" values="46;18;38;46" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="-4;24;4;-4" dur="1.8s" repeatCount="indefinite"/></rect><rect x="76" width="26" height="42" rx="6" opacity=".6"><animate attributeName="height" values="30;52;16;30" dur="2.4s" repeatCount="indefinite"/><animate attributeName="y" values="12;-10;26;12" dur="2.4s" repeatCount="indefinite"/></rect></g>
+      <text x="150" y="252" fill="#94A3B8" font-family="Inter, Arial" font-size="12">charts · filters · tables</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="5s" repeatCount="indefinite"/>
+    </g></g>
 
-  <g transform="translate(72 224)">
-    <g>
-      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#155E75" />
-      <rect x="26" y="28" width="108" height="14" rx="7" fill="#38BDF8">
-        <animate attributeName="width" values="80;160;108" dur="3.2s" repeatCount="indefinite" />
-      </rect>
-      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">Dashboard UI</text>
-      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Charts, filters, tables,</text>
-      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">and clean admin screens.</text>
-    </g>
-    <g transform="translate(392 0)">
-      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#166534" />
-      <rect x="26" y="28" width="126" height="14" rx="7" fill="#22C55E">
-        <animate attributeName="width" values="84;178;126" dur="3.5s" repeatCount="indefinite" />
-      </rect>
-      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">API Products</text>
-      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Search, loading, forms,</text>
-      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">errors, and useful states.</text>
-    </g>
-    <g transform="translate(784 0)">
-      <rect width="350" height="190" rx="28" fill="#030712" opacity="0.78" stroke="#A16207" />
-      <rect x="26" y="28" width="94" height="14" rx="7" fill="#FBBF24">
-        <animate attributeName="width" values="70;152;94" dur="3.8s" repeatCount="indefinite" />
-      </rect>
-      <text x="26" y="84" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="900">Creative Web</text>
-      <text x="26" y="120" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">Motion, microinteractions,</text>
-      <text x="26" y="146" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="16">and memorable UI systems.</text>
-    </g>
+    <!-- API product card -->
+    <g transform="translate(410 0)"><g>
+      <rect x="10" y="14" width="360" height="292" rx="28" fill="#A78BFA" opacity=".1"/><rect width="360" height="292" rx="28" fill="#030A17" stroke="#A78BFA"/>
+      <rect width="360" height="50" rx="28" fill="#17112D"/><circle cx="24" cy="25" r="5" fill="#A78BFA"/><text x="42" y="30" fill="#DDD6FE" font-family="Consolas, monospace" font-size="11">api.product</text><text x="298" y="30" fill="#C4B5FD" font-family="Consolas, monospace" font-size="10">200 OK</text>
+      <text x="22" y="88" fill="#F8FAFC" font-family="Inter, Arial" font-size="23" font-weight="900">API Products</text><text x="22" y="112" fill="#64748B" font-family="Inter, Arial" font-size="12">Useful states at every step</text>
+      <g transform="translate(22 136)"><rect width="316" height="42" rx="13" fill="#0D1426" stroke="#3B2A64"/><circle cx="20" cy="21" r="7" stroke="#A78BFA" stroke-width="2"/><path d="M25 26l7 7" stroke="#A78BFA" stroke-width="2"/><text x="46" y="26" fill="#94A3B8" font-family="Inter, Arial" font-size="12">Search projects...</text><rect x="277" y="10" width="28" height="22" rx="7" fill="#3B1D69"/></g>
+      <g transform="translate(22 194)"><rect width="316" height="60" rx="14" fill="#0D1426"/><rect x="14" y="14" width="34" height="34" rx="10" fill="#25174D"/><path d="M24 31h14" stroke="#C4B5FD" stroke-width="3"/><rect x="62" y="14" width="106" height="8" rx="4" fill="#334155"/><rect x="62" y="32" width="168" height="7" rx="3.5" fill="#1E293B"/><g transform="translate(272 30)"><circle r="10" fill="none" stroke="#334155" stroke-width="3"/><path d="M0-10A10 10 0 0 1 10 0" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.1s" repeatCount="indefinite"/></path></g></g>
+      <text x="22" y="276" fill="#A78BFA" font-family="Consolas, monospace" font-size="11">LOADING → SUCCESS → DELIGHT</text>
+      <animateTransform attributeName="transform" type="translate" values="0 -8;0 8;0 -8" dur="5.4s" repeatCount="indefinite"/>
+    </g></g>
+
+    <!-- creative web card -->
+    <g transform="translate(820 0)"><g>
+      <rect x="10" y="14" width="360" height="292" rx="28" fill="#FBBF24" opacity=".1"/><rect width="360" height="292" rx="28" fill="#030A17" stroke="#FBBF24"/>
+      <rect width="360" height="50" rx="28" fill="#2B1C09"/><circle cx="24" cy="25" r="5" fill="#FBBF24"/><text x="42" y="30" fill="#FDE68A" font-family="Consolas, monospace" font-size="11">creative.webgl</text><text x="292" y="30" fill="#FBBF24" font-family="Consolas, monospace" font-size="10">WOW++</text>
+      <text x="22" y="88" fill="#F8FAFC" font-family="Inter, Arial" font-size="23" font-weight="900">Creative Web</text><text x="22" y="112" fill="#64748B" font-family="Inter, Arial" font-size="12">Depth, motion, memorable moments</text>
+      <g transform="translate(180 194)">
+        <circle r="82" fill="#FBBF24" opacity=".045"/><ellipse rx="126" ry="50" stroke="#FBBF24" stroke-width="2" stroke-dasharray="8 14" opacity=".6"><animate attributeName="stroke-dashoffset" values="0;-88" dur="3s" repeatCount="indefinite"/></ellipse><ellipse rx="62" ry="114" stroke="#A78BFA" stroke-width="2" stroke-dasharray="6 12" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;72" dur="3.8s" repeatCount="indefinite"/></ellipse>
+        <polygon points="0,-48 52,-22 0,4 -52,-22" fill="#533708" stroke="#FDE68A"/><polygon points="-52,-22 0,4 0,61 -52,34" fill="#2B1C09" stroke="#FBBF24"/><polygon points="52,-22 0,4 0,61 52,34" fill="#3B2457" stroke="#A78BFA"/>
+        <circle r="6" fill="#fff" filter="url(#glow)"><animateMotion dur="4s" repeatCount="indefinite" path="M-126 0A126 50 0 1 0 126 0A126 50 0 1 0-126 0"/></circle>
+        <animateTransform attributeName="transform" type="translate" values="180 194;180 184;180 194" dur="4.2s" repeatCount="indefinite"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate" values="0 6;0 -8;0 6" dur="5.2s" repeatCount="indefinite"/>
+    </g></g>
   </g>
-
-  <path d="M76 440C236 388 346 470 514 426C676 384 788 464 954 426C1080 398 1160 418 1206 384" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 22" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-260" dur="4.2s" repeatCount="indefinite" />
-  </path>
+  <path d="M58 548C222 508 356 576 516 544C676 510 808 578 966 542C1086 514 1166 532 1222 510" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="16 20" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-216" dur="3.6s" repeatCount="indefinite"/></path>
+  <circle r="8" fill="#fff" filter="url(#glow)"><animateMotion dur="6.4s" repeatCount="indefinite" path="M58 548C222 508 356 576 516 544C676 510 808 578 966 542C1086 514 1166 532 1222 510"/></circle>
 </svg>

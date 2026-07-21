@@ -1,76 +1,30 @@
-<svg width="1280" height="540" viewBox="0 0 1280 540" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Frontend architecture map</title>
-  <desc id="desc">Animated frontend architecture map from design to deployment.</desc>
+<svg width="1280" height="570" viewBox="0 0 1280 570" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated frontend architecture map</title><desc id="desc">A flowing six-stage frontend build pipeline with floating 3D cards and animated energy.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="540" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617" />
-      <stop offset="0.45" stop-color="#0B1120" />
-      <stop offset="1" stop-color="#052E2B" />
-    </linearGradient>
-    <linearGradient id="flow" x1="118" y1="278" x2="1162" y2="278" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE" />
-      <stop offset="0.34" stop-color="#38BDF8" />
-      <stop offset="0.66" stop-color="#22C55E" />
-      <stop offset="1" stop-color="#FBBF24" />
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-70%" width="180%" height="240%">
-      <feGaussianBlur stdDeviation="7" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="570"><stop stop-color="#020617"/><stop offset=".54" stop-color="#091327"/><stop offset="1" stop-color="#04312E"/></linearGradient>
+    <linearGradient id="flow" x1="70" y1="0" x2="1210" y2="0"><stop stop-color="#22D3EE"/><stop offset=".22" stop-color="#38BDF8"/><stop offset=".45" stop-color="#A78BFA"/><stop offset=".7" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" stroke="#7DD3FC" stroke-width=".5" opacity=".07"/></pattern>
+    <filter id="glow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-40%" width="170%" height="210%"><feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#00030C" flood-opacity=".72"/></filter>
   </defs>
+  <rect width="1280" height="570" rx="32" fill="url(#bg)"/><rect width="1280" height="570" rx="32" fill="url(#grid)"/><rect x="1" y="1" width="1278" height="568" rx="31" stroke="url(#flow)" stroke-opacity=".25"/>
+  <g transform="translate(62 40)"><text y="22" fill="#67E8F9" font-family="Consolas, monospace" font-size="15" font-weight="800" letter-spacing="2">ARCHITECTURE MAP // BUILD SEQUENCE</text><text y="73" fill="#F8FAFC" font-family="Inter, Arial" font-size="38" font-weight="900">From first pixel to final deploy</text><text y="109" fill="#B6CDDA" font-family="Inter, Arial" font-size="18">Structure first. Motion with purpose. Polish until it feels effortless.</text></g>
 
-  <rect width="1280" height="540" rx="30" fill="url(#bg)" />
-  <text x="74" y="84" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">ARCHITECTURE MAP</text>
-  <text x="74" y="136" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">How I think through a frontend build</text>
-  <text x="74" y="172" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Structure first, motion second, polish always.</text>
+  <!-- perspective rails -->
+  <path d="M80 442C236 396 350 482 504 430C666 374 782 478 934 424C1062 380 1148 404 1210 360" stroke="#0F1C30" stroke-width="24" stroke-linecap="round"/>
+  <path d="M80 442C236 396 350 482 504 430C666 374 782 478 934 424C1062 380 1148 404 1210 360" stroke="url(#flow)" stroke-width="7" stroke-linecap="round" stroke-dasharray="23 22" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-270" dur="4s" repeatCount="indefinite"/></path>
+  <path d="M88 484C246 438 358 520 514 470C668 420 788 510 946 466C1074 430 1152 446 1202 414" stroke="url(#flow)" stroke-width="2" stroke-dasharray="7 16" opacity=".28"><animate attributeName="stroke-dashoffset" values="0;138" dur="5s" repeatCount="indefinite"/></path>
 
-  <path d="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" stroke="#1E293B" stroke-width="18" stroke-linecap="round" />
-  <path d="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" stroke="url(#flow)" stroke-width="8" stroke-linecap="round" stroke-dasharray="28 22" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-250" dur="4s" repeatCount="indefinite" />
-  </path>
-  <circle r="13" fill="#22C55E" filter="url(#glow)">
-    <animateMotion dur="6.2s" repeatCount="indefinite" path="M120 408C260 372 362 438 506 404C652 370 758 438 906 404C1034 376 1122 390 1184 360" />
-  </circle>
-
-  <g transform="translate(70 216)">
-    <g>
-      <rect width="184" height="132" rx="24" fill="#082F49" stroke="#0EA5E9" />
-      <text x="28" y="46" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Design</text>
-      <text x="28" y="78" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">layout, spacing</text>
-      <text x="28" y="102" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">visual hierarchy</text>
-    </g>
-    <g transform="translate(206 0)">
-      <rect width="184" height="132" rx="24" fill="#172554" stroke="#60A5FA" />
-      <text x="28" y="46" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Components</text>
-      <text x="28" y="78" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="14">reusable blocks</text>
-      <text x="28" y="102" fill="#BFDBFE" font-family="Inter, Arial, sans-serif" font-size="14">clean props</text>
-    </g>
-    <g transform="translate(412 0)">
-      <rect width="184" height="132" rx="24" fill="#052E2B" stroke="#22C55E" />
-      <text x="28" y="46" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">State</text>
-      <text x="28" y="78" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">hooks, context</text>
-      <text x="28" y="102" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">predictable data</text>
-    </g>
-    <g transform="translate(618 0)">
-      <rect width="184" height="132" rx="24" fill="#422006" stroke="#FBBF24" />
-      <text x="28" y="46" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">API</text>
-      <text x="28" y="78" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">loading states</text>
-      <text x="28" y="102" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">error handling</text>
-    </g>
-    <g transform="translate(824 0)">
-      <rect width="184" height="132" rx="24" fill="#4C0519" stroke="#FB7185" />
-      <text x="28" y="46" fill="#FFE4E6" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Polish</text>
-      <text x="28" y="78" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">motion, empty UI</text>
-      <text x="28" y="102" fill="#FECDD3" font-family="Inter, Arial, sans-serif" font-size="14">accessibility</text>
-    </g>
-    <g transform="translate(1030 0)">
-      <rect width="134" height="132" rx="24" fill="#111827" stroke="#94A3B8" />
-      <text x="28" y="46" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="900">Ship</text>
-      <text x="28" y="78" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="14">build</text>
-      <text x="28" y="102" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="14">deploy</text>
-    </g>
+  <!-- fixed six-column zone; nested float keeps positions stable -->
+  <g transform="translate(50 208)" font-family="Inter, Arial" filter="url(#shadow)">
+    <g transform="translate(0 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#0EA5E9" opacity=".12"/><rect width="172" height="154" rx="23" fill="#082F49" stroke="#0EA5E9"/><text x="20" y="30" fill="#38BDF8" font-family="Consolas, monospace" font-size="11">01 / DISCOVER</text><text x="20" y="67" fill="#E0F2FE" font-size="21" font-weight="900">Design</text><text x="20" y="98" fill="#BAE6FD" font-size="13">layout + spacing</text><text x="20" y="120" fill="#BAE6FD" font-size="13">visual hierarchy</text><path d="M20 136H112" stroke="#38BDF8" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#38BDF8" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4.2s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(194 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#60A5FA" opacity=".1"/><rect width="172" height="154" rx="23" fill="#142657" stroke="#60A5FA"/><text x="20" y="30" fill="#60A5FA" font-family="Consolas, monospace" font-size="11">02 / COMPOSE</text><text x="20" y="67" fill="#DBEAFE" font-size="21" font-weight="900">Components</text><text x="20" y="98" fill="#BFDBFE" font-size="13">reusable blocks</text><text x="20" y="120" fill="#BFDBFE" font-size="13">clean contracts</text><path d="M20 136H112" stroke="#60A5FA" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#60A5FA" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 -7;0 7;0 -7" dur="4.6s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(388 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#A78BFA" opacity=".1"/><rect width="172" height="154" rx="23" fill="#25164A" stroke="#A78BFA"/><text x="20" y="30" fill="#A78BFA" font-family="Consolas, monospace" font-size="11">03 / CONNECT</text><text x="20" y="67" fill="#EDE9FE" font-size="21" font-weight="900">State</text><text x="20" y="98" fill="#DDD6FE" font-size="13">hooks + context</text><text x="20" y="120" fill="#DDD6FE" font-size="13">predictable data</text><path d="M20 136H112" stroke="#A78BFA" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#A78BFA" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 6;0 -7;0 6" dur="5s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(582 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#22C55E" opacity=".1"/><rect width="172" height="154" rx="23" fill="#06372E" stroke="#22C55E"/><text x="20" y="30" fill="#22C55E" font-family="Consolas, monospace" font-size="11">04 / INTEGRATE</text><text x="20" y="67" fill="#DCFCE7" font-size="21" font-weight="900">API</text><text x="20" y="98" fill="#BBF7D0" font-size="13">loading states</text><text x="20" y="120" fill="#BBF7D0" font-size="13">error recovery</text><path d="M20 136H112" stroke="#22C55E" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#22C55E" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 -6;0 8;0 -6" dur="4.8s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(776 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#FB7185" opacity=".1"/><rect width="172" height="154" rx="23" fill="#43132B" stroke="#FB7185"/><text x="20" y="30" fill="#FB7185" font-family="Consolas, monospace" font-size="11">05 / ELEVATE</text><text x="20" y="67" fill="#FFE4E6" font-size="21" font-weight="900">Polish</text><text x="20" y="98" fill="#FECDD3" font-size="13">motion + a11y</text><text x="20" y="120" fill="#FECDD3" font-size="13">every edge case</text><path d="M20 136H112" stroke="#FB7185" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#FB7185" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 7;0 -6;0 7" dur="4.4s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(970 0)"><g><rect x="6" y="10" width="172" height="154" rx="23" fill="#FBBF24" opacity=".12"/><rect width="172" height="154" rx="23" fill="#3C2808" stroke="#FBBF24"/><text x="20" y="30" fill="#FBBF24" font-family="Consolas, monospace" font-size="11">06 / LAUNCH</text><text x="20" y="67" fill="#FEF3C7" font-size="21" font-weight="900">Ship</text><text x="20" y="98" fill="#FDE68A" font-size="13">build + measure</text><text x="20" y="120" fill="#FDE68A" font-size="13">learn + iterate</text><path d="M20 136H112" stroke="#FBBF24" stroke-width="4" stroke-linecap="round"/><circle cx="144" cy="134" r="7" fill="#FBBF24" filter="url(#glow)"/><animateTransform attributeName="transform" type="translate" values="0 -8;0 5;0 -8" dur="5.2s" repeatCount="indefinite"/></g></g>
   </g>
+  <circle r="10" fill="#fff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M80 442C236 396 350 482 504 430C666 374 782 478 934 424C1062 380 1148 404 1210 360"/></circle>
+  <circle r="7" fill="#22C55E" filter="url(#glow)"><animateMotion dur="7s" begin="-3.5s" repeatCount="indefinite" path="M80 442C236 396 350 482 504 430C666 374 782 478 934 424C1062 380 1148 404 1210 360"/></circle>
+  <g transform="translate(58 520)"><text fill="#64748B" font-family="Consolas, monospace" font-size="11">PIPELINE_STATUS</text><text x="126" fill="#86EFAC" font-family="Consolas, monospace" font-size="11">● ALL SYSTEMS FLOWING</text></g>
 </svg>

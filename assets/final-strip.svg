@@ -1,33 +1,15 @@
-<svg width="1280" height="230" viewBox="0 0 1280 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Final strip</title>
-  <desc id="desc">Animated closing strip for the GitHub profile.</desc>
+<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated closing transmission</title><desc id="desc">A cinematic animated closing message with neon waves and orbiting particles.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="230" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617" />
-      <stop offset="0.48" stop-color="#082F49" />
-      <stop offset="1" stop-color="#064E3B" />
-    </linearGradient>
-    <linearGradient id="line" x1="60" y1="114" x2="1220" y2="114" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8" />
-      <stop offset="0.5" stop-color="#22C55E" />
-      <stop offset="1" stop-color="#FBBF24" />
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="280"><stop stop-color="#020617"/><stop offset=".5" stop-color="#071D37"/><stop offset="1" stop-color="#064E3B"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1280" y2="0"><stop stop-color="#22D3EE"/><stop offset=".36" stop-color="#38BDF8"/><stop offset=".62" stop-color="#A78BFA"/><stop offset=".8" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" stroke="#7DD3FC" stroke-width=".5" opacity=".08"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-
-  <rect width="1280" height="230" rx="30" fill="url(#bg)" />
-  <path d="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" fill="#020617" opacity="0.38">
-    <animate attributeName="d" values="M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z;M0 126C178 180 330 96 504 144C678 190 808 98 974 138C1112 172 1190 134 1280 104V230H0V126Z;M0 154C178 90 330 176 504 132C678 88 808 170 974 126C1112 90 1190 102 1280 78V230H0V154Z" dur="8s" repeatCount="indefinite" />
-  </path>
-  <path d="M70 158C222 104 340 196 498 156C660 114 780 186 934 150C1074 118 1154 134 1210 112" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-dasharray="20 20" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-240" dur="4s" repeatCount="indefinite" />
-  </path>
-  <text x="640" y="68" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">Thanks for visiting</text>
-  <text x="640" y="105" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Learning, building, refining, and shipping better frontend experiences.</text>
+  <rect width="1280" height="280" rx="32" fill="url(#bg)"/><rect width="1280" height="280" rx="32" fill="url(#grid)"/><rect x="1" y="1" width="1278" height="278" rx="31" stroke="url(#line)" stroke-opacity=".3"/>
+  <circle cx="160" cy="158" r="110" fill="#0EA5E9" opacity=".05"><animate attributeName="r" values="90;135;90" dur="7s" repeatCount="indefinite"/></circle><circle cx="1120" cy="126" r="120" fill="#22C55E" opacity=".06"><animate attributeName="r" values="132;92;132" dur="8s" repeatCount="indefinite"/></circle>
+  <path d="M0 198C176 130 320 226 498 172C678 118 810 216 978 164C1114 122 1194 142 1280 108V280H0V198Z" fill="#020617" opacity=".36"><animate attributeName="d" values="M0 198C176 130 320 226 498 172C678 118 810 216 978 164C1114 122 1194 142 1280 108V280H0V198Z;M0 164C178 230 326 132 500 186C680 238 810 136 978 182C1116 218 1196 174 1280 144V280H0V164Z;M0 198C176 130 320 226 498 172C678 118 810 216 978 164C1114 122 1194 142 1280 108V280H0V198Z" dur="9s" repeatCount="indefinite"/></path>
+  <g transform="translate(640 68)"><text text-anchor="middle" fill="#67E8F9" font-family="Consolas, monospace" font-size="13" font-weight="800" letter-spacing="3">TRANSMISSION COMPLETE</text><text y="54" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial" font-size="34" font-weight="900">Thanks for entering my orbit.</text><text y="91" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial" font-size="17" font-weight="700">Let’s build something people remember.</text></g>
+  <path d="M58 224C214 170 344 254 506 210C668 166 792 246 952 204C1084 168 1168 184 1222 154" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-dasharray="18 20" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-228" dur="3.8s" repeatCount="indefinite"/></path>
+  <circle r="8" fill="#fff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" path="M58 224C214 170 344 254 506 210C668 166 792 246 952 204C1084 168 1168 184 1222 154"/></circle><circle r="6" fill="#22C55E" filter="url(#glow)"><animateMotion begin="-3s" dur="6s" repeatCount="indefinite" path="M58 224C214 170 344 254 506 210C668 166 792 246 952 204C1084 168 1168 184 1222 154"/></circle>
 </svg>

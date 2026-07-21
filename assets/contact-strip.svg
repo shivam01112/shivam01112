@@ -1,0 +1,16 @@
+<svg width="1280" height="150" viewBox="0 0 1280 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Connect with Shivam Negi</title><desc id="desc">An animated contact and availability deck for Shivam Negi.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="150"><stop stop-color="#020617"/><stop offset=".5" stop-color="#08182D"/><stop offset="1" stop-color="#052E2B"/></linearGradient>
+    <linearGradient id="accent" x1="44" y1="0" x2="1236" y2="0"><stop stop-color="#22D3EE"/><stop offset=".38" stop-color="#60A5FA"/><stop offset=".67" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="g" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="150" rx="28" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="148" rx="27" stroke="url(#accent)" stroke-opacity=".28"/>
+  <path d="M40 124H1240" stroke="url(#accent)" stroke-width="3" stroke-dasharray="10 20" opacity=".7" filter="url(#g)"><animate attributeName="stroke-dashoffset" values="0;-120" dur="2.8s" repeatCount="indefinite"/></path>
+  <g font-family="Inter, Arial">
+    <g transform="translate(42 24)"><rect width="356" height="92" rx="21" fill="#071523" stroke="#155E75"/><circle cx="36" cy="46" r="16" fill="#0C4A6E" stroke="#38BDF8"/><path d="M29 46h14M36 39v14" stroke="#BAE6FD" stroke-width="2.5" stroke-linecap="round"/><text x="68" y="40" fill="#67E8F9" font-family="Consolas, monospace" font-size="11">GITHUB</text><text x="68" y="65" fill="#F8FAFC" font-size="17" font-weight="900">@shivam01112</text></g>
+    <g transform="translate(462 24)"><rect width="356" height="92" rx="21" fill="#15102A" stroke="#7C3AED"/><circle cx="36" cy="46" r="16" fill="#2E1065" stroke="#A78BFA"/><path d="M27 48l7-7 5 5 7-9" stroke="#DDD6FE" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><text x="68" y="40" fill="#C4B5FD" font-family="Consolas, monospace" font-size="11">PORTFOLIO</text><text x="68" y="65" fill="#F8FAFC" font-size="17" font-weight="900">Launch sequence soon</text></g>
+    <g transform="translate(882 24)"><rect width="356" height="92" rx="21" fill="#071E1B" stroke="#15803D"/><circle cx="36" cy="46" r="16" fill="#064E3B" stroke="#22C55E"/><circle cx="36" cy="46" r="6" fill="#22C55E" filter="url(#g)"><animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/></circle><text x="68" y="40" fill="#86EFAC" font-family="Consolas, monospace" font-size="11">AVAILABILITY</text><text x="68" y="65" fill="#F8FAFC" font-size="17" font-weight="900">Open to build &amp; collaborate</text></g>
+  </g>
+  <circle r="6" fill="#fff" filter="url(#g)"><animateMotion dur="5.5s" repeatCount="indefinite" path="M40 124H1240"/></circle>
+</svg>

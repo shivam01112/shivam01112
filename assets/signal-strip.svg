@@ -1,0 +1,17 @@
+<svg width="1280" height="126" viewBox="0 0 1280 126" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Developer signal strip</title><desc id="desc">Animated status strip for frontend engineering, React, motion, and clean performance.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="126"><stop stop-color="#030712"/><stop offset=".5" stop-color="#07182C"/><stop offset="1" stop-color="#052E2B"/></linearGradient>
+    <linearGradient id="line" x1="56" y1="0" x2="1224" y2="0"><stop stop-color="#22D3EE"/><stop offset=".38" stop-color="#60A5FA"/><stop offset=".68" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <filter id="g" x="-60%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="126" rx="26" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="124" rx="25" stroke="url(#line)" stroke-opacity=".28"/>
+  <path d="M54 63H1226" stroke="#1E293B" stroke-width="2"/><path d="M54 63H1226" stroke="url(#line)" stroke-width="3" stroke-dasharray="12 28" filter="url(#g)"><animate attributeName="stroke-dashoffset" values="0;-160" dur="3s" repeatCount="indefinite"/></path>
+  <g font-family="Inter, Arial" font-weight="900">
+    <g transform="translate(74 24)"><rect width="246" height="78" rx="20" fill="#071523" stroke="#155E75"/><circle cx="30" cy="39" r="9" fill="#22D3EE" filter="url(#g)"><animate attributeName="r" values="7;11;7" dur="2.2s" repeatCount="indefinite"/></circle><text x="52" y="35" fill="#F8FAFC" font-size="15">FRONTEND</text><text x="52" y="56" fill="#67E8F9" font-size="12">ENGINEERING</text></g>
+    <g transform="translate(370 24)"><rect width="246" height="78" rx="20" fill="#08162C" stroke="#2563EB"/><circle cx="30" cy="39" r="9" fill="#60A5FA" filter="url(#g)"><animate attributeName="opacity" values="1;.3;1" dur="1.7s" repeatCount="indefinite"/></circle><text x="52" y="35" fill="#F8FAFC" font-size="15">REACT</text><text x="52" y="56" fill="#93C5FD" font-size="12">COMPONENT SYSTEMS</text></g>
+    <g transform="translate(666 24)"><rect width="246" height="78" rx="20" fill="#17112D" stroke="#7C3AED"/><circle cx="30" cy="39" r="9" fill="#A78BFA" filter="url(#g)"><animateTransform attributeName="transform" type="rotate" from="0 30 39" to="360 30 39" dur="3s" repeatCount="indefinite"/></circle><text x="52" y="35" fill="#F8FAFC" font-size="15">MOTION</text><text x="52" y="56" fill="#C4B5FD" font-size="12">DEPTH &amp; INTERACTION</text></g>
+    <g transform="translate(962 24)"><rect width="244" height="78" rx="20" fill="#071E1B" stroke="#15803D"/><circle cx="30" cy="39" r="9" fill="#22C55E" filter="url(#g)"><animate attributeName="fill" values="#22C55E;#FBBF24;#22C55E" dur="3.5s" repeatCount="indefinite"/></circle><text x="52" y="35" fill="#F8FAFC" font-size="15">PERFORMANCE</text><text x="52" y="56" fill="#86EFAC" font-size="12">CLEAN &amp; FAST</text></g>
+  </g>
+  <circle r="7" fill="#fff" filter="url(#g)"><animateMotion dur="5s" repeatCount="indefinite" path="M54 63H1226"/></circle>
+</svg>

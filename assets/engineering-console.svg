@@ -1,82 +1,57 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering console</title>
-  <desc id="desc">Animated frontend engineering console showing workflow, quality, and code thinking.</desc>
+<svg width="1280" height="560" viewBox="0 0 1280 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Animated engineering console</title>
+  <desc id="desc">A futuristic frontend engineering console with animated build logs, floating metric cards, and flowing data signals.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050816" />
-      <stop offset="0.46" stop-color="#081827" />
-      <stop offset="1" stop-color="#042F2E" />
-    </linearGradient>
-    <linearGradient id="accent" x1="94" y1="84" x2="1186" y2="434" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8" />
-      <stop offset="0.5" stop-color="#22C55E" />
-      <stop offset="1" stop-color="#FBBF24" />
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-50%" width="180%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="560"><stop stop-color="#020617"/><stop offset=".5" stop-color="#07172B"/><stop offset="1" stop-color="#04302E"/></linearGradient>
+    <linearGradient id="accent" x1="60" y1="0" x2="1210" y2="0"><stop stop-color="#22D3EE"/><stop offset=".36" stop-color="#38BDF8"/><stop offset=".67" stop-color="#A78BFA"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#7DD3FC" stroke-width=".6" opacity=".08"/></pattern>
+    <filter id="glow" x="-70%" y="-100%" width="240%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-25%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="20" stdDeviation="16" flood-color="#00030C" flood-opacity=".7"/></filter>
   </defs>
+  <rect width="1280" height="560" rx="32" fill="url(#bg)"/><rect width="1280" height="560" rx="32" fill="url(#grid)"/><rect x="1" y="1" width="1278" height="558" rx="31" stroke="url(#accent)" stroke-opacity=".24"/>
+  <circle cx="1170" cy="40" r="140" fill="#22C55E" opacity=".05"><animate attributeName="r" values="115;165;115" dur="8s" repeatCount="indefinite"/></circle>
 
-  <rect width="1280" height="520" rx="30" fill="url(#bg)" />
-  <rect x="42" y="38" width="1196" height="444" rx="26" fill="#020617" opacity="0.62" stroke="#1E3A4C" />
-
-  <text x="76" y="88" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">ENGINEERING CONSOLE</text>
-  <text x="76" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="900">Frontend work with a production mindset</text>
-  <text x="76" y="172" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">Clean components, predictable state, responsive UI, and small details that make the product feel finished.</text>
-
-  <g transform="translate(76 220)">
-    <rect width="548" height="218" rx="24" fill="#030712" stroke="#164E63" />
-    <rect width="548" height="52" rx="24" fill="#0F172A" />
-    <circle cx="30" cy="26" r="6" fill="#EF4444" />
-    <circle cx="52" cy="26" r="6" fill="#FBBF24" />
-    <circle cx="74" cy="26" r="6" fill="#22C55E" />
-    <text x="104" y="33" fill="#94A3B8" font-family="Consolas, monospace" font-size="15">component-quality.check</text>
-    <text x="28" y="88" fill="#22D3EE" font-family="Consolas, monospace" font-size="18">$ npm run build-ui</text>
-    <text x="28" y="124" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">layout: responsive</text>
-    <text x="28" y="158" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">state: predictable</text>
-    <text x="28" y="192" fill="#DCFCE7" font-family="Consolas, monospace" font-size="17">details: animated and polished</text>
-    <rect x="318" y="75" width="170" height="14" rx="7" fill="#334155" />
-    <rect x="318" y="75" width="128" height="14" rx="7" fill="#38BDF8">
-      <animate attributeName="width" values="84;170;128;170" dur="5s" repeatCount="indefinite" />
-    </rect>
-    <rect x="318" y="116" width="170" height="14" rx="7" fill="#334155" />
-    <rect x="318" y="116" width="146" height="14" rx="7" fill="#22C55E">
-      <animate attributeName="width" values="112;170;146;170" dur="4.6s" repeatCount="indefinite" />
-    </rect>
-    <rect x="318" y="157" width="170" height="14" rx="7" fill="#334155" />
-    <rect x="318" y="157" width="118" height="14" rx="7" fill="#FBBF24">
-      <animate attributeName="width" values="72;164;118;164" dur="4.8s" repeatCount="indefinite" />
-    </rect>
-  </g>
-
-  <g transform="translate(676 220)">
-    <g>
-      <rect width="246" height="96" rx="22" fill="#082F49" stroke="#0EA5E9" />
-      <text x="24" y="38" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">UI Systems</text>
-      <text x="24" y="68" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="14">Reusable sections and components</text>
-    </g>
-    <g transform="translate(278 0)">
-      <rect width="246" height="96" rx="22" fill="#052E2B" stroke="#22C55E" />
-      <text x="24" y="38" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Performance</text>
-      <text x="24" y="68" fill="#BBF7D0" font-family="Inter, Arial, sans-serif" font-size="14">Fast pages and clean rendering</text>
-    </g>
-    <g transform="translate(0 122)">
-      <rect width="246" height="96" rx="22" fill="#422006" stroke="#FBBF24" />
-      <text x="24" y="38" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">User Flow</text>
-      <text x="24" y="68" fill="#FDE68A" font-family="Inter, Arial, sans-serif" font-size="14">Forms, errors, loading states</text>
-    </g>
-    <g transform="translate(278 122)">
-      <rect width="246" height="96" rx="22" fill="#1E1B4B" stroke="#A78BFA" />
-      <text x="24" y="38" fill="#EDE9FE" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="900">Code Quality</text>
-      <text x="24" y="68" fill="#DDD6FE" font-family="Inter, Arial, sans-serif" font-size="14">Readable, organized, maintainable</text>
+  <g transform="translate(60 40)">
+    <rect width="1160" height="108" rx="24" fill="#030B19" fill-opacity=".68" stroke="#164E63" stroke-opacity=".6"/>
+    <text x="28" y="34" fill="#67E8F9" font-family="Consolas, monospace" font-size="14" font-weight="800" letter-spacing="2">ENGINEERING CONSOLE // LIVE</text>
+    <text x="28" y="77" fill="#F8FAFC" font-family="Inter, Arial" font-size="33" font-weight="900">Production mindset. Playful execution.</text>
+    <g transform="translate(882 26)">
+      <text x="0" y="14" fill="#64748B" font-family="Consolas, monospace" font-size="11">FRAME HEALTH</text>
+      <text x="0" y="54" fill="#86EFAC" font-family="Inter, Arial" font-size="29" font-weight="900">60 FPS</text>
+      <g transform="translate(112 14)" fill="#22C55E">
+        <rect x="0" y="26" width="8" height="16" rx="4"><animate attributeName="height" values="10;34;16;28;10" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="32;8;26;14;32" dur="1.4s" repeatCount="indefinite"/></rect>
+        <rect x="16" y="18" width="8" height="24" rx="4"><animate attributeName="height" values="32;12;38;24;32" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="10;30;4;18;10" dur="1.6s" repeatCount="indefinite"/></rect>
+        <rect x="32" y="8" width="8" height="34" rx="4"><animate attributeName="height" values="18;38;14;34;18" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="24;4;28;8;24" dur="1.2s" repeatCount="indefinite"/></rect>
+      </g>
     </g>
   </g>
 
-  <path d="M624 330C672 278 704 382 752 330C804 274 856 382 914 330C968 282 1012 374 1066 316" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-dasharray="14 16" filter="url(#glow)">
-    <animate attributeName="stroke-dashoffset" values="0;-180" dur="3.4s" repeatCount="indefinite" />
-  </path>
+  <!-- terminal with isolated layout zone -->
+  <g transform="translate(60 184)" filter="url(#shadow)">
+    <rect x="12" y="14" width="548" height="310" rx="25" fill="#0EA5E9" opacity=".12"/>
+    <rect width="548" height="310" rx="25" fill="#020817" stroke="#155E75"/>
+    <rect width="548" height="52" rx="25" fill="#101A2E"/>
+    <circle cx="28" cy="26" r="6" fill="#FB7185"/><circle cx="50" cy="26" r="6" fill="#FBBF24"/><circle cx="72" cy="26" r="6" fill="#22C55E"/>
+    <text x="100" y="32" fill="#94A3B8" font-family="Consolas, monospace" font-size="13">quality.pipeline</text>
+    <g font-family="Consolas, monospace" font-size="15">
+      <text x="28" y="90" fill="#22D3EE">$ npm run experience</text><rect x="220" y="75" width="8" height="20" rx="2" fill="#38BDF8"><animate attributeName="opacity" values="1;0;1" dur=".9s" repeatCount="indefinite"/></rect>
+      <g><text x="28" y="130" fill="#64748B">01</text><text x="64" y="130" fill="#DCFCE7">layout</text><text x="132" y="130" fill="#94A3B8">........</text><text x="220" y="130" fill="#86EFAC">responsive</text><text x="390" y="130" fill="#22C55E">PASS</text><animate attributeName="opacity" values=".25;1;1;1" keyTimes="0;.18;.85;1" dur="4s" repeatCount="indefinite"/></g>
+      <g><text x="28" y="166" fill="#64748B">02</text><text x="64" y="166" fill="#DBEAFE">state</text><text x="132" y="166" fill="#94A3B8">.........</text><text x="220" y="166" fill="#93C5FD">predictable</text><text x="390" y="166" fill="#38BDF8">PASS</text><animate attributeName="opacity" values=".18;.18;1;1" keyTimes="0;.2;.42;1" dur="4s" repeatCount="indefinite"/></g>
+      <g><text x="28" y="202" fill="#64748B">03</text><text x="64" y="202" fill="#EDE9FE">motion</text><text x="132" y="202" fill="#94A3B8">........</text><text x="220" y="202" fill="#C4B5FD">intentional</text><text x="390" y="202" fill="#A78BFA">PASS</text><animate attributeName="opacity" values=".18;.18;.18;1;1" keyTimes="0;.3;.45;.62;1" dur="4s" repeatCount="indefinite"/></g>
+      <g><text x="28" y="238" fill="#64748B">04</text><text x="64" y="238" fill="#FEF3C7">details</text><text x="132" y="238" fill="#94A3B8">.......</text><text x="220" y="238" fill="#FDE68A">obsessive</text><text x="390" y="238" fill="#FBBF24">PASS</text><animate attributeName="opacity" values=".18;.18;.18;.18;1" keyTimes="0;.4;.58;.75;1" dur="4s" repeatCount="indefinite"/></g>
+    </g>
+    <rect x="28" y="268" width="476" height="10" rx="5" fill="#172033"/><rect x="28" y="268" width="40" height="10" rx="5" fill="url(#accent)" filter="url(#glow)"><animate attributeName="width" values="20;476;476;20" keyTimes="0;.7;.88;1" dur="4s" repeatCount="indefinite"/></rect>
+    <text x="28" y="298" fill="#475569" font-family="Consolas, monospace" font-size="11">REBUILDING MAGIC...</text>
+  </g>
+
+  <!-- floating system modules -->
+  <g transform="translate(654 184)">
+    <path d="M10 155C88 76 148 210 232 124C312 42 382 198 512 94" stroke="url(#accent)" stroke-width="4" stroke-dasharray="12 18" opacity=".7" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-180" dur="3.2s" repeatCount="indefinite"/></path>
+    <g><rect x="0" y="0" width="248" height="132" rx="24" fill="#082F49" stroke="#0EA5E9"/><rect x="18" y="18" width="42" height="42" rx="13" fill="#0C4A6E"/><path d="M29 39l8 8 14-18" stroke="#67E8F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="76" y="39" fill="#E0F2FE" font-family="Inter, Arial" font-size="18" font-weight="900">UI Systems</text><text x="20" y="86" fill="#BAE6FD" font-family="Inter, Arial" font-size="13">Reusable, scalable components</text><text x="20" y="110" fill="#38BDF8" font-family="Consolas, monospace" font-size="12">SYNCED 100%</text><animateTransform attributeName="transform" type="translate" values="0 4;0 -5;0 4" dur="4.2s" repeatCount="indefinite"/></g>
+    <g transform="translate(274 0)"><rect width="248" height="132" rx="24" fill="#052E2B" stroke="#22C55E"/><rect x="18" y="18" width="42" height="42" rx="13" fill="#064E3B"/><path d="M29 46V34m10 12V26m10 20V18" stroke="#86EFAC" stroke-width="4" stroke-linecap="round"/><text x="76" y="39" fill="#DCFCE7" font-family="Inter, Arial" font-size="18" font-weight="900">Performance</text><text x="20" y="86" fill="#BBF7D0" font-family="Inter, Arial" font-size="13">Fast rendering, smooth frames</text><text x="20" y="110" fill="#22C55E" font-family="Consolas, monospace" font-size="12">OPTIMIZED 98%</text><animateTransform attributeName="transform" type="translate" values="274 -5;274 5;274 -5" dur="4.7s" repeatCount="indefinite"/></g>
+    <g transform="translate(0 158)"><rect width="248" height="132" rx="24" fill="#21143F" stroke="#A78BFA"/><rect x="18" y="18" width="42" height="42" rx="13" fill="#3B1D69"/><path d="M27 40h24M39 28v24" stroke="#C4B5FD" stroke-width="4" stroke-linecap="round"/><text x="76" y="39" fill="#EDE9FE" font-family="Inter, Arial" font-size="18" font-weight="900">User Flow</text><text x="20" y="86" fill="#DDD6FE" font-family="Inter, Arial" font-size="13">Clear states, zero dead ends</text><text x="20" y="110" fill="#A78BFA" font-family="Consolas, monospace" font-size="12">CONNECTED 12/12</text><animateTransform attributeName="transform" type="translate" values="0 158;0 151;0 158" dur="5s" repeatCount="indefinite"/></g>
+    <g transform="translate(274 158)"><rect width="248" height="132" rx="24" fill="#382006" stroke="#FBBF24"/><rect x="18" y="18" width="42" height="42" rx="13" fill="#5A3104"/><path d="M28 31h22M28 40h16M28 49h20" stroke="#FDE68A" stroke-width="4" stroke-linecap="round"/><text x="76" y="39" fill="#FEF3C7" font-family="Inter, Arial" font-size="18" font-weight="900">Code Quality</text><text x="20" y="86" fill="#FDE68A" font-family="Inter, Arial" font-size="13">Readable, tested, maintainable</text><text x="20" y="110" fill="#FBBF24" font-family="Consolas, monospace" font-size="12">CLEAN BUILD</text><animateTransform attributeName="transform" type="translate" values="274 158;274 166;274 158" dur="4.5s" repeatCount="indefinite"/></g>
+    <circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="5.8s" repeatCount="indefinite" path="M10 155C88 76 148 210 232 124C312 42 382 198 512 94"/></circle>
+  </g>
+  <path d="M70 526H1210" stroke="url(#accent)" stroke-width="2" stroke-dasharray="8 18" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;-104" dur="2.4s" repeatCount="indefinite"/></path>
 </svg>

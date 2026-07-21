@@ -1,76 +1,49 @@
-<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Tech orbit</title>
-  <desc id="desc">Animated orbit of frontend technologies around React.</desc>
+<svg width="1280" height="680" viewBox="0 0 1280 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">3D frontend technology orbit</title><desc id="desc">An animated holographic orbit of frontend technologies around a glowing React core.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#020617" />
-      <stop offset="0.5" stop-color="#061B34" />
-      <stop offset="1" stop-color="#111827" />
-    </linearGradient>
-    <linearGradient id="orbit" x1="260" y1="120" x2="1020" y2="560" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38BDF8" />
-      <stop offset="0.42" stop-color="#22C55E" />
-      <stop offset="0.72" stop-color="#FBBF24" />
-      <stop offset="1" stop-color="#FB7185" />
-    </linearGradient>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="8" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="680"><stop stop-color="#020617"/><stop offset=".48" stop-color="#071831"/><stop offset="1" stop-color="#09152A"/></linearGradient>
+    <linearGradient id="spectrum" x1="180" y1="0" x2="1110" y2="0"><stop stop-color="#22D3EE"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".55" stop-color="#A78BFA"/><stop offset=".78" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#BAE6FD"/><stop offset=".18" stop-color="#38BDF8"/><stop offset=".48" stop-color="#2563EB" stop-opacity=".65"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#7DD3FC" opacity=".16"/></pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="deep" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="25" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
+  <rect width="1280" height="680" rx="32" fill="url(#bg)"/><rect width="1280" height="680" rx="32" fill="url(#dots)"/><rect x="1" y="1" width="1278" height="678" rx="31" stroke="url(#spectrum)" stroke-opacity=".28"/>
+  <g transform="translate(64 42)"><text y="22" fill="#67E8F9" font-family="Consolas, monospace" font-size="15" font-weight="800" letter-spacing="2">TECH ORBIT // ACTIVE STACK</text><text y="72" fill="#F8FAFC" font-family="Inter, Arial" font-size="38" font-weight="900">Tools in constant motion</text><text y="108" fill="#A5C7DA" font-family="Inter, Arial" font-size="18">A component-driven stack built for speed, scale, and delightful interaction.</text></g>
+  <g transform="translate(1092 52)"><rect width="120" height="40" rx="20" fill="#052E2B" stroke="#22C55E"/><circle cx="22" cy="20" r="5" fill="#22C55E" filter="url(#glow)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="39" y="25" fill="#BBF7D0" font-family="Consolas, monospace" font-size="11" font-weight="800">6 NODES</text></g>
 
-  <rect width="1280" height="640" rx="30" fill="url(#bg)" />
-  <text x="74" y="86" fill="#67E8F9" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="900">TECH ORBIT</text>
-  <text x="74" y="138" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="900">Tools around the interface</text>
-  <text x="74" y="174" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="19">A frontend stack for building sharp, responsive, component-driven products.</text>
+  <!-- all orbital content starts below y=190: no heading collision -->
+  <g transform="translate(640 410)">
+    <ellipse rx="372" ry="158" fill="none" stroke="#1E293B" stroke-width="18" opacity=".36"/>
+    <ellipse rx="372" ry="158" fill="none" stroke="url(#spectrum)" stroke-width="3" stroke-dasharray="16 22" opacity=".75" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-304" dur="5s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="274" ry="116" fill="none" stroke="#334155" stroke-width="2"/>
+    <ellipse rx="274" ry="116" fill="none" stroke="#A78BFA" stroke-width="2" stroke-dasharray="8 18" opacity=".62"><animate attributeName="stroke-dashoffset" values="0;208" dur="4s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="168" ry="72" fill="none" stroke="#38BDF8" stroke-width="2" opacity=".48" stroke-dasharray="5 12"><animate attributeName="stroke-dashoffset" values="0;-136" dur="3.2s" repeatCount="indefinite"/></ellipse>
+    <path d="M0-192V192M-420 0H420" stroke="#38BDF8" opacity=".08" stroke-dasharray="6 14"/>
 
-  <g transform="translate(650 365)">
-    <circle r="170" stroke="#1E293B" stroke-width="2" />
-    <circle r="122" stroke="#1E293B" stroke-width="2" />
-    <circle r="76" stroke="#1E293B" stroke-width="2" />
-    <circle r="170" stroke="url(#orbit)" stroke-width="4" stroke-linecap="round" stroke-dasharray="18 22" opacity="0.8" filter="url(#glow)">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite" />
-    </circle>
-    <circle r="122" stroke="url(#orbit)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 18" opacity="0.7">
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="13s" repeatCount="indefinite" />
-    </circle>
+    <circle r="142" fill="url(#core)" opacity=".32"><animate attributeName="r" values="122;158;122" dur="4.6s" repeatCount="indefinite"/></circle>
+    <g filter="url(#deep)"><circle r="75" fill="#0EA5E9" opacity=".28"/></g>
+    <g>
+      <polygon points="0,-66 72,-31 0,6 -72,-31" fill="#12345A" stroke="#67E8F9"/>
+      <polygon points="-72,-31 0,6 0,84 -72,46" fill="#071E33" stroke="#38BDF8"/>
+      <polygon points="72,-31 0,6 0,84 72,46" fill="#10204A" stroke="#A78BFA"/>
+      <text x="0" y="-19" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial" font-size="25" font-weight="900">React</text>
+      <text x="0" y="39" text-anchor="middle" fill="#7DD3FC" font-family="Consolas, monospace" font-size="11">CORE.ENGINE</text>
+      <path d="M-20 60H20" stroke="#22C55E" stroke-width="4" stroke-linecap="round"><animate attributeName="stroke-dasharray" values="4 36;32 8;4 36" dur="2s" repeatCount="indefinite"/></path>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" repeatCount="indefinite"/>
+    </g>
 
-    <rect x="-92" y="-54" width="184" height="108" rx="30" fill="#082F49" stroke="#38BDF8" filter="url(#glow)" />
-    <text x="0" y="-8" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="900">React</text>
-    <text x="0" y="25" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">component thinking</text>
+    <!-- labels use nested transforms so float never destroys placement -->
+    <g transform="translate(-474 -44)"><g><rect width="164" height="70" rx="21" fill="#332005" stroke="#FBBF24"/><circle cx="24" cy="35" r="7" fill="#FBBF24" filter="url(#glow)"/><text x="44" y="42" fill="#FEF3C7" font-family="Inter, Arial" font-size="19" font-weight="900">JavaScript</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="4.1s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(310 -132)"><g><rect width="174" height="70" rx="21" fill="#112452" stroke="#60A5FA"/><circle cx="24" cy="35" r="7" fill="#60A5FA" filter="url(#glow)"/><text x="44" y="42" fill="#DBEAFE" font-family="Inter, Arial" font-size="19" font-weight="900">TypeScript</text><animateTransform attributeName="transform" type="translate" values="0 0;0 13;0 0" dur="4.5s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(-418 122)"><g><rect width="154" height="70" rx="21" fill="#052E2B" stroke="#22C55E"/><circle cx="24" cy="35" r="7" fill="#22C55E" filter="url(#glow)"/><text x="44" y="42" fill="#DCFCE7" font-family="Inter, Arial" font-size="19" font-weight="900">Tailwind</text><animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="4.8s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(314 116)"><g><rect width="154" height="70" rx="21" fill="#40102A" stroke="#FB7185"/><circle cx="24" cy="35" r="7" fill="#FB7185" filter="url(#glow)"/><text x="44" y="42" fill="#FFE4E6" font-family="Inter, Arial" font-size="19" font-weight="900">Redux</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -13;0 0" dur="5.1s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(-82 -218)"><g><rect width="164" height="70" rx="21" fill="#25174D" stroke="#A78BFA"/><circle cx="26" cy="35" r="7" fill="#A78BFA" filter="url(#glow)"/><text x="48" y="42" fill="#EDE9FE" font-family="Inter, Arial" font-size="19" font-weight="900">Vite</text><text x="108" y="42" fill="#C4B5FD" font-family="Consolas, monospace" font-size="11">FAST</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4.3s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(-82 180)"><g><rect width="164" height="70" rx="21" fill="#111827" stroke="#94A3B8"/><circle cx="26" cy="35" r="7" fill="#E2E8F0" filter="url(#glow)"/><text x="48" y="42" fill="#F8FAFC" font-family="Inter, Arial" font-size="19" font-weight="900">GitHub</text><animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="4.7s" repeatCount="indefinite"/></g></g>
 
-    <g transform="translate(-465 -70)">
-      <rect width="150" height="70" rx="22" fill="#422006" stroke="#FBBF24" />
-      <text x="75" y="43" text-anchor="middle" fill="#FEF3C7" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">JavaScript</text>
-      <animateTransform attributeName="transform" type="translate" values="-465 -70;-465 -84;-465 -70" dur="4s" repeatCount="indefinite" />
-    </g>
-    <g transform="translate(300 -105)">
-      <rect width="150" height="70" rx="22" fill="#172554" stroke="#60A5FA" />
-      <text x="75" y="43" text-anchor="middle" fill="#DBEAFE" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">TypeScript</text>
-      <animateTransform attributeName="transform" type="translate" values="300 -105;300 -87;300 -105" dur="4.4s" repeatCount="indefinite" />
-    </g>
-    <g transform="translate(-420 118)">
-      <rect width="150" height="70" rx="22" fill="#052E2B" stroke="#22C55E" />
-      <text x="75" y="43" text-anchor="middle" fill="#DCFCE7" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Tailwind</text>
-      <animateTransform attributeName="transform" type="translate" values="-420 118;-420 102;-420 118" dur="4.8s" repeatCount="indefinite" />
-    </g>
-    <g transform="translate(310 118)">
-      <rect width="150" height="70" rx="22" fill="#4C0519" stroke="#FB7185" />
-      <text x="75" y="43" text-anchor="middle" fill="#FFE4E6" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Redux</text>
-      <animateTransform attributeName="transform" type="translate" values="310 118;310 102;310 118" dur="5.1s" repeatCount="indefinite" />
-    </g>
-    <g transform="translate(30 -230)">
-      <rect width="150" height="70" rx="22" fill="#1E1B4B" stroke="#A78BFA" />
-      <text x="75" y="43" text-anchor="middle" fill="#EDE9FE" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">Vite</text>
-      <animateTransform attributeName="transform" type="translate" values="30 -230;30 -214;30 -230" dur="4.2s" repeatCount="indefinite" />
-    </g>
-    <g transform="translate(-75 178)">
-      <rect width="150" height="70" rx="22" fill="#111827" stroke="#94A3B8" />
-      <text x="75" y="43" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="900">GitHub</text>
-      <animateTransform attributeName="transform" type="translate" values="-75 178;-75 192;-75 178" dur="4.6s" repeatCount="indefinite" />
-    </g>
+    <circle r="7" fill="#fff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M-372 0A372 158 0 1 0 372 0A372 158 0 1 0-372 0"/></circle>
+    <circle r="5" fill="#22C55E" filter="url(#glow)"><animateMotion dur="7s" begin="-2.35s" repeatCount="indefinite" path="M-372 0A372 158 0 1 0 372 0A372 158 0 1 0-372 0"/></circle>
+    <circle r="5" fill="#A78BFA" filter="url(#glow)"><animateMotion dur="7s" begin="-4.7s" repeatCount="indefinite" path="M-372 0A372 158 0 1 0 372 0A372 158 0 1 0-372 0"/></circle>
   </g>
+  <g transform="translate(1008 618)"><text fill="#64748B" font-family="Consolas, monospace" font-size="11">ORBITAL SYNC</text><rect x="100" y="-9" width="112" height="8" rx="4" fill="#172033"/><rect x="100" y="-9" width="30" height="8" rx="4" fill="url(#spectrum)"><animate attributeName="width" values="20;112;20" dur="3s" repeatCount="indefinite"/></rect></g>
 </svg>

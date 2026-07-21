@@ -11,11 +11,7 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 <br />
 
 <div align="center">
-  <a href="https://github.com/shivam01112">
-    <img src="https://img.shields.io/badge/GitHub-shivam01112-020617?style=for-the-badge&logo=github&logoColor=white&labelColor=111827" alt="GitHub profile" />
-  </a>
-  <img src="https://img.shields.io/badge/Frontend-React_Developer-06B6D4?style=for-the-badge&logo=react&logoColor=white&labelColor=111827" alt="React frontend developer" />
-  <img src="https://img.shields.io/badge/Focus-Clean_UI_and_Performance-22C55E?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827" alt="Clean UI and performance" />
+  <img src="./assets/signal-strip.svg" alt="Frontend engineering signal strip" width="100%" />
 </div>
 
 <br />
@@ -55,14 +51,8 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 <br />
 
 <div align="center">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-Coming_Soon-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=111827" alt="Portfolio" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/LinkedIn-Add_Link-2563EB?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=111827" alt="LinkedIn" />
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Email-Add_Email-22C55E?style=for-the-badge&logo=gmail&logoColor=white&labelColor=111827" alt="Email" />
+  <a href="https://github.com/shivam01112">
+    <img src="./assets/contact-strip.svg" alt="Connect with Shivam Negi on GitHub" width="100%" />
   </a>
 </div>
 
