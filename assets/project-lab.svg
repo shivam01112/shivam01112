@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250">
+<defs>
+<style>
+@keyframes cardScan{0%{transform:translateY(-4px);opacity:.4}100%{transform:translateY(250px);opacity:.04}}
+@keyframes cardFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@keyframes holoBorder{0%{stroke-dashoffset:700}100%{stroke-dashoffset:0}}
+@keyframes tagFloat{0%,100%{opacity:.55;transform:translateY(0)}50%{opacity:1;transform:translateY(-4px)}}
+@keyframes particleUp{0%{transform:translateY(0);opacity:0}15%{opacity:.8}85%{opacity:.3}100%{transform:translateY(-70px);opacity:0}}
+@keyframes cornerBlink{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes scan5{0%{transform:translateY(-2px);opacity:.2}100%{transform:translateY(252px);opacity:.02}}
+@keyframes iconBounce{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.1)}}
+@keyframes cardPulse{0%,100%{opacity:.6}50%{opacity:1}}
+.cscan{animation:cardScan var(--d,4.5s) linear infinite;animation-delay:var(--e,0s)}
+.cf5{animation:cardFloat var(--d,4s) ease-in-out infinite;animation-delay:var(--e,0s)}
+.hb{stroke-dasharray:700;animation:holoBorder var(--d,4s) linear infinite;animation-delay:var(--e,0s)}
+.tag5{animation:tagFloat var(--d,3.5s) ease-in-out infinite;animation-delay:var(--e,0s)}
+.pu{animation:particleUp var(--d,5s) ease-out infinite;animation-delay:var(--e,0s)}
+.cb{animation:cornerBlink 2s ease-in-out infinite;animation-delay:var(--e,0s)}
+.scan5{animation:scan5 4s linear infinite}
+.ib{animation:iconBounce 3s ease-in-out infinite;animation-delay:var(--e,0s)}
+.cp{animation:cardPulse 2.5s ease-in-out infinite;animation-delay:var(--e,0s)}
+</style>
+<linearGradient id="bg5" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#020A18"/><stop offset="100%" stop-color="#000814"/>
+</linearGradient>
+<linearGradient id="c1bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#071E2E"/><stop offset="100%" stop-color="#040E1A"/>
+</linearGradient>
+<linearGradient id="c2bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#130A24"/><stop offset="100%" stop-color="#080414"/>
+</linearGradient>
+<linearGradient id="c3bg" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#071F12"/><stop offset="100%" stop-color="#040E08"/>
+</linearGradient>
+<filter id="gf5" x="-30%" y="-30%" width="160%" height="160%">
+  <feGaussianBlur stdDeviation="4" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="mgf5" x="-70%" y="-70%" width="240%" height="240%">
+  <feGaussianBlur stdDeviation="16"/>
+</filter>
+<clipPath id="cl5"><rect width="900" height="250" rx="12"/></clipPath>
+<clipPath id="cc1"><rect x="28" y="38" width="255" height="196" rx="10"/></clipPath>
+<clipPath id="cc2"><rect x="323" y="38" width="255" height="196" rx="10"/></clipPath>
+<clipPath id="cc3"><rect x="618" y="38" width="255" height="196" rx="10"/></clipPath>
+</defs>
+<g clip-path="url(#cl5)">
+
+<rect width="900" height="250" fill="url(#bg5)"/>
+
+<!-- Header label -->
+<text x="450" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#1E3A5F" letter-spacing="3">— PROJECT LAB —</text>
+
+<!-- ===== CARD 1: UI COMPONENTS (cyan) ===== -->
+<g class="cf5" style="--d:4s;--e:0s">
+  <!-- Glow behind card -->
+  <rect x="28" y="38" width="255" height="196" rx="10" fill="#00CCFF" opacity=".04" filter="url(#mgf5)"/>
+  <!-- Card body -->
+  <rect x="28" y="38" width="255" height="196" rx="10" fill="url(#c1bg)"/>
+  <!-- Animated holo border -->
+  <rect x="28" y="38" width="255" height="196" rx="10" fill="none" stroke="#00CCFF" stroke-width="1.5" class="hb" style="--d:4s;--e:0s" opacity=".8"/>
+  <!-- Static dim border -->
+  <rect x="28" y="38" width="255" height="196" rx="10" fill="none" stroke="#00CCFF" stroke-width=".5" opacity=".2"/>
+  <!-- Top accent bar -->
+  <rect x="28" y="38" width="255" height="3" rx="1" fill="#00CCFF" class="cp" style="--e:0s"/>
+  <!-- Scanning line inside card -->
+  <g clip-path="url(#cc1)">
+    <rect x="28" y="35" width="255" height="2" fill="#00CCFF" opacity=".3" class="cscan" style="--d:4.5s;--e:0s"/>
+  </g>
+  <!-- Icon -->
+  <text x="155" y="105" text-anchor="middle" font-family="sans-serif" font-size="36" class="ib" style="--e:0s">🧩</text>
+  <!-- Title -->
+  <text x="155" y="133" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00CCFF" font-weight="bold">UI COMPONENTS</text>
+  <!-- Desc -->
+  <text x="155" y="152" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748B">Reusable · Accessible · Animated</text>
+  <!-- Tech tags -->
+  <g class="tag5" style="--d:3.5s;--e:0s">
+    <rect x="58" y="164" width="46" height="18" rx="9" fill="#00CCFF" fill-opacity=".1" stroke="#00CCFF" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="81" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00CCFF">React</text>
+  </g>
+  <g class="tag5" style="--d:4s;--e:.5s">
+    <rect x="112" y="164" width="46" height="18" rx="9" fill="#00CCFF" fill-opacity=".1" stroke="#00CCFF" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="135" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00CCFF">CSS</text>
+  </g>
+  <g class="tag5" style="--d:4.5s;--e:1s">
+    <rect x="166" y="164" width="56" height="18" rx="9" fill="#00CCFF" fill-opacity=".1" stroke="#00CCFF" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="194" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00CCFF">Tailwind</text>
+  </g>
+  <!-- Corner markers -->
+  <line x1="28" y1="50" x2="28" y2="38" stroke="#00CCFF" stroke-width="2" class="cb" style="--e:0s"/>
+  <line x1="28" y1="38" x2="40" y2="38" stroke="#00CCFF" stroke-width="2" class="cb" style="--e:0s"/>
+  <line x1="283" y1="50" x2="283" y2="38" stroke="#00CCFF" stroke-width="2" class="cb" style="--e:.8s"/>
+  <line x1="283" y1="38" x2="271" y2="38" stroke="#00CCFF" stroke-width="2" class="cb" style="--e:.8s"/>
+  <!-- Particles -->
+  <circle cx="80" cy="222" r="2" fill="#00CCFF" class="pu" style="--d:5s;--e:0s"/>
+  <circle cx="155" cy="230" r="1.5" fill="#00CCFF" class="pu" style="--d:6s;--e:1.5s"/>
+  <circle cx="230" cy="225" r="2" fill="#00CCFF" class="pu" style="--d:4.5s;--e:3s"/>
+</g>
+
+<!-- ===== CARD 2: WEB APPS (purple) ===== -->
+<g class="cf5" style="--d:4.5s;--e:.6s">
+  <rect x="323" y="38" width="255" height="196" rx="10" fill="#A855F7" opacity=".04" filter="url(#mgf5)"/>
+  <rect x="323" y="38" width="255" height="196" rx="10" fill="url(#c2bg)"/>
+  <rect x="323" y="38" width="255" height="196" rx="10" fill="none" stroke="#A855F7" stroke-width="1.5" class="hb" style="--d:4.5s;--e:.6s" opacity=".8"/>
+  <rect x="323" y="38" width="255" height="196" rx="10" fill="none" stroke="#A855F7" stroke-width=".5" opacity=".2"/>
+  <rect x="323" y="38" width="255" height="3" rx="1" fill="#A855F7" class="cp" style="--e:.6s"/>
+  <g clip-path="url(#cc2)">
+    <rect x="323" y="35" width="255" height="2" fill="#A855F7" opacity=".3" class="cscan" style="--d:5s;--e:.8s"/>
+  </g>
+  <text x="450" y="105" text-anchor="middle" font-family="sans-serif" font-size="36" class="ib" style="--e:.6s">🌐</text>
+  <text x="450" y="133" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#A855F7" font-weight="bold">WEB APPS</text>
+  <text x="450" y="152" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748B">Fast · Responsive · Scalable</text>
+  <g class="tag5" style="--d:4s;--e:.3s">
+    <rect x="346" y="164" width="54" height="18" rx="9" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="373" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#A855F7">Next.js</text>
+  </g>
+  <g class="tag5" style="--d:3.5s;--e:.8s">
+    <rect x="408" y="164" width="54" height="18" rx="9" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="435" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#A855F7">Zustand</text>
+  </g>
+  <g class="tag5" style="--d:5s;--e:1.3s">
+    <rect x="470" y="164" width="62" height="18" rx="9" fill="#A855F7" fill-opacity=".1" stroke="#A855F7" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="501" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#A855F7">REST API</text>
+  </g>
+  <line x1="323" y1="50" x2="323" y2="38" stroke="#A855F7" stroke-width="2" class="cb" style="--e:.6s"/>
+  <line x1="323" y1="38" x2="335" y2="38" stroke="#A855F7" stroke-width="2" class="cb" style="--e:.6s"/>
+  <line x1="578" y1="50" x2="578" y2="38" stroke="#A855F7" stroke-width="2" class="cb" style="--e:1.4s"/>
+  <line x1="578" y1="38" x2="566" y2="38" stroke="#A855F7" stroke-width="2" class="cb" style="--e:1.4s"/>
+  <circle cx="375" cy="222" r="2" fill="#A855F7" class="pu" style="--d:5.5s;--e:.4s"/>
+  <circle cx="450" cy="230" r="1.5" fill="#A855F7" class="pu" style="--d:4.5s;--e:2s"/>
+  <circle cx="525" cy="218" r="2" fill="#A855F7" class="pu" style="--d:6s;--e:3.5s"/>
+</g>
+
+<!-- ===== CARD 3: PERFORMANCE (green) ===== -->
+<g class="cf5" style="--d:5s;--e:1.2s">
+  <rect x="618" y="38" width="255" height="196" rx="10" fill="#00FF88" opacity=".04" filter="url(#mgf5)"/>
+  <rect x="618" y="38" width="255" height="196" rx="10" fill="url(#c3bg)"/>
+  <rect x="618" y="38" width="255" height="196" rx="10" fill="none" stroke="#00FF88" stroke-width="1.5" class="hb" style="--d:5s;--e:1.2s" opacity=".8"/>
+  <rect x="618" y="38" width="255" height="196" rx="10" fill="none" stroke="#00FF88" stroke-width=".5" opacity=".2"/>
+  <rect x="618" y="38" width="255" height="3" rx="1" fill="#00FF88" class="cp" style="--e:1.2s"/>
+  <g clip-path="url(#cc3)">
+    <rect x="618" y="35" width="255" height="2" fill="#00FF88" opacity=".3" class="cscan" style="--d:5.5s;--e:1.6s"/>
+  </g>
+  <text x="745" y="105" text-anchor="middle" font-family="sans-serif" font-size="36" class="ib" style="--e:1.2s">⚡</text>
+  <text x="745" y="133" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#00FF88" font-weight="bold">PERFORMANCE</text>
+  <text x="745" y="152" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#64748B">Lighthouse 100 · Optimized</text>
+  <g class="tag5" style="--d:4s;--e:.6s">
+    <rect x="643" y="164" width="56" height="18" rx="9" fill="#00FF88" fill-opacity=".08" stroke="#00FF88" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="671" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00FF88">Lazy Load</text>
+  </g>
+  <g class="tag5" style="--d:4.5s;--e:1s">
+    <rect x="707" y="164" width="42" height="18" rx="9" fill="#00FF88" fill-opacity=".08" stroke="#00FF88" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="728" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00FF88">PWA</text>
+  </g>
+  <g class="tag5" style="--d:5s;--e:1.4s">
+    <rect x="757" y="164" width="56" height="18" rx="9" fill="#00FF88" fill-opacity=".08" stroke="#00FF88" stroke-width=".7" stroke-opacity=".5"/>
+    <text x="785" y="176" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#00FF88">SEO ✓</text>
+  </g>
+  <line x1="618" y1="50" x2="618" y2="38" stroke="#00FF88" stroke-width="2" class="cb" style="--e:1.2s"/>
+  <line x1="618" y1="38" x2="630" y2="38" stroke="#00FF88" stroke-width="2" class="cb" style="--e:1.2s"/>
+  <line x1="873" y1="50" x2="873" y2="38" stroke="#00FF88" stroke-width="2" class="cb" style="--e:2s"/>
+  <line x1="873" y1="38" x2="861" y2="38" stroke="#00FF88" stroke-width="2" class="cb" style="--e:2s"/>
+  <circle cx="670" cy="222" r="2" fill="#00FF88" class="pu" style="--d:5s;--e:.8s"/>
+  <circle cx="745" cy="226" r="1.5" fill="#00FF88" class="pu" style="--d:6.5s;--e:2.2s"/>
+  <circle cx="820" cy="220" r="2" fill="#00FF88" class="pu" style="--d:4.8s;--e:4s"/>
+</g>
+
+<!-- Frame and scanline -->
+<rect width="900" height="250" fill="none" stroke="#00CCFF" stroke-width="1" rx="12" opacity=".1"/>
+<rect x="0" y="-3" width="900" height="2" fill="#fff" opacity=".08" class="scan5"/>
+
+</g>
+</svg>

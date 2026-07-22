@@ -5,7 +5,7 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 -->
 
 <div align="center">
-  <img src="./assets/command-center-v2.svg" alt="Shivam Negi frontend developer command center" width="100%" />
+  <img src="./assets/command-center.svg" alt="Shivam Negi frontend developer command center" width="100%" />
 </div>
 
 <br />
@@ -29,13 +29,13 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 <br />
 
 <div align="center">
-  <img src="./assets/architecture-map-v2.svg" alt="Animated frontend architecture map from design to deploy" width="100%" />
+  <img src="./assets/architecture-map.svg" alt="Animated frontend architecture map from design to deploy" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/project-lab-v2.svg" alt="Animated project lab showing frontend project directions" width="100%" />
+  <img src="./assets/project-lab.svg" alt="Animated project lab showing frontend project directions" width="100%" />
 </div>
 
 <br />

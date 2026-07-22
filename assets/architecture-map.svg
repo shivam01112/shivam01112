@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210">
+<defs>
+<style>
+@keyframes nodeGlow{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+@keyframes packet{0%{opacity:0;offset-distance:0%}8%{opacity:1}85%{opacity:.8}100%{opacity:0;offset-distance:100%}}
+@keyframes pkt1{0%{transform:translateX(0);opacity:0}5%{opacity:1}95%{opacity:.9}100%{transform:translateX(170px);opacity:0}}
+@keyframes pkt2{0%{transform:translateX(0);opacity:0}5%{opacity:1}95%{opacity:.9}100%{transform:translateX(170px);opacity:0}}
+@keyframes lineFlow{0%{stroke-dashoffset:170}100%{stroke-dashoffset:0}}
+@keyframes labelFade{0%,100%{opacity:.5}50%{opacity:1}}
+@keyframes titleSlide{0%{opacity:0;transform:translateY(-12px)}100%{opacity:1;transform:translateY(0)}}
+@keyframes scan4{0%{transform:translateY(-2px);opacity:.2}100%{transform:translateY(212px);opacity:.02}}
+@keyframes nodeAppear{0%{opacity:0;transform:scale(.5)}100%{opacity:1;transform:scale(1)}}
+@keyframes arrowPulse{0%,100%{opacity:.3}50%{opacity:.8}}
+.lf{stroke-dasharray:6 8;animation:lineFlow 1.5s linear infinite;animation-delay:var(--e,0s)}
+.na{animation:nodeAppear .6s ease-out both;animation-delay:var(--d,0s)}
+.ng{animation:nodeGlow 2.5s ease-in-out infinite;animation-delay:var(--e,0s);transform-box:fill-box;transform-origin:center}
+.lbl{animation:labelFade 3s ease-in-out infinite;animation-delay:var(--e,0s)}
+.pkt{animation:pkt1 var(--dur,2.5s) ease-in-out infinite;animation-delay:var(--d,0s)}
+.ap{animation:arrowPulse 1.5s ease-in-out infinite;animation-delay:var(--e,0s)}
+.scan4{animation:scan4 4s linear infinite}
+</style>
+
+<!-- Node colors: Design=#EC4899 Code=#00CCFF Test=#00FF88 Build=#F7DF1E Deploy=#A855F7 -->
+<linearGradient id="n1g" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#EC4899"/>
+  <stop offset="100%" stop-color="#F472B6"/>
+</linearGradient>
+<linearGradient id="n2g" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#00CCFF"/>
+  <stop offset="100%" stop-color="#38BDF8"/>
+</linearGradient>
+<linearGradient id="n3g" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#00FF88"/>
+  <stop offset="100%" stop-color="#4ADE80"/>
+</linearGradient>
+<linearGradient id="n4g" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#F7DF1E"/>
+  <stop offset="100%" stop-color="#FDE68A"/>
+</linearGradient>
+<linearGradient id="n5g" x1="0" y1="0" x2="1" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#A855F7"/>
+  <stop offset="100%" stop-color="#C084FC"/>
+</linearGradient>
+<linearGradient id="bg4" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox">
+  <stop offset="0%" stop-color="#020B18"/>
+  <stop offset="100%" stop-color="#000814"/>
+</linearGradient>
+<filter id="gf4" x="-30%" y="-30%" width="160%" height="160%">
+  <feGaussianBlur stdDeviation="4" result="b"/>
+  <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="smgf" x="-60%" y="-60%" width="220%" height="220%">
+  <feGaussianBlur stdDeviation="12"/>
+</filter>
+<clipPath id="cl4"><rect width="900" height="210" rx="12"/></clipPath>
+</defs>
+<g clip-path="url(#cl4)">
+
+<rect width="900" height="210" fill="url(#bg4)"/>
+
+<!-- Header -->
+<text x="450" y="22" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#1E3A5F" letter-spacing="3">— BUILD ARCHITECTURE —</text>
+
+<!-- === NODE POSITIONS ===
+  Node 1 Design: cx=100
+  Node 2 Code:   cx=270
+  Node 3 Test:   cx=450
+  Node 4 Build:  cx=630
+  Node 5 Deploy: cx=800
+  cy=112 for all
+-->
+
+<!-- CONNECTION LINES WITH FLOWING ANIMATION -->
+<!-- Line 1→2 -->
+<line x1="148" y1="112" x2="222" y2="112" stroke="#EC4899" stroke-width="1.5" opacity=".2"/>
+<line x1="148" y1="112" x2="222" y2="112" stroke="#EC4899" stroke-width="1.5" class="lf" style="--e:0s" opacity=".7"/>
+<!-- Line 2→3 -->
+<line x1="318" y1="112" x2="402" y2="112" stroke="#00CCFF" stroke-width="1.5" opacity=".2"/>
+<line x1="318" y1="112" x2="402" y2="112" stroke="#00CCFF" stroke-width="1.5" class="lf" style="--e:.5s" opacity=".7"/>
+<!-- Line 3→4 -->
+<line x1="498" y1="112" x2="582" y2="112" stroke="#00FF88" stroke-width="1.5" opacity=".2"/>
+<line x1="498" y1="112" x2="582" y2="112" stroke="#00FF88" stroke-width="1.5" class="lf" style="--e:1s" opacity=".7"/>
+<!-- Line 4→5 -->
+<line x1="678" y1="112" x2="752" y2="112" stroke="#F7DF1E" stroke-width="1.5" opacity=".2"/>
+<line x1="678" y1="112" x2="752" y2="112" stroke="#F7DF1E" stroke-width="1.5" class="lf" style="--e:1.5s" opacity=".7"/>
+
+<!-- Data packets traveling on lines -->
+<!-- Packet 1→2 -->
+<circle r="5" fill="#EC4899" filter="url(#gf4)" class="pkt" style="--dur:2.4s;--d:0s">
+  <animateTransform attributeName="transform" type="translate" values="148,112; 222,112" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+</circle>
+<!-- Packet 2→3 -->
+<circle r="5" fill="#00CCFF" filter="url(#gf4)" class="pkt" style="--dur:2.4s;--d:.6s">
+  <animateTransform attributeName="transform" type="translate" values="318,112; 402,112" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+</circle>
+<!-- Packet 3→4 -->
+<circle r="5" fill="#00FF88" filter="url(#gf4)" class="pkt" style="--dur:2.4s;--d:1.2s">
+  <animateTransform attributeName="transform" type="translate" values="498,112; 582,112" dur="2.4s" repeatCount="indefinite" begin="1.2s"/>
+</circle>
+<!-- Packet 4→5 -->
+<circle r="5" fill="#F7DF1E" filter="url(#gf4)" class="pkt" style="--dur:2.4s;--d:1.8s">
+  <animateTransform attributeName="transform" type="translate" values="678,112; 752,112" dur="2.4s" repeatCount="indefinite" begin="1.8s"/>
+</circle>
+
+<!-- Arrow heads -->
+<polygon points="222,107 234,112 222,117" fill="#EC4899" opacity=".6" class="ap" style="--e:0s"/>
+<polygon points="402,107 414,112 402,117" fill="#00CCFF" opacity=".6" class="ap" style="--e:.5s"/>
+<polygon points="582,107 594,112 582,117" fill="#00FF88" opacity=".6" class="ap" style="--e:1s"/>
+<polygon points="752,107 764,112 752,117" fill="#F7DF1E" opacity=".6" class="ap" style="--e:1.5s"/>
+
+<!-- DESIGN NODE -->
+<g class="ng" style="--e:0s">
+  <circle cx="100" cy="112" r="42" fill="#EC4899" opacity=".08" filter="url(#smgf)"/>
+  <circle cx="100" cy="112" r="40" fill="#0A1929" stroke="#EC4899" stroke-width="2"/>
+  <text x="100" y="104" text-anchor="middle" font-family="sans-serif" font-size="18">🎨</text>
+  <text x="100" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#EC4899" font-weight="bold">DESIGN</text>
+</g>
+<text x="100" y="165" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#EC4899" opacity=".6" class="lbl" style="--e:0s">Figma · UI/UX</text>
+
+<!-- CODE NODE -->
+<g class="ng" style="--e:.4s">
+  <circle cx="270" cy="112" r="42" fill="#00CCFF" opacity=".08" filter="url(#smgf)"/>
+  <circle cx="270" cy="112" r="40" fill="#0A1929" stroke="#00CCFF" stroke-width="2"/>
+  <text x="270" y="104" text-anchor="middle" font-family="sans-serif" font-size="18">💻</text>
+  <text x="270" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00CCFF" font-weight="bold">CODE</text>
+</g>
+<text x="270" y="165" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#00CCFF" opacity=".6" class="lbl" style="--e:.4s">React · TypeScript</text>
+
+<!-- TEST NODE -->
+<g class="ng" style="--e:.8s">
+  <circle cx="450" cy="112" r="42" fill="#00FF88" opacity=".08" filter="url(#smgf)"/>
+  <circle cx="450" cy="112" r="40" fill="#0A1929" stroke="#00FF88" stroke-width="2"/>
+  <text x="450" y="104" text-anchor="middle" font-family="sans-serif" font-size="18">🧪</text>
+  <text x="450" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#00FF88" font-weight="bold">TEST</text>
+</g>
+<text x="450" y="165" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#00FF88" opacity=".6" class="lbl" style="--e:.8s">Vitest · RTL</text>
+
+<!-- BUILD NODE -->
+<g class="ng" style="--e:1.2s">
+  <circle cx="630" cy="112" r="42" fill="#F7DF1E" opacity=".08" filter="url(#smgf)"/>
+  <circle cx="630" cy="112" r="40" fill="#0A1929" stroke="#F7DF1E" stroke-width="2"/>
+  <text x="630" y="104" text-anchor="middle" font-family="sans-serif" font-size="18">⚡</text>
+  <text x="630" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#F7DF1E" font-weight="bold">BUILD</text>
+</g>
+<text x="630" y="165" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#F7DF1E" opacity=".6" class="lbl" style="--e:1.2s">Vite · Webpack</text>
+
+<!-- DEPLOY NODE -->
+<g class="ng" style="--e:1.6s">
+  <circle cx="800" cy="112" r="42" fill="#A855F7" opacity=".08" filter="url(#smgf)"/>
+  <circle cx="800" cy="112" r="40" fill="#0A1929" stroke="#A855F7" stroke-width="2"/>
+  <text x="800" y="104" text-anchor="middle" font-family="sans-serif" font-size="18">🚀</text>
+  <text x="800" y="120" text-anchor="middle" font-family="sans-serif" font-size="10" fill="#A855F7" font-weight="bold">SHIP</text>
+</g>
+<text x="800" y="165" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" fill="#A855F7" opacity=".6" class="lbl" style="--e:1.6s">Vercel · Netlify</text>
+
+<!-- Frame -->
+<rect width="900" height="210" fill="none" stroke="#00CCFF" stroke-width="1" rx="12" opacity=".1"/>
+<!-- Scanline -->
+<rect x="0" y="-3" width="900" height="2" fill="#fff" opacity=".08" class="scan4"/>
+
+</g>
+</svg>
