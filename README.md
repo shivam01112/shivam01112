@@ -58,6 +58,33 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 
 <br />
 
+<!-- Live GitHub telemetry: cards inherit the cyan / violet command-center palette. -->
+<div align="center">
+  <h2>⚡ GitHub Activity Deck</h2>
+  <sub>LIVE SIGNALS&nbsp;&nbsp;•&nbsp;&nbsp;CODE VELOCITY&nbsp;&nbsp;•&nbsp;&nbsp;BUILD CONSISTENCY</sub>
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://github.com/shivam01112">
+    <img height="190" src="https://github-readme-stats.vercel.app/api?username=shivam01112&amp;show_icons=true&amp;include_all_commits=true&amp;show=prs_merged,reviews&amp;rank_icon=github&amp;custom_title=Shivam%27s%20GitHub%20Signal&amp;bg_color=135,020617,071A35,15102F&amp;title_color=67E8F9&amp;text_color=CBD5E1&amp;icon_color=A78BFA&amp;border_color=164E63&amp;border_radius=18" alt="Shivam Negi's live GitHub statistics" />
+  </a>
+  <a href="https://github.com/shivam01112?tab=repositories">
+    <img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shivam01112&amp;layout=compact&amp;langs_count=8&amp;size_weight=0.5&amp;count_weight=0.5&amp;custom_title=Code%20Spectrum&amp;bg_color=135,020617,071A35,15102F&amp;title_color=67E8F9&amp;text_color=CBD5E1&amp;border_color=164E63&amp;border_radius=18" alt="Shivam Negi's most-used languages" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img width="72%" src="https://streak-stats.demolab.com?user=shivam01112&amp;background=135,020617,071A35,15102F&amp;border=164E63&amp;stroke=164E63&amp;ring=67E8F9&amp;fire=FBBF24&amp;currStreakNum=F8FAFC&amp;sideNums=F8FAFC&amp;currStreakLabel=67E8F9&amp;sideLabels=A78BFA&amp;dates=94A3B8&amp;border_radius=18&amp;timezone=Asia%2FKolkata" alt="Shivam Negi's GitHub contribution streak" />
+  </a>
+</div>
+
+<br />
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-snake-dark.svg" />
