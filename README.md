@@ -1,67 +1,53 @@
 <!--
 Shivam Negi - GitHub profile README
 Username: shivam01112
-Built as a visual frontend engineering dashboard with local SVG animation assets.
+Live sections are refreshed by .github/workflows/profile-metrics.yml.
 -->
 
 <div align="center">
-  <img src="./assets/command-center-v2.svg" alt="Shivam Negi frontend developer command center" width="100%" />
+  <img src="./assets/command-center-v2.svg" alt="Shivam Negi — frontend developer command center" width="100%" />
+</div>
+
+<div align="center">
+  <a href="https://github.com/shivam01112?tab=repositories"><img src="https://img.shields.io/badge/Explore_my_work-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="Explore Shivam's repositories" /></a>
+  <a href="https://github.com/shivam01112"><img src="https://img.shields.io/badge/Open_to_building-8B5CF6?style=for-the-badge&logo=rocket&logoColor=white" alt="Open to building great products" /></a>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/command-center.svg" alt="Shivam Negi frontend developer command center" width="100%" />
+  <img src="./assets/signal-strip-v3.svg" alt="Frontend engineering capability matrix" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/signal-strip-v3.svg" alt="Animated frontend capability matrix" width="100%" />
+  <img src="./assets/engineering-console-v2.svg" alt="Frontend engineering console showing code quality signals" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/engineering-console-v2.svg" alt="Frontend engineering console with animated code and quality signals" width="100%" />
+  <img src="./assets/tech-orbit-v2.svg" alt="Technology orbit featuring React, JavaScript, TypeScript, Tailwind, GitHub, and Vite" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/tech-orbit-v2.svg" alt="Animated frontend technology orbit for React JavaScript TypeScript Tailwind GitHub and Vite" width="100%" />
+  <img src="./assets/architecture-map-v2.svg" alt="Frontend architecture flow from design to deployment" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/architecture-map-v2.svg" alt="Animated frontend architecture map from design to deploy" width="100%" />
+  <img src="./assets/project-lab-v2.svg" alt="Frontend project lab" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/architecture-map.svg" alt="Animated frontend architecture map from design to deploy" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./assets/project-lab-v2.svg" alt="Animated project lab showing frontend project directions" width="100%" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="./assets/project-lab.svg" alt="Animated project lab showing frontend project directions" width="100%" />
-</div>
-
-<br />
-
-<!-- Live GitHub telemetry: cards inherit the cyan / violet command-center palette. -->
-<div align="center">
-  <h2>⚡ GitHub Activity Deck</h2>
-  <sub>LIVE SIGNALS&nbsp;&nbsp;•&nbsp;&nbsp;CODE VELOCITY&nbsp;&nbsp;•&nbsp;&nbsp;BUILD CONSISTENCY</sub>
+  <h2>⚡ Live GitHub Signals</h2>
+  <sub>REAL ACTIVITY &nbsp;•&nbsp; CODE VELOCITY &nbsp;•&nbsp; BUILD CONSISTENCY</sub>
 </div>
 
 <br />
@@ -83,13 +69,20 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
   </a>
 </div>
 
+### 🚀 Recent public work
+
+<!--START_SECTION:activity-->
+1. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
+2. Pushed updates to [`shivam01112/russian-suntech`](https://github.com/shivam01112/russian-suntech)
+<!--END_SECTION:activity-->
+
 <br />
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-snake.svg" />
-    <img src="./assets/github-contribution-snake.svg" alt="Animated GitHub contribution snake" width="100%" />
+    <img src="./assets/github-contribution-snake.svg" alt="Animated GitHub contribution snake generated from real contributions" width="100%" />
   </picture>
 </div>
 
@@ -97,12 +90,12 @@ Built as a visual frontend engineering dashboard with local SVG animation assets
 
 <div align="center">
   <a href="https://github.com/shivam01112">
-    <img src="./assets/contact-strip-v3.svg" alt="Animated connection deck for Shivam Negi" width="100%" />
+    <img src="./assets/contact-strip-v3.svg" alt="Connect with Shivam Negi" width="100%" />
   </a>
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/final-strip-v3.svg" alt="Cinematic animated closing portal for Shivam Negi" width="100%" />
+  <img src="./assets/final-strip-v3.svg" alt="Let's build something remarkable" width="100%" />
 </div>
