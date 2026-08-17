@@ -77,8 +77,9 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
-2. Pushed updates to [`shivam01112/russian-suntech`](https://github.com/shivam01112/russian-suntech)
+1. Created branch `main` in [`shivam01112/Persian-Foods-brings`](https://github.com/shivam01112/Persian-Foods-brings)
+2. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
+3. Pushed updates to [`shivam01112/russian-suntech`](https://github.com/shivam01112/russian-suntech)
 <!--END_SECTION:activity-->
 
 <br />
