@@ -50,6 +50,11 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
   <sub>REAL ACTIVITY &nbsp;•&nbsp; CODE VELOCITY &nbsp;•&nbsp; BUILD CONSISTENCY</sub>
 </div>
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Live_metrics-4x_daily-06B6D4?style=flat-square&logo=githubactions&logoColor=white" alt="Live metrics refresh four times daily" />
+  <a href="./activity/profile-pulse.md"><img src="https://img.shields.io/badge/Automated_pulse-2--4_daily-22C55E?style=flat-square&logo=githubactions&logoColor=white" alt="Two to four clearly labeled automated profile pulse commits daily" /></a>
+</div>
+
 <br />
 
 <div align="center">

@@ -1,0 +1,65 @@
+name: Daily Profile Pulse
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-pulse.yml
+  schedule:
+    # 03:43 UTC = 09:13 IST. One run creates 2-4 transparent pulse commits.
+    - cron: "43 3 * * *"
+  workflow_dispatch:
+    inputs:
+      commit_count:
+        description: "Pulse commits to create"
+        required: false
+        type: choice
+        default: "random"
+        options:
+          - "random"
+          - "2"
+          - "3"
+          - "4"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-writes
+  cancel-in-progress: false
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository history
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Sync latest main
+        run: git pull --ff-only origin main
+
+      - name: Create profile pulse commits
+        shell: bash
+        env:
+          REQUESTED_COUNT: ${{ inputs.commit_count }}
+        run: |
+          count="$REQUESTED_COUNT"
+          if [[ ! "$count" =~ ^[2-4]$ ]]; then
+            count=$((RANDOM % 3 + 2))
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for index in $(seq 1 "$count"); do
+            timestamp=$(date -u "+%Y-%m-%d %H:%M:%S UTC")
+            printf -- "- %s - automated profile pulse %s/%s\n" "$timestamp" "$index" "$count" >> activity/profile-pulse.md
+            git add activity/profile-pulse.md
+            git commit \
+              --author="Shivam Singh Negi <220692565+shivam01112@users.noreply.github.com>" \
+              -m "chore(bot): profile pulse $index/$count"
+          done
+
+          git push origin HEAD:main
