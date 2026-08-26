@@ -34,7 +34,7 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 <br />
 
 <div align="center">
-  <img src="./assets/skills-graph-v1.svg" alt="Skill proficiency graph across React, JavaScript, TypeScript, Tailwind CSS, Next.js, and Git" width="100%" />
+  <img src="./assets/skills-graph-v1.svg" alt="Animated skill proficiency radar with neon gauge rings for React, JavaScript, TypeScript, Tailwind CSS, Next.js, and Git" width="100%" />
 </div>
 
 <br />
