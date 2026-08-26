@@ -1,0 +1,103 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shivam Negi — skill proficiency graph</title>
+  <desc id="desc">Animated horizontal bar chart showing proficiency levels across React, JavaScript, TypeScript, Tailwind CSS, Next.js, and Git.</desc>
+  <defs>
+    <linearGradient id="sgBg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset=".45" stop-color="#071A35"/>
+      <stop offset="1" stop-color="#04342F"/>
+      <animate attributeName="x1" values="0;140;0" dur="13s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="sgSpectrum" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".58" stop-color="#A78BFA"/><stop offset=".8" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="barReact" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#22D3EE"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <linearGradient id="barJs" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FBBF24"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+    <linearGradient id="barTs" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#3B82F6"/></linearGradient>
+    <linearGradient id="barTw" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67E8F9"/><stop offset="1" stop-color="#0EA5E9"/></linearGradient>
+    <linearGradient id="barNext" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#E2E8F0"/><stop offset="1" stop-color="#94A3B8"/></linearGradient>
+    <linearGradient id="barGit" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4ADE80"/><stop offset="1" stop-color="#16A34A"/></linearGradient>
+    <pattern id="sgGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#7DD3FC" stroke-width=".5" opacity=".08"/>
+    </pattern>
+    <filter id="sgGlow" x="-60%" y="-160%" width="220%" height="420%">
+      <feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#sgBg)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#sgGrid)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="31" stroke="url(#sgSpectrum)" stroke-opacity=".32" stroke-width="2"/>
+
+  <circle cx="1150" cy="70" r="150" fill="#8B5CF6" opacity=".08"><animate attributeName="r" values="130;170;130" dur="10s" repeatCount="indefinite"/></circle>
+  <circle cx="120" cy="380" r="150" fill="#0EA5E9" opacity=".08"><animate attributeName="cy" values="380;340;380" dur="9s" repeatCount="indefinite"/></circle>
+
+  <text x="48" y="56" fill="#67E8F9" font-family="Consolas, monospace" font-size="12" font-weight="800" letter-spacing="3">SKILL_MATRIX.EXE // PROFICIENCY SCAN</text>
+  <g transform="translate(1090 40)">
+    <circle cx="4" cy="4" r="4" fill="#22C55E" filter="url(#sgGlow)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="18" y="8" fill="#86EFAC" font-family="Consolas, monospace" font-size="10">LIVE</text>
+  </g>
+  <text x="48" y="86" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Where I spend most of my build hours</text>
+
+  <g font-family="Inter, Arial, sans-serif" transform="translate(48 118)">
+    <!-- React -->
+    <g transform="translate(0 0)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">React</text>
+      <text x="1170" y="16" text-anchor="end" fill="#7DD3FC" font-family="Consolas, monospace" font-size="14" font-weight="700">92%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="1076" height="14" rx="7" fill="url(#barReact)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;1076;1076" dur="1.6s" fill="freeze"/>
+      </rect>
+    </g>
+    <!-- JavaScript -->
+    <g transform="translate(0 52)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">JavaScript</text>
+      <text x="1170" y="16" text-anchor="end" fill="#FDE68A" font-family="Consolas, monospace" font-size="14" font-weight="700">90%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="1053" height="14" rx="7" fill="url(#barJs)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;1053;1053" dur="1.6s" begin=".1s" fill="freeze"/>
+      </rect>
+    </g>
+    <!-- TypeScript -->
+    <g transform="translate(0 104)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">TypeScript</text>
+      <text x="1170" y="16" text-anchor="end" fill="#93C5FD" font-family="Consolas, monospace" font-size="14" font-weight="700">85%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="995" height="14" rx="7" fill="url(#barTs)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;995;995" dur="1.6s" begin=".2s" fill="freeze"/>
+      </rect>
+    </g>
+    <!-- Tailwind CSS -->
+    <g transform="translate(0 156)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">Tailwind CSS</text>
+      <text x="1170" y="16" text-anchor="end" fill="#67E8F9" font-family="Consolas, monospace" font-size="14" font-weight="700">88%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="1030" height="14" rx="7" fill="url(#barTw)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;1030;1030" dur="1.6s" begin=".3s" fill="freeze"/>
+      </rect>
+    </g>
+    <!-- Next.js -->
+    <g transform="translate(0 208)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">Next.js</text>
+      <text x="1170" y="16" text-anchor="end" fill="#E2E8F0" font-family="Consolas, monospace" font-size="14" font-weight="700">80%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="936" height="14" rx="7" fill="url(#barNext)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;936;936" dur="1.6s" begin=".4s" fill="freeze"/>
+      </rect>
+    </g>
+    <!-- Git / GitHub -->
+    <g transform="translate(0 260)">
+      <text x="0" y="16" fill="#F8FAFC" font-size="15" font-weight="800">Git &amp; GitHub</text>
+      <text x="1170" y="16" text-anchor="end" fill="#86EFAC" font-family="Consolas, monospace" font-size="14" font-weight="700">90%</text>
+      <rect x="0" y="26" width="1170" height="14" rx="7" fill="#0F172A"/>
+      <rect x="0" y="26" width="1053" height="14" rx="7" fill="url(#barGit)" filter="url(#sgGlow)">
+        <animate attributeName="width" values="0;1053;1053" dur="1.6s" begin=".5s" fill="freeze"/>
+      </rect>
+    </g>
+  </g>
+
+  <path d="M42 388H1238" stroke="#1E293B" stroke-width="2"/>
+  <path d="M42 388H1238" stroke="url(#sgSpectrum)" stroke-width="3" stroke-dasharray="10 24" filter="url(#sgGlow)" opacity=".8">
+    <animate attributeName="stroke-dashoffset" values="0;-136" dur="3s" repeatCount="indefinite"/>
+  </path>
+</svg>

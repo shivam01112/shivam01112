@@ -34,6 +34,12 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 <br />
 
 <div align="center">
+  <img src="./assets/skills-graph-v1.svg" alt="Skill proficiency graph across React, JavaScript, TypeScript, Tailwind CSS, Next.js, and Git" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
   <img src="./assets/architecture-map-v2.svg" alt="Frontend architecture flow from design to deployment" width="100%" />
 </div>
 
