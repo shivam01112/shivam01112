@@ -5,7 +5,15 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 -->
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:020617,50:0B3B5C,100:0EA5E9&text=Shivam%20Negi&fontColor=E0F2FE&fontSize=54&fontAlignY=36&animation=fadeIn&desc=Frontend%20Engineer%20%E2%80%A2%20React%20%2B%20TypeScript%20%2B%20Motion&descAlignY=58&descSize=17&descColor=A7F3D0" alt="Animated wave banner — Shivam Negi, Frontend Engineer" width="100%" />
+</div>
+
+<div align="center">
   <img src="./assets/command-center-v2.svg" alt="Shivam Negi — frontend developer command center" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1200&color=67E8F9&center=true&vCenter=true&width=650&height=40&lines=Frontend+Engineer+%7C+React+%2B+TypeScript;Building+fast%2C+fluid+%26+memorable+UI;Motion-driven+%7C+Performance-obsessed;Open+to+building+great+products" alt="Typing animation of Shivam Negi's focus areas" />
 </div>
 
 <div align="center">
@@ -80,6 +88,12 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
   </a>
 </div>
 
+<br />
+
+<div align="center">
+  <img src="./assets/activity-pulse-v1.svg" alt="Animated coding activity pulse chart" width="100%" />
+</div>
+
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
@@ -110,4 +124,8 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 
 <div align="center">
   <img src="./assets/final-strip-v3.svg" alt="Let's build something remarkable" width="100%" />
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:0EA5E9,100:020617&section=footer" alt="Footer wave banner" width="100%" />
 </div>

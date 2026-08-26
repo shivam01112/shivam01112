@@ -1,0 +1,83 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Shivam Negi — weekly coding activity pulse</title>
+  <desc id="desc">Animated glowing area chart illustrating a weekly rhythm of coding activity, peaking midweek and on Saturdays.</desc>
+  <defs>
+    <linearGradient id="apBg" x1="0" y1="0" x2="1280" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset=".5" stop-color="#071A35"/>
+      <stop offset="1" stop-color="#04342F"/>
+      <animate attributeName="x1" values="0;140;0" dur="13s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="apSpectrum" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".58" stop-color="#A78BFA"/><stop offset=".8" stop-color="#22C55E"/><stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="apArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="apGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" stroke="#7DD3FC" stroke-width=".5" opacity=".08"/>
+    </pattern>
+    <filter id="apGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="apClip"><rect width="1280" height="300" rx="32"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#apClip)">
+    <rect width="1280" height="300" fill="url(#apBg)"/>
+    <rect width="1280" height="300" fill="url(#apGrid)"/>
+    <circle cx="1150" cy="40" r="140" fill="#0EA5E9" opacity=".08"><animate attributeName="r" values="120;150;120" dur="9s" repeatCount="indefinite"/></circle>
+  </g>
+  <rect x="1" y="1" width="1278" height="298" rx="31" stroke="url(#apSpectrum)" stroke-opacity=".32" stroke-width="2"/>
+
+  <text x="48" y="46" fill="#67E8F9" font-family="Consolas, monospace" font-size="12" font-weight="800" letter-spacing="3">COMMIT_PULSE.LOG // WEEKLY CADENCE</text>
+  <g transform="translate(1132 30)">
+    <circle cx="4" cy="4" r="4" fill="#22C55E" filter="url(#apGlow)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="18" y="8" fill="#86EFAC" font-family="Consolas, monospace" font-size="10" font-weight="700">LIVE</text>
+  </g>
+
+  <!-- gridlines -->
+  <g stroke="#1E293B" stroke-width="1">
+    <line x1="60" y1="90" x2="1220" y2="90"/>
+    <line x1="60" y1="140" x2="1220" y2="140"/>
+    <line x1="60" y1="190" x2="1220" y2="190"/>
+    <line x1="60" y1="240" x2="1220" y2="240"/>
+  </g>
+
+  <!-- area fill -->
+  <path d="M60 185.5 C130 165 180 150 253 144.5 C320 150 380 180 447 171.8 C520 140 570 120 640 117.3 C710 140 760 170 833 158.2 C900 110 960 90 1027 90 C1090 110 1150 170 1220 199.1 L1220 240 L60 240 Z" fill="url(#apArea)">
+    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+  </path>
+
+  <!-- line -->
+  <path id="apLine" d="M60 185.5 C130 165 180 150 253 144.5 C320 150 380 180 447 171.8 C520 140 570 120 640 117.3 C710 140 760 170 833 158.2 C900 110 960 90 1027 90 C1090 110 1150 170 1220 199.1"
+        stroke="url(#apSpectrum)" stroke-width="4" stroke-linecap="round" fill="none" filter="url(#apGlow)"
+        stroke-dasharray="1500" stroke-dashoffset="1500">
+    <animate attributeName="stroke-dashoffset" values="1500;0" dur="2.2s" fill="freeze" calcMode="spline" keySplines=".25 0 .1 1"/>
+  </path>
+
+  <!-- traveling glow dot -->
+  <circle r="7" fill="#FFFFFF" filter="url(#apGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite" begin="2.2s" path="M60 185.5 C130 165 180 150 253 144.5 C320 150 380 180 447 171.8 C520 140 570 120 640 117.3 C710 140 760 170 833 158.2 C900 110 960 90 1027 90 C1090 110 1150 170 1220 199.1"/>
+  </circle>
+
+  <!-- data points -->
+  <g fill="#0B1526" stroke="#38BDF8" stroke-width="2.5">
+    <circle cx="60" cy="185.5" r="5"/><circle cx="253" cy="144.5" r="5"/><circle cx="447" cy="171.8" r="5"/>
+    <circle cx="640" cy="117.3" r="5"/><circle cx="833" cy="158.2" r="5"/><circle cx="1027" cy="90" r="6" stroke="#FBBF24"/><circle cx="1220" cy="199.1" r="5"/>
+  </g>
+
+  <!-- day labels -->
+  <g fill="#64748B" font-family="Consolas, monospace" font-size="12" text-anchor="middle">
+    <text x="60" y="266">MON</text><text x="253" y="266">TUE</text><text x="447" y="266">WED</text>
+    <text x="640" y="266">THU</text><text x="833" y="266">FRI</text>
+    <text x="1027" y="266" fill="#FBBF24" font-weight="800">SAT</text>
+    <text x="1220" y="266">SUN</text>
+  </g>
+
+  <g transform="translate(48 285)">
+    <rect width="10" height="10" rx="3" fill="url(#apSpectrum)"/>
+    <text x="18" y="9" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="600">Commits &amp; PRs across the week — peaks when I'm deep in build mode</text>
+  </g>
+</svg>
