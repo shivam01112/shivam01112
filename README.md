@@ -107,9 +107,11 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
-2. Created branch `main` in [`shivam01112/Persian-Foods-brings`](https://github.com/shivam01112/Persian-Foods-brings)
-3. Pushed updates to [`shivam01112/russian-suntech`](https://github.com/shivam01112/russian-suntech)
+1. Merged PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+2. Opened PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+3. Merged PR [#3 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/3) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+4. Opened PR [#3 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/3) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+5. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
 <!--END_SECTION:activity-->
 
 <br />
