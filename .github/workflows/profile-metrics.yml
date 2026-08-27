@@ -7,7 +7,6 @@ on:
       - README.md
       - .github/workflows/profile-metrics.yml
       - scripts/update_recent_activity.py
-      - scripts/generate_pulse_table.py
       - scripts/generate_contribution_chart.py
   schedule:
     # Refresh real activity four times a day (UTC). A commit is made only when
@@ -38,9 +37,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_recent_activity.py
-
-      - name: Refresh automated-pulse table
-        run: python scripts/generate_pulse_table.py
 
       - name: Generate real weekly contribution chart
         # Best-effort: if the GraphQL call ever fails (rate limit, token

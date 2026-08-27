@@ -5,7 +5,6 @@ on:
     branches: [main]
     paths:
       - .github/workflows/profile-pulse.yml
-      - scripts/generate_pulse_table.py
   schedule:
     # Two windows per day so a missed/delayed run (GitHub scheduled Actions
     # are best-effort and can silently skip during high load) self-heals
@@ -78,13 +77,5 @@ jobs:
               --author="Shivam Singh Negi <220692565+shivam01112@users.noreply.github.com>" \
               -m "chore(bot): profile pulse $index/$count"
           done
-
-          python scripts/generate_pulse_table.py
-          if ! git diff --quiet -- README.md; then
-            git add README.md
-            git commit \
-              --author="Shivam Singh Negi <220692565+shivam01112@users.noreply.github.com>" \
-              -m "chore(bot): refresh pulse table"
-          fi
 
           git push origin HEAD:main

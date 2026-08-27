@@ -104,29 +104,6 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 
 <br />
 
-<div align="center">
-  <h3>🧾 Automation transparency log</h3>
-  <sub>Every row below is a real commit made by <a href="./.github/workflows/profile-pulse.yml"><code>profile-pulse.yml</code></a> — verify it any time in <a href="./activity/profile-pulse.md">activity/profile-pulse.md</a></sub>
-</div>
-
-<div align="center">
-
-<!--START_SECTION:pulse_table-->
-| Date (UTC) | Pulses | Last logged at |
-| --- | --- | --- |
-| 2026-08-27 | 4 | 05:37:50 |
-| 2026-08-26 | 2 | 04:24:16 |
-| 2026-08-25 | 4 | 04:23:30 |
-| 2026-08-24 | 4 | 04:28:44 |
-| 2026-08-23 | 2 | 04:22:36 |
-| 2026-08-22 | 3 | 04:17:03 |
-| 2026-08-21 | 3 | 04:23:21 |
-<!--END_SECTION:pulse_table-->
-
-</div>
-
-<br />
-
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
