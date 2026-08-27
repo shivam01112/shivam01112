@@ -107,11 +107,11 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Merged PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-2. Opened PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-3. Merged PR [#3 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/3) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-4. Opened PR [#3 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/3) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-5. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
+1. Pushed updates to [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+2. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
+3. Merged PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+4. Opened PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+5. Merged PR [#3 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/3) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
 <!--END_SECTION:activity-->
 
 <br />
