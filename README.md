@@ -114,13 +114,13 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 <!--START_SECTION:pulse_table-->
 | Date (UTC) | Pulses | Last logged at |
 | --- | --- | --- |
+| 2026-08-27 | 4 | 05:37:50 |
 | 2026-08-26 | 2 | 04:24:16 |
 | 2026-08-25 | 4 | 04:23:30 |
 | 2026-08-24 | 4 | 04:28:44 |
 | 2026-08-23 | 2 | 04:22:36 |
 | 2026-08-22 | 3 | 04:17:03 |
 | 2026-08-21 | 3 | 04:23:21 |
-| 2026-08-20 | 3 | 04:21:07 |
 <!--END_SECTION:pulse_table-->
 
 </div>
