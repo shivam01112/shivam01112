@@ -3,10 +3,10 @@ Shivam Negi - GitHub profile README
 Username: shivam01112
 Live sections are refreshed by .github/workflows/profile-metrics.yml.
 -->
-
+<!-- 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:020617,50:0B3B5C,100:0EA5E9&text=Shivam%20Negi&fontColor=E0F2FE&fontSize=54&fontAlignY=36&animation=fadeIn&desc=Frontend%20Engineer%20%E2%80%A2%20React%20%2B%20TypeScript%20%2B%20Motion&descAlignY=58&descSize=17&descColor=A7F3D0" alt="Animated wave banner — Shivam Negi, Frontend Engineer" width="100%" />
-</div>
+</div> -->
 
 <div align="center">
   <img src="./assets/command-center-v2.svg" alt="Shivam Negi — frontend developer command center" width="100%" />
@@ -93,6 +93,39 @@ Live sections are refreshed by .github/workflows/profile-metrics.yml.
 <div align="center">
   <img src="./assets/activity-pulse-v1.svg" alt="Animated coding activity pulse chart" width="100%" />
 </div>
+
+<br />
+
+<div align="center">
+  <sub>📡 REAL DATA &nbsp;•&nbsp; SOURCED LIVE FROM THE GITHUB GRAPHQL API &nbsp;•&nbsp; REFRESHED 4X DAILY</sub>
+  <br /><br />
+  <img src="./assets/weekly-activity-real.svg" alt="Real weekly GitHub contribution bar chart, generated live from the GitHub GraphQL API" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
+  <h3>🧾 Automation transparency log</h3>
+  <sub>Every row below is a real commit made by <a href="./.github/workflows/profile-pulse.yml"><code>profile-pulse.yml</code></a> — verify it any time in <a href="./activity/profile-pulse.md">activity/profile-pulse.md</a></sub>
+</div>
+
+<div align="center">
+
+<!--START_SECTION:pulse_table-->
+| Date (UTC) | Pulses | Last logged at |
+| --- | --- | --- |
+| 2026-08-26 | 2 | 04:24:16 |
+| 2026-08-25 | 4 | 04:23:30 |
+| 2026-08-24 | 4 | 04:28:44 |
+| 2026-08-23 | 2 | 04:22:36 |
+| 2026-08-22 | 3 | 04:17:03 |
+| 2026-08-21 | 3 | 04:23:21 |
+| 2026-08-20 | 3 | 04:21:07 |
+<!--END_SECTION:pulse_table-->
+
+</div>
+
+<br />
 
 ### 🚀 Recent public work
 

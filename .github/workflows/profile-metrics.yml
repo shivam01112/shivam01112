@@ -7,6 +7,8 @@ on:
       - README.md
       - .github/workflows/profile-metrics.yml
       - scripts/update_recent_activity.py
+      - scripts/generate_pulse_table.py
+      - scripts/generate_contribution_chart.py
   schedule:
     # Refresh real activity four times a day (UTC). A commit is made only when
     # the generated profile data has actually changed.
@@ -36,6 +38,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_recent_activity.py
+
+      - name: Refresh automated-pulse table
+        run: python scripts/generate_pulse_table.py
+
+      - name: Generate real weekly contribution chart
+        # Best-effort: if the GraphQL call ever fails (rate limit, token
+        # scope, transient API issue) this must not take down the whole
+        # metrics refresh — the previous chart simply stays in place.
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_contribution_chart.py
 
       - name: Generate GitHub stats card
         uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
@@ -75,12 +89,20 @@ jobs:
       - name: Commit refreshed metrics
         shell: bash
         run: |
-          if git diff --quiet -- README.md assets; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md assets/github-stats.svg assets/top-languages.svg assets/github-streak.svg assets/github-contribution-snake.svg assets/github-contribution-snake-dark.svg
+          # The real-contribution-chart step is best-effort (continue-on-error),
+          # so only stage it when it actually produced a file this run.
+          if [[ -f assets/weekly-activity-real.svg ]]; then
+            git add assets/weekly-activity-real.svg
+          fi
+
+          if git diff --cached --quiet; then
             echo "Profile activity and metrics are already current."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/github-stats.svg assets/top-languages.svg assets/github-streak.svg assets/github-contribution-snake.svg assets/github-contribution-snake-dark.svg
+
           git commit -m "chore: refresh profile activity"
           git push

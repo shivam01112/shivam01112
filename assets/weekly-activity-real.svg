@@ -1,0 +1,28 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="rcTitle rcDesc">
+  <title id="rcTitle">Real weekly contribution activity</title>
+  <desc id="rcDesc">Bar chart of real GitHub contributions for the last 1 weeks, sourced live from the GitHub GraphQL API.</desc>
+  <defs>
+    <linearGradient id="rcBg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset=".5" stop-color="#0B3B5C"/>
+      <stop offset="1" stop-color="#04342F"/>
+    </linearGradient>
+    <linearGradient id="barGradient" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset=".6" stop-color="#67E8F9"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="barGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="rcClip"><rect width="1280" height="320" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#rcClip)">
+    <rect width="1280" height="320" fill="url(#rcBg)"/>
+  </g>
+  <rect x="1" y="1" width="1278" height="318" rx="27" stroke="#164E63" stroke-width="2"/>
+  <text x="48" y="38" fill="#67E8F9" font-family="Consolas, monospace" font-size="14" font-weight="800" letter-spacing="2">REAL WEEKLY CONTRIBUTIONS · POPULATES ON NEXT AUTOMATED REFRESH</text>
+  <text x="1232" y="38" fill="#A78BFA" font-family="Consolas, monospace" font-size="12" text-anchor="end">0 total (last year)</text>
+  
+  
+</svg>

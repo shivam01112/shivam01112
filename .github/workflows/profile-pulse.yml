@@ -5,9 +5,14 @@ on:
     branches: [main]
     paths:
       - .github/workflows/profile-pulse.yml
+      - scripts/generate_pulse_table.py
   schedule:
-    # 03:43 UTC = 09:13 IST. One run creates 2-4 transparent pulse commits.
-    - cron: "43 3 * * *"
+    # Two windows per day so a missed/delayed run (GitHub scheduled Actions
+    # are best-effort and can silently skip during high load) self-heals
+    # later the same day. The job is idempotent: if the day's pulses were
+    # already logged, the backup window is a no-op.
+    - cron: "43 3 * * *" # ~09:13 IST — primary window
+    - cron: "35 11 * * *" # ~17:05 IST — backup/catch-up window
   workflow_dispatch:
     inputs:
       commit_count:
@@ -45,6 +50,18 @@ jobs:
         env:
           REQUESTED_COUNT: ${{ inputs.commit_count }}
         run: |
+          today=$(date -u "+%Y-%m-%d")
+          already_today=$(grep -c "^- $today " activity/profile-pulse.md || true)
+
+          # Idempotency guard: this workflow runs twice a day (a primary
+          # window plus a backup window) so a delayed/skipped run self-heals.
+          # If today's pulses are already logged, the second window is a
+          # deliberate no-op instead of doubling up commits.
+          if [[ "$already_today" -ge 2 ]]; then
+            echo "Already logged $already_today pulse(s) for $today — skipping."
+            exit 0
+          fi
+
           count="$REQUESTED_COUNT"
           if [[ ! "$count" =~ ^[2-4]$ ]]; then
             count=$((RANDOM % 3 + 2))
@@ -61,5 +78,13 @@ jobs:
               --author="Shivam Singh Negi <220692565+shivam01112@users.noreply.github.com>" \
               -m "chore(bot): profile pulse $index/$count"
           done
+
+          python scripts/generate_pulse_table.py
+          if ! git diff --quiet -- README.md; then
+            git add README.md
+            git commit \
+              --author="Shivam Singh Negi <220692565+shivam01112@users.noreply.github.com>" \
+              -m "chore(bot): refresh pulse table"
+          fi
 
           git push origin HEAD:main
