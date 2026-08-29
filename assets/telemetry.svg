@@ -1,0 +1,67 @@
+<svg width="1280" height="280" viewBox="0 0 1280 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Live development system telemetry</title>
+  <desc id="desc">A futuristic telemetry dashboard showing UI, Motion, WebGL, and Performance portfolio metrics as animated bars and a waveform.</desc>
+  <defs>
+    <linearGradient id="tlBg" x1="0" y1="0" x2="1280" y2="280"><stop stop-color="#020617"/><stop offset=".5" stop-color="#100A28"/><stop offset="1" stop-color="#1B0B2E"/></linearGradient>
+    <linearGradient id="tlSpec" x1="40" y1="0" x2="1240" y2="0"><stop stop-color="#22D3EE"/><stop offset=".4" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <pattern id="tlGrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#7DD3FC" stroke-width=".5" opacity=".07"/></pattern>
+    <filter id="tlGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="280" rx="28" fill="url(#tlBg)"/><rect width="1280" height="280" rx="28" fill="url(#tlGrid)"/><rect x="1" y="1" width="1278" height="278" rx="27" stroke="url(#tlSpec)" stroke-opacity=".3"/>
+
+  <g transform="translate(44 36)">
+    <text y="0" fill="#67E8F9" font-family="Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2">LIVE DEVELOPMENT SYSTEM // PORTFOLIO METRICS</text>
+    <g transform="translate(1000 -14)"><circle cx="6" cy="6" r="6" fill="#34D399" filter="url(#tlGlow)"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="20" y="11" fill="#86EFAC" font-family="Consolas, monospace" font-size="11">TELEMETRY LIVE</text></g>
+  </g>
+
+  <g transform="translate(44 66)" font-family="Consolas, monospace" font-size="13" font-weight="700">
+    <g transform="translate(0 0)">
+      <text y="14" fill="#7DD3FC">UI</text>
+      <rect x="130" width="700" height="16" rx="8" fill="#161225"/>
+      <rect x="130" width="588" height="16" rx="8" fill="#22D3EE" filter="url(#tlGlow)"><animate attributeName="width" values="560;592;560" dur="3.2s" repeatCount="indefinite"/></rect>
+      <text x="846" y="14" fill="#67E8F9">84%</text>
+    </g>
+    <g transform="translate(0 40)">
+      <text y="14" fill="#DDD6FE">MOTION</text>
+      <rect x="130" width="700" height="16" rx="8" fill="#161225"/>
+      <rect x="130" width="637" height="16" rx="8" fill="#A78BFA" filter="url(#tlGlow)"><animate attributeName="width" values="612;640;612" dur="3.6s" repeatCount="indefinite"/></rect>
+      <text x="846" y="14" fill="#C4B5FD">91%</text>
+    </g>
+    <g transform="translate(0 80)">
+      <text y="14" fill="#F5D0FE">WEBGL</text>
+      <rect x="130" width="700" height="16" rx="8" fill="#161225"/>
+      <rect x="130" width="504" height="16" rx="8" fill="#E879F9" filter="url(#tlGlow)"><animate attributeName="width" values="478;508;478" dur="2.8s" repeatCount="indefinite"/></rect>
+      <text x="846" y="14" fill="#F0ABFC">72%</text>
+    </g>
+    <g transform="translate(0 120)">
+      <text y="14" fill="#FBCFE8">PERFORMANCE</text>
+      <rect x="130" width="700" height="16" rx="8" fill="#161225"/>
+      <rect x="130" width="616" height="16" rx="8" fill="#F472B6" filter="url(#tlGlow)"><animate attributeName="width" values="590;618;590" dur="3.9s" repeatCount="indefinite"/></rect>
+      <text x="846" y="14" fill="#F9A8D4">88%</text>
+    </g>
+  </g>
+
+  <!-- animated waveform -->
+  <g transform="translate(940 66)">
+    <text y="0" fill="#64748B" font-size="10.5" font-family="Consolas, monospace">SIGNAL WAVEFORM</text>
+    <path d="M0 34 Q12 6 24 34 T48 34 T72 34 T96 34 T120 34 T144 34 T168 34 T192 34 T216 34 T240 34" stroke="url(#tlSpec)" stroke-width="3" fill="none" stroke-linecap="round" filter="url(#tlGlow)">
+      <animate attributeName="d" dur="2.4s" repeatCount="indefinite"
+        values="M0 34 Q12 6 24 34 T48 34 T72 34 T96 34 T120 34 T144 34 T168 34 T192 34 T216 34 T240 34;
+                 M0 34 Q12 60 24 34 T48 34 T72 34 T96 34 T120 34 T144 34 T168 34 T192 34 T216 34 T240 34;
+                 M0 34 Q12 6 24 34 T48 34 T72 34 T96 34 T120 34 T144 34 T168 34 T192 34 T216 34 T240 34"/>
+    </path>
+  </g>
+
+  <g transform="translate(940 132)" font-family="Consolas, monospace" font-size="11" fill="#94A3B8">
+    <text y="0">FRAME_HEALTH</text><text y="20" fill="#86EFAC" font-weight="800">60 FPS SUSTAINED</text>
+    <g transform="translate(0 34)" fill="#22C55E">
+      <rect x="0" y="10" width="8" height="16" rx="3"><animate attributeName="height" values="10;30;16;24;10" dur="1.4s" repeatCount="indefinite"/><animate attributeName="y" values="24;4;18;10;24" dur="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="14" y="4" width="8" height="22" rx="3"><animate attributeName="height" values="26;12;30;20;26" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="4;22;0;10;4" dur="1.6s" repeatCount="indefinite"/></rect>
+      <rect x="28" y="0" width="8" height="28" rx="3"><animate attributeName="height" values="16;30;12;26;16" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="18;4;22;8;18" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="42" y="6" width="8" height="20" rx="3"><animate attributeName="height" values="28;10;24;18;28" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="2;24;10;16;2" dur="1.8s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <path d="M44 244H1236" stroke="#1E1B3A" stroke-width="2"/>
+  <path d="M44 244H1236" stroke="url(#tlSpec)" stroke-width="3" stroke-dasharray="10 24" filter="url(#tlGlow)" opacity=".8"><animate attributeName="stroke-dashoffset" values="0;-136" dur="3s" repeatCount="indefinite"/></path>
+</svg>

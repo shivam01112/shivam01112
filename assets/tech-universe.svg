@@ -1,0 +1,53 @@
+<svg width="1280" height="700" viewBox="0 0 1280 700" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Technology universe orbiting the core</title>
+  <desc id="desc">A holographic orbital system with a glowing CORE / SHIVAM center and eight technology nodes orbiting at different speeds.</desc>
+  <defs>
+    <linearGradient id="tuBg" x1="0" y1="0" x2="1280" y2="700"><stop stop-color="#020617"/><stop offset=".5" stop-color="#0E0A28"/><stop offset="1" stop-color="#1B0B2E"/></linearGradient>
+    <linearGradient id="tuSpec" x1="180" y1="0" x2="1100" y2="0"><stop stop-color="#22D3EE"/><stop offset=".3" stop-color="#38BDF8"/><stop offset=".58" stop-color="#A78BFA"/><stop offset=".8" stop-color="#E879F9"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <radialGradient id="tuCore"><stop stop-color="#F5F3FF"/><stop offset=".18" stop-color="#67E8F9"/><stop offset=".5" stop-color="#8B5CF6" stop-opacity=".7"/><stop offset="1" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <pattern id="tuDots" width="36" height="36" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#D8B4FE" opacity=".16"/></pattern>
+    <filter id="tuGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="tuDeep" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="26" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1280" height="700" rx="32" fill="url(#tuBg)"/><rect width="1280" height="700" rx="32" fill="url(#tuDots)"/><rect x="1" y="1" width="1278" height="698" rx="31" stroke="url(#tuSpec)" stroke-opacity=".28"/>
+  <g transform="translate(64 44)"><text y="22" fill="#67E8F9" font-family="Consolas, monospace" font-size="15" font-weight="800" letter-spacing="2">TECHNOLOGY UNIVERSE // ORBITAL SYSTEM</text><text y="72" fill="#F8FAFC" font-family="Inter, Arial" font-size="36" font-weight="900">Everything orbits the craft</text></g>
+  <g transform="translate(1082 54)"><rect width="134" height="38" rx="19" fill="#3B0764" stroke="#E879F9"/><circle cx="21" cy="19" r="5" fill="#E879F9" filter="url(#tuGlow)"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle><text x="37" y="24" fill="#F5D0FE" font-family="Consolas, monospace" font-size="11" font-weight="800">8 NODES</text></g>
+
+  <g transform="translate(640 420)">
+    <ellipse rx="404" ry="180" fill="none" stroke="#211A44" stroke-width="18" opacity=".4"/>
+    <ellipse rx="404" ry="180" fill="none" stroke="url(#tuSpec)" stroke-width="3" stroke-dasharray="16 22" opacity=".72" filter="url(#tuGlow)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="300" ry="130" fill="none" stroke="#3B2A64" stroke-width="2"/>
+    <ellipse rx="300" ry="130" fill="none" stroke="#A78BFA" stroke-width="2" stroke-dasharray="8 18" opacity=".6"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="22s" repeatCount="indefinite"/></ellipse>
+    <ellipse rx="182" ry="80" fill="none" stroke="#E879F9" stroke-width="2" opacity=".5" stroke-dasharray="5 12"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="15s" repeatCount="indefinite"/></ellipse>
+
+    <circle r="150" fill="url(#tuCore)" opacity=".34"><animate attributeName="r" values="128;166;128" dur="5s" repeatCount="indefinite"/></circle>
+    <g filter="url(#tuDeep)"><circle r="78" fill="#A855F7" opacity=".28"/></g>
+    <g>
+      <polygon points="0,-70 76,-33 0,6 -76,-33" fill="#14163A" stroke="#67E8F9"/>
+      <polygon points="-76,-33 0,6 0,88 -76,49" fill="#0A0E24" stroke="#38BDF8"/>
+      <polygon points="76,-33 0,6 0,88 76,49" fill="#20123F" stroke="#A78BFA"/>
+      <text x="0" y="-19" text-anchor="middle" fill="#E0F2FE" font-family="Inter, Arial" font-size="22" font-weight="900">CORE</text>
+      <text x="0" y="42" text-anchor="middle" fill="#F0ABFC" font-family="Consolas, monospace" font-size="12" font-weight="800">SHIVAM</text>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4.4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- orbit ring 1 (fast, 15s) -->
+    <g transform="translate(-352 -60)"><g><rect width="150" height="66" rx="20" fill="#082F49" stroke="#0EA5E9"/><circle cx="22" cy="33" r="7" fill="#38BDF8" filter="url(#tuGlow)"/><text x="40" y="39" fill="#BAE6FD" font-family="Inter, Arial" font-size="17" font-weight="900">React</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(232 -142)"><g><rect width="164" height="66" rx="20" fill="#1E1B4B" stroke="#A78BFA"/><circle cx="22" cy="33" r="7" fill="#A78BFA" filter="url(#tuGlow)"/><text x="40" y="39" fill="#DDD6FE" font-family="Inter, Arial" font-size="17" font-weight="900">Three.js</text><animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="4.6s" repeatCount="indefinite"/></g></g>
+
+    <!-- orbit ring 2 (medium, 22s) -->
+    <g transform="translate(-370 100)"><g><rect width="150" height="66" rx="20" fill="#3B0764" stroke="#E879F9"/><circle cx="22" cy="33" r="7" fill="#E879F9" filter="url(#tuGlow)"/><text x="40" y="39" fill="#F5D0FE" font-family="Inter, Arial" font-size="17" font-weight="900">WebGL</text><animateTransform attributeName="transform" type="translate" values="0 0;0 11;0 0" dur="4.8s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(258 128)"><g><rect width="140" height="66" rx="20" fill="#500724" stroke="#F472B6"/><circle cx="22" cy="33" r="7" fill="#F472B6" filter="url(#tuGlow)"/><text x="40" y="39" fill="#FBCFE8" font-family="Inter, Arial" font-size="17" font-weight="900">GSAP</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5.2s" repeatCount="indefinite"/></g></g>
+
+    <!-- orbit ring 3 (slow, 30s) -->
+    <g transform="translate(-96 -240)"><g><rect width="176" height="66" rx="20" fill="#0C2340" stroke="#60A5FA"/><circle cx="22" cy="33" r="7" fill="#60A5FA" filter="url(#tuGlow)"/><text x="40" y="39" fill="#DBEAFE" font-family="Inter, Arial" font-size="17" font-weight="900">TypeScript</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="4.3s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(-92 214)"><g><rect width="164" height="66" rx="20" fill="#052E2B" stroke="#22C55E"/><circle cx="22" cy="33" r="7" fill="#22C55E" filter="url(#tuGlow)"/><text x="40" y="39" fill="#DCFCE7" font-family="Inter, Arial" font-size="17" font-weight="900">Node.js</text><animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="4.9s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(478 -18)"><g><rect width="150" height="66" rx="20" fill="#052E2B" stroke="#22D3EE"/><circle cx="22" cy="33" r="7" fill="#22D3EE" filter="url(#tuGlow)"/><text x="40" y="39" fill="#CFFAFE" font-family="Inter, Arial" font-size="17" font-weight="900">Tailwind</text><animateTransform attributeName="transform" type="translate" values="0 0;0 -11;0 0" dur="4.5s" repeatCount="indefinite"/></g></g>
+    <g transform="translate(-478 -10)"><g><rect width="130" height="66" rx="20" fill="#111827" stroke="#94A3B8"/><circle cx="22" cy="33" r="7" fill="#E2E8F0" filter="url(#tuGlow)"/><text x="40" y="39" fill="#F8FAFC" font-family="Inter, Arial" font-size="17" font-weight="900">Git</text><animateTransform attributeName="transform" type="translate" values="0 0;0 9;0 0" dur="5.1s" repeatCount="indefinite"/></g></g>
+
+    <circle r="7" fill="#fff" filter="url(#tuGlow)"><animateMotion dur="9s" repeatCount="indefinite" path="M-404 0A404 180 0 1 0 404 0A404 180 0 1 0-404 0"/></circle>
+    <circle r="5" fill="#F472B6" filter="url(#tuGlow)"><animateMotion dur="9s" begin="-3s" repeatCount="indefinite" path="M-404 0A404 180 0 1 0 404 0A404 180 0 1 0-404 0"/></circle>
+    <circle r="5" fill="#38BDF8" filter="url(#tuGlow)"><animateMotion dur="9s" begin="-6s" repeatCount="indefinite" path="M-404 0A404 180 0 1 0 404 0A404 180 0 1 0-404 0"/></circle>
+  </g>
+  <g transform="translate(1000 656)"><text fill="#64748B" font-family="Consolas, monospace" font-size="11">ORBITAL SYNC</text><rect x="102" y="-9" width="112" height="8" rx="4" fill="#1E1B3A"/><rect x="102" y="-9" width="30" height="8" rx="4" fill="url(#tuSpec)"><animate attributeName="width" values="20;112;20" dur="3s" repeatCount="indefinite"/></rect></g>
+</svg>

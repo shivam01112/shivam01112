@@ -1,0 +1,80 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Featured project case studies</title>
+  <desc id="desc">Three animated project case-study cards — Dashboard UI, API Products, and Creative Web — with tilt, glow, and hover-style motion.</desc>
+  <defs>
+    <linearGradient id="fpBg" x1="0" y1="0" x2="1280" y2="640"><stop stop-color="#020617"/><stop offset=".5" stop-color="#0E0A26"/><stop offset="1" stop-color="#1B0B2E"/></linearGradient>
+    <linearGradient id="fpSpec" x1="50" y1="0" x2="1230" y2="0"><stop stop-color="#22D3EE"/><stop offset=".45" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <pattern id="fpDots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#D8B4FE" opacity=".14"/></pattern>
+    <filter id="fpGlow" x="-80%" y="-100%" width="260%" height="300%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="fpShadow" x="-30%" y="-35%" width="170%" height="200%"><feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#00030C" flood-opacity=".78"/></filter>
+  </defs>
+  <rect width="1280" height="640" rx="32" fill="url(#fpBg)"/><rect width="1280" height="640" rx="32" fill="url(#fpDots)"/><rect x="1" y="1" width="1278" height="638" rx="31" stroke="url(#fpSpec)" stroke-opacity=".26"/>
+  <g transform="translate(62 42)"><text y="22" fill="#67E8F9" font-family="Consolas, monospace" font-size="15" font-weight="800" letter-spacing="2">FEATURED PROJECTS // SELECTED CASE STUDIES</text><text y="73" fill="#F8FAFC" font-family="Inter, Arial" font-size="36" font-weight="900">Interfaces that feel alive</text></g>
+  <g transform="translate(1050 55)"><rect width="170" height="38" rx="19" fill="#3B0764" stroke="#E879F9"/><circle cx="21" cy="19" r="5" fill="#E879F9" filter="url(#fpGlow)"><animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/></circle><text x="36" y="24" fill="#F5D0FE" font-family="Consolas, monospace" font-size="11">3 CASE FILES</text></g>
+
+  <g transform="translate(50 138)" filter="url(#fpShadow)" font-family="Inter, Arial">
+    <!-- 01 Dashboard -->
+    <g transform="translate(0 0)"><g transform="rotate(-1.2)">
+      <rect x="10" y="14" width="368" height="312" rx="26" fill="#22D3EE" opacity=".1"/>
+      <rect width="368" height="312" rx="26" fill="#050B18" stroke="#22D3EE"/>
+      <rect width="368" height="312" rx="26" fill="none" stroke="url(#fpSpec)" stroke-width="2" stroke-dasharray="18 900" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-1360" dur="10s" repeatCount="indefinite"/></rect>
+      <text x="24" y="42" fill="#38BDF8" font-family="Consolas, monospace" font-size="30" font-weight="900" opacity=".35">01</text>
+      <text x="24" y="86" fill="#F8FAFC" font-size="22" font-weight="900">Dashboard UI</text>
+      <text x="24" y="108" fill="#7DD3FC" font-size="12.5">Data that tells a clear story at a glance</text>
+      <g font-family="Consolas, monospace" font-size="10" font-weight="700" transform="translate(24 126)">
+        <rect width="52" height="20" rx="10" fill="#0A1A2E" stroke="#155E75"/><text x="26" y="14" text-anchor="middle" fill="#7DD3FC">React</text>
+        <rect x="60" width="70" height="20" rx="10" fill="#0A1A2E" stroke="#155E75"/><text x="95" y="14" text-anchor="middle" fill="#7DD3FC">D3.js</text>
+        <rect x="138" width="90" height="20" rx="10" fill="#0A1A2E" stroke="#155E75"/><text x="183" y="14" text-anchor="middle" fill="#7DD3FC">Tailwind</text>
+      </g>
+      <g transform="translate(24 168)"><rect width="150" height="60" rx="14" fill="#071C31" stroke="#155E75"/><text x="14" y="22" fill="#64748B" font-family="Consolas, monospace" font-size="9">RENDER TIME</text><text x="14" y="46" fill="#67E8F9" font-size="18" font-weight="900">1.2s</text></g>
+      <g transform="translate(190 168)"><rect width="154" height="60" rx="14" fill="#071C31" stroke="#155E75"/><text x="14" y="22" fill="#64748B" font-family="Consolas, monospace" font-size="9">LIGHTHOUSE</text><text x="14" y="46" fill="#86EFAC" font-size="18" font-weight="900">98</text></g>
+      <path d="M24 260L48 240L70 250L96 214L118 226L150 196" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#fpGlow)" stroke-dasharray="150" stroke-dashoffset="150"><animate attributeName="stroke-dashoffset" values="150;0;0;150" keyTimes="0;.55;.85;1" dur="4.4s" repeatCount="indefinite"/></path>
+      <g transform="translate(24 240)"><rect width="40" height="30" rx="12" fill="#082F49" stroke="#22D3EE"/><text x="20" y="19" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Arial" font-size="10" font-weight="800">DEMO</text></g>
+      <g transform="translate(72 240)"><rect width="42" height="30" rx="12" fill="none" stroke="#334155"/><text x="21" y="19" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial" font-size="10" font-weight="800">CODE</text></g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="5.6s" repeatCount="indefinite" additive="sum"/>
+    </g></g>
+
+    <!-- 02 API Products -->
+    <g transform="translate(408 0)"><g transform="rotate(1)">
+      <rect x="10" y="14" width="368" height="312" rx="26" fill="#A78BFA" opacity=".1"/>
+      <rect width="368" height="312" rx="26" fill="#0A0620" stroke="#A78BFA"/>
+      <rect width="368" height="312" rx="26" fill="none" stroke="url(#fpSpec)" stroke-width="2" stroke-dasharray="18 900" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-1360" dur="10s" begin="-3.3s" repeatCount="indefinite"/></rect>
+      <text x="24" y="42" fill="#A78BFA" font-family="Consolas, monospace" font-size="30" font-weight="900" opacity=".35">02</text>
+      <text x="24" y="86" fill="#F8FAFC" font-size="22" font-weight="900">API Products</text>
+      <text x="24" y="108" fill="#DDD6FE" font-size="12.5">Useful loading &amp; error states at every step</text>
+      <g font-family="Consolas, monospace" font-size="10" font-weight="700" transform="translate(24 126)">
+        <rect width="90" height="20" rx="10" fill="#160F30" stroke="#3B2A64"/><text x="45" y="14" text-anchor="middle" fill="#C4B5FD">TypeScript</text>
+        <rect x="98" width="70" height="20" rx="10" fill="#160F30" stroke="#3B2A64"/><text x="133" y="14" text-anchor="middle" fill="#C4B5FD">Node.js</text>
+        <rect x="176" width="70" height="20" rx="10" fill="#160F30" stroke="#3B2A64"/><text x="211" y="14" text-anchor="middle" fill="#C4B5FD">GraphQL</text>
+      </g>
+      <g transform="translate(24 168)"><rect width="320" height="42" rx="13" fill="#0D0A26" stroke="#3B2A64"/><circle cx="20" cy="21" r="7" stroke="#A78BFA" stroke-width="2"/><path d="M25 26l7 7" stroke="#A78BFA" stroke-width="2"/><text x="46" y="26" fill="#94A3B8" font-family="Inter, Arial" font-size="12">Search endpoints...</text><g transform="translate(280 21)"><circle r="10" fill="none" stroke="#334155" stroke-width="3"/><path d="M0-10A10 10 0 0 1 10 0" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="1.1s" repeatCount="indefinite"/></path></g></g>
+      <g transform="translate(24 226)"><rect width="150" height="60" rx="14" fill="#0D0A26" stroke="#3B2A64"/><text x="14" y="22" fill="#64748B" font-family="Consolas, monospace" font-size="9">LATENCY</text><text x="14" y="46" fill="#C4B5FD" font-size="18" font-weight="900">88ms</text></g>
+      <g transform="translate(190 226)"><rect width="42" height="30" rx="12" fill="#25174D" stroke="#A78BFA"/><text x="21" y="19" text-anchor="middle" fill="#EDE9FE" font-family="Inter, Arial" font-size="10" font-weight="800">DEMO</text></g>
+      <g transform="translate(238 226)"><rect width="42" height="30" rx="12" fill="none" stroke="#3B2A64"/><text x="21" y="19" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial" font-size="10" font-weight="800">CODE</text></g>
+      <animateTransform attributeName="transform" type="translate" values="0 -8;0 8;0 -8" dur="6s" repeatCount="indefinite" additive="sum"/>
+    </g></g>
+
+    <!-- 03 Creative Web -->
+    <g transform="translate(816 0)"><g transform="rotate(-0.8)">
+      <rect x="10" y="14" width="368" height="312" rx="26" fill="#F472B6" opacity=".1"/>
+      <rect width="368" height="312" rx="26" fill="#210A19" stroke="#F472B6"/>
+      <rect width="368" height="312" rx="26" fill="none" stroke="url(#fpSpec)" stroke-width="2" stroke-dasharray="18 900" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-1360" dur="10s" begin="-6.6s" repeatCount="indefinite"/></rect>
+      <text x="24" y="42" fill="#F472B6" font-family="Consolas, monospace" font-size="30" font-weight="900" opacity=".35">03</text>
+      <text x="24" y="86" fill="#F8FAFC" font-size="22" font-weight="900">Creative Web</text>
+      <text x="24" y="108" fill="#FBCFE8" font-size="12.5">Depth, motion, and memorable moments</text>
+      <g font-family="Consolas, monospace" font-size="10" font-weight="700" transform="translate(24 126)">
+        <rect width="88" height="20" rx="10" fill="#2B0B1F" stroke="#831843"/><text x="44" y="14" text-anchor="middle" fill="#F9A8D4">Three.js</text>
+        <rect x="96" width="76" height="20" rx="10" fill="#2B0B1F" stroke="#831843"/><text x="134" y="14" text-anchor="middle" fill="#F9A8D4">WebGL</text>
+        <rect x="180" width="64" height="20" rx="10" fill="#2B0B1F" stroke="#831843"/><text x="212" y="14" text-anchor="middle" fill="#F9A8D4">GSAP</text>
+      </g>
+      <g transform="translate(184 224)">
+        <circle r="76" fill="#F472B6" opacity=".05"/><ellipse rx="118" ry="46" stroke="#F472B6" stroke-width="2" stroke-dasharray="8 14" opacity=".6"><animate attributeName="stroke-dashoffset" values="0;-88" dur="3s" repeatCount="indefinite"/></ellipse><ellipse rx="58" ry="106" stroke="#A78BFA" stroke-width="2" stroke-dasharray="6 12" opacity=".5"><animate attributeName="stroke-dashoffset" values="0;72" dur="3.8s" repeatCount="indefinite"/></ellipse>
+        <polygon points="0,-44 48,-20 0,4 -48,-20" fill="#4A1130" stroke="#F9A8D4"/><polygon points="-48,-20 0,4 0,56 -48,32" fill="#2B0B1F" stroke="#F472B6"/><polygon points="48,-20 0,4 0,56 48,32" fill="#3B1A4A" stroke="#A78BFA"/>
+        <circle r="5" fill="#fff" filter="url(#fpGlow)"><animateMotion dur="4s" repeatCount="indefinite" path="M-118 0A118 46 0 1 0 118 0A118 46 0 1 0-118 0"/></circle>
+      </g>
+      <g transform="translate(24 268)"><rect width="42" height="30" rx="12" fill="#4A1130" stroke="#F472B6"/><text x="21" y="19" text-anchor="middle" fill="#FBCFE8" font-family="Inter, Arial" font-size="10" font-weight="800">DEMO</text></g>
+      <g transform="translate(72 268)"><rect width="42" height="30" rx="12" fill="none" stroke="#831843"/><text x="21" y="19" text-anchor="middle" fill="#94A3B8" font-family="Inter, Arial" font-size="10" font-weight="800">CODE</text></g>
+      <animateTransform attributeName="transform" type="translate" values="0 6;0 -8;0 6" dur="5.3s" repeatCount="indefinite" additive="sum"/>
+    </g></g>
+  </g>
+</svg>
