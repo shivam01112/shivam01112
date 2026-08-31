@@ -21,6 +21,12 @@
 <br />
 
 <div align="center">
+  <img src="./assets/system-status.svg" alt="Interactive Portfolio OS system status panel — system online, mode creative, render active, motion enabled" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
   <img src="./assets/currently-building.svg" alt="Currently building panel showing the active project, stack, and progress" width="100%" />
 </div>
 
@@ -124,6 +130,12 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-snake.svg" />
     <img src="./assets/github-contribution-snake.svg" alt="Animated GitHub contribution snake generated from real contributions" width="100%" />
   </picture>
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/live-activity.svg" alt="Live activity timeline — building, committing, experimenting, shipping" width="100%" />
 </div>
 
 <br />

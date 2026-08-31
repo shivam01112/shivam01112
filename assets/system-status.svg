@@ -1,0 +1,71 @@
+<svg width="1280" height="220" viewBox="0 0 1280 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Interactive Portfolio OS — system status panel</title>
+  <desc id="desc">A live system-initialization console showing SYSTEM online, MODE creative, RENDER active, and MOTION enabled, with a scanline, waveform, load bar, and terminal cursor.</desc>
+  <defs>
+    <linearGradient id="ssBg" x1="0" y1="0" x2="1280" y2="220"><stop stop-color="#020617"/><stop offset=".5" stop-color="#150C2E"/><stop offset="1" stop-color="#020617"/></linearGradient>
+    <linearGradient id="ssSpec" x1="40" y1="0" x2="1240" y2="0"><stop stop-color="#22D3EE"/><stop offset=".45" stop-color="#A78BFA"/><stop offset="1" stop-color="#F472B6"/></linearGradient>
+    <pattern id="ssGrid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" stroke="#7DD3FC" stroke-width=".5" opacity=".07"/></pattern>
+    <filter id="ssGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="ssClip"><rect width="1280" height="220" rx="28"/></clipPath>
+  </defs>
+
+  <rect width="1280" height="220" rx="28" fill="url(#ssBg)"/><rect width="1280" height="220" rx="28" fill="url(#ssGrid)"/>
+  <rect x="1" y="1" width="1278" height="218" rx="27" stroke="url(#ssSpec)" stroke-opacity=".35" stroke-width="1.6"/>
+
+  <!-- scanline sweep, clipped to panel, slow full-height pass -->
+  <g clip-path="url(#ssClip)" opacity=".5">
+    <rect x="0" y="-40" width="1280" height="40" fill="url(#ssSpec)" opacity=".16">
+      <animate attributeName="y" values="-40;220" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- floating particles -->
+  <g fill="#93C5FD">
+    <circle cx="210" cy="190" r="2" opacity="0"><animate attributeName="cy" values="190;40" dur="7s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="7s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="200" r="1.6" fill="#F0ABFC" opacity="0"><animate attributeName="cy" values="200;30" dur="9s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="9s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="185" r="2.2" fill="#67E8F9" opacity="0"><animate attributeName="cy" values="185;35" dur="5.5s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.8;0" dur="5.5s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="195" r="1.8" fill="#C4B5FD" opacity="0"><animate attributeName="cy" values="195;45" dur="8s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;.7;0" dur="8s" begin="-5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(44 34)">
+    <circle cx="6" cy="6" r="6" fill="#34D399" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;.25;1" dur="1.5s" repeatCount="indefinite"/></circle>
+    <text x="20" y="11" fill="#86EFAC" font-family="Consolas, monospace" font-size="13" font-weight="800" letter-spacing="2">SYSTEM INITIALIZATION</text>
+    <text x="990" y="11" fill="#64748B" font-family="Consolas, monospace" font-size="12">BOOT SEQUENCE COMPLETE</text>
+  </g>
+
+  <g transform="translate(44 64)">
+    <text y="30" fill="#F8FAFC" font-family="Inter, Arial" font-size="27" font-weight="900">Interactive Portfolio OS</text>
+    <text y="56" fill="#C7D2E3" font-family="Inter, Arial" font-size="14.5">A digital workspace where ideas become interactive experiences.</text>
+
+    <g transform="translate(0 70)">
+      <text fill="#67E8F9" font-family="Consolas, monospace" font-size="12.5">&gt; booting interactive_portfolio.os</text>
+      <rect x="256" y="-11" width="8" height="13" fill="#67E8F9" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="10.5" font-weight="800" transform="translate(44 168)">
+    <g><rect width="150" height="34" rx="12" fill="#082F49" stroke="#22D3EE" stroke-opacity=".7"/><circle cx="18" cy="17" r="4" fill="#22D3EE" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle><text x="32" y="14" fill="#7DD3FC" font-size="9">SYSTEM</text><text x="32" y="27" fill="#BAE6FD" font-size="12">ONLINE</text></g>
+    <g transform="translate(166 0)"><rect width="150" height="34" rx="12" fill="#1E1B4B" stroke="#A78BFA" stroke-opacity=".7"/><circle cx="18" cy="17" r="4" fill="#A78BFA" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;.3;1" dur="2.4s" repeatCount="indefinite"/></circle><text x="32" y="14" fill="#DDD6FE" font-size="9">MODE</text><text x="32" y="27" fill="#EDE9FE" font-size="12">CREATIVE</text></g>
+    <g transform="translate(332 0)"><rect width="150" height="34" rx="12" fill="#3B0764" stroke="#E879F9" stroke-opacity=".7"/><circle cx="18" cy="17" r="4" fill="#E879F9" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/></circle><text x="32" y="14" fill="#F5D0FE" font-size="9">RENDER</text><text x="32" y="27" fill="#FAE8FF" font-size="12">ACTIVE</text></g>
+    <g transform="translate(498 0)"><rect width="150" height="34" rx="12" fill="#500724" stroke="#F472B6" stroke-opacity=".7"/><circle cx="18" cy="17" r="4" fill="#F472B6" filter="url(#ssGlow)"><animate attributeName="opacity" values="1;.3;1" dur="2.2s" repeatCount="indefinite"/></circle><text x="32" y="14" fill="#FBCFE8" font-size="9">MOTION</text><text x="32" y="27" fill="#FCE7F3" font-size="12">ENABLED</text></g>
+  </g>
+
+  <g transform="translate(760 76)">
+    <text y="0" fill="#64748B" font-family="Consolas, monospace" font-size="11">SYSTEM LOAD</text>
+    <rect y="14" width="476" height="14" rx="7" fill="#161225"/>
+    <rect y="14" width="330" height="14" rx="7" fill="url(#ssSpec)" filter="url(#ssGlow)">
+      <animate attributeName="width" values="300;340;300" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <text y="58" fill="#64748B" font-family="Consolas, monospace" font-size="10.5">SIGNAL</text>
+    <path d="M0 92 Q10 76 20 92 T40 92 T60 92 T80 92 T100 92 T120 92 T140 92 T160 92 T180 92 T200 92 T220 92 T240 92 T260 92 T280 92 T300 92 T320 92 T340 92 T360 92 T380 92 T400 92 T420 92 T440 92 T460 92 T476 92" stroke="url(#ssSpec)" stroke-width="2.6" fill="none" stroke-linecap="round" filter="url(#ssGlow)">
+      <animate attributeName="d" dur="2.6s" repeatCount="indefinite"
+        values="M0 92 Q10 76 20 92 T40 92 T60 92 T80 92 T100 92 T120 92 T140 92 T160 92 T180 92 T200 92 T220 92 T240 92 T260 92 T280 92 T300 92 T320 92 T340 92 T360 92 T380 92 T400 92 T420 92 T440 92 T460 92 T476 92;
+                 M0 92 Q10 108 20 92 T40 92 T60 92 T80 92 T100 92 T120 92 T140 92 T160 92 T180 92 T200 92 T220 92 T240 92 T260 92 T280 92 T300 92 T320 92 T340 92 T360 92 T380 92 T400 92 T420 92 T440 92 T460 92 T476 92;
+                 M0 92 Q10 76 20 92 T40 92 T60 92 T80 92 T100 92 T120 92 T140 92 T160 92 T180 92 T200 92 T220 92 T240 92 T260 92 T280 92 T300 92 T320 92 T340 92 T360 92 T380 92 T400 92 T420 92 T440 92 T460 92 T476 92"/>
+    </path>
+  </g>
+
+  <path d="M40 196H1240" stroke="#1E1B3A" stroke-width="2"/>
+  <path d="M40 196H1240" stroke="url(#ssSpec)" stroke-width="3" stroke-dasharray="10 22" filter="url(#ssGlow)" opacity=".8"><animate attributeName="stroke-dashoffset" values="0;-128" dur="3s" repeatCount="indefinite"/></path>
+</svg>
