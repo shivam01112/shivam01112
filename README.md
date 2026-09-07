@@ -21,19 +21,19 @@
 <br />
 
 <div align="center">
-  <img src="./assets/system-status.svg" alt="Interactive Portfolio OS system status panel — system online, mode creative, render active, motion enabled" width="100%" />
+  <img src="./assets/engineering-console-v2.svg" alt="Animated engineering console — connected 12/12, clean build, high frame health, and strong code quality" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/currently-building.svg" alt="Currently building panel showing the active project, stack, and progress" width="100%" />
+  <img src="./assets/project-lab.svg" alt="Currently building panel — active project stack with Next.js, React, Tailwind, REST API, lazy loading, and a performance focus" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/featured-projects.svg" alt="Featured project case studies — Dashboard UI, API Products, and Creative Web" width="100%" />
+  <img src="./assets/project-lab-v2.svg" alt="Featured project case studies — Dashboard UI, API Products, and Creative Web" width="100%" />
 </div>
 
 <div align="center">
@@ -49,7 +49,7 @@
 <br />
 
 <div align="center">
-  <img src="./assets/build-process.svg" alt="Seven stage build process: idea, wireframe, design, interaction, build, optimize, deploy" width="100%" />
+  <img src="./assets/architecture-map-v2.svg" alt="Animated frontend architecture map — from first pixel to final deploy across components, design, state, polish, and ship" width="100%" />
 </div>
 
 <br />
@@ -61,7 +61,19 @@
 <br />
 
 <div align="center">
-  <img src="./assets/telemetry.svg" alt="Live development system telemetry showing UI, Motion, WebGL, and Performance portfolio metrics" width="100%" />
+  <img src="./assets/tech-orbit-v2.svg" alt="Tech orbit — active stack in orbital sync around a core engine, featuring React, Redux, JavaScript, and GitHub" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/skills-graph-v1.svg" alt="Component architecture skills graph — where I spend most of my build hours, across React, Next.js, TypeScript, JavaScript, and Tailwind CSS" width="100%" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/signal-strip-v3.svg" alt="Animated developer capability matrix — all cores online across frontend, engineering systems, motion, and Lighthouse performance" width="100%" />
 </div>
 
 <br />
@@ -135,13 +147,13 @@
 <br />
 
 <div align="center">
-  <img src="./assets/live-activity.svg" alt="Live activity timeline — building, committing, experimenting, shipping" width="100%" />
+  <img src="./assets/contact-strip-v3.svg" alt="Open channels connection deck — Shivam Negi's communication command deck, live and available for magic" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
-  <img src="./assets/final-cta.svg" alt="Let's build the next wow — closing call to action" width="100%" />
+  <img src="./assets/final-strip-v3.svg" alt="Cinematic closing command portal — thanks for entering my orbit, let's build together and ship magic" width="100%" />
 </div>
 
 <div align="center">
