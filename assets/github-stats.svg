@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Shivam&#39;s GitHub Signal, Rank: C</title>
-        <desc id="descId">Total Stars Earned: 0, Total Commits  : 130, Total PRs: 3, Total PRs Merged: 3, Total PRs Reviewed: 0, Total Issues: 1, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 0, Total Commits  : 132, Total PRs: 3, Total PRs Merged: 3, Total PRs Reviewed: 0, Total Issues: 1, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,11 +73,12 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 244.58576820333695;
+        stroke-dashoffset: 244.5327397242396;
       }
     }
   
   
+          
 
           
       /* Animations */
@@ -103,6 +104,7 @@
 
         
         <defs>
+          
           <linearGradient
             id="gradient"
             gradientTransform="rotate(135)"
@@ -110,11 +112,13 @@
           >
             <stop offset="0%" stop-color="#020617" />,<stop offset="50%" stop-color="#071A35" />,<stop offset="100%" stop-color="#15102F" />
           </linearGradient>
+          
         </defs>
         
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="18"
@@ -187,7 +191,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >130</text>
+      >132</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">

@@ -59,7 +59,9 @@
     .lang-progress{
       animation: growWidthAnimation 0.6s ease-in-out forwards;
     }
+    .progress-background { fill: #ddd; }
     
+          
 
           
       /* Animations */
@@ -85,6 +87,7 @@
 
         
         <defs>
+          
           <linearGradient
             id="gradient"
             gradientTransform="rotate(135)"
@@ -92,11 +95,13 @@
           >
             <stop offset="0%" stop-color="#020617" />,<stop offset="50%" stop-color="#071A35" />,<stop offset="100%" stop-color="#15102F" />
           </linearGradient>
+          
         </defs>
         
 
         <rect
           data-testid="card-bg"
+          class="card-bg"
           x="0.5"
           y="0.5"
           rx="18"
@@ -140,7 +145,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="123.33"
+          width="128.07"
           height="8"
           fill="#e34c26"
         />
@@ -148,9 +153,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="123.33"
+          x="128.07"
           y="0"
-          width="80.66"
+          width="82.39"
           height="8"
           fill="#663399"
         />
@@ -158,9 +163,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="203.99"
+          x="210.45999999999998"
           y="0"
-          width="38.48"
+          width="36.34"
           height="8"
           fill="#f1e05a"
         />
@@ -168,9 +173,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="242.47"
+          x="246.79999999999998"
           y="0"
-          width="16.11"
+          width="11.8"
           height="8"
           fill="#4F5D95"
         />
@@ -178,9 +183,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="248.58"
+          x="248.6"
           y="0"
-          width="10.9"
+          width="10.88"
           height="8"
           fill="#3178c6"
         />
@@ -188,9 +193,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.48000000000002"
+          x="249.48"
           y="0"
-          width="10.52"
+          width="10.51"
           height="8"
           fill="#3572A5"
         />
@@ -201,42 +206,42 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 49.33%
+        HTML 51.23%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#663399" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS 32.26%
+        CSS 32.96%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        JavaScript 15.39%
+        JavaScript 14.54%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#4F5D95" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PHP 2.44%
+        PHP 0.72%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript 0.36%
+        TypeScript 0.35%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 0.21%
+        Python 0.20%
       </text>
     </g>
   </g></g>
