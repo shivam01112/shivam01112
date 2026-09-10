@@ -110,11 +110,11 @@
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-2. Pushed updates to [`shivam01112/shivam01112`](https://github.com/shivam01112/shivam01112)
-3. Created branch `pair-extraordinaire` in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-4. Created branch `shivam01112-patch-2` in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-5. Merged PR [#4 — pull request](https://github.com/shivam01112/Iron-Man-X-Shivam/pull/4) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+1. Opened PR [#3 — pull request](https://github.com/shivam01112/my-first-project/pull/3) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+2. Closed issue [#8 — How should I handle authentication in a MERN stack application?](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/8) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+3. Opened issue [#8 — How should I handle authentication in a MERN stack application?](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/8) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+4. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+5. Commented on [issue #5](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/5#issuecomment-5614724942) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
 <!--END_SECTION:activity-->
 
 <br />
