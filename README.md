@@ -110,11 +110,11 @@
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Opened PR [#3 — pull request](https://github.com/shivam01112/my-first-project/pull/3) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-2. Closed issue [#8 — How should I handle authentication in a MERN stack application?](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/8) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-3. Opened issue [#8 — How should I handle authentication in a MERN stack application?](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/8) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
-4. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-5. Commented on [issue #5](https://github.com/shivam01112/Iron-Man-X-Shivam/issues/5#issuecomment-5614724942) in [`shivam01112/Iron-Man-X-Shivam`](https://github.com/shivam01112/Iron-Man-X-Shivam)
+1. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+2. Merged PR [#5 — pull request](https://github.com/shivam01112/my-first-project/pull/5) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+3. Merged PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+4. Opened PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+5. Opened PR [#5 — pull request](https://github.com/shivam01112/my-first-project/pull/5) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
 <!--END_SECTION:activity-->
 
 <br />
