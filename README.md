@@ -110,11 +110,11 @@
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-2. Merged PR [#5 — pull request](https://github.com/shivam01112/my-first-project/pull/5) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-3. Merged PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-4. Opened PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-5. Opened PR [#5 — pull request](https://github.com/shivam01112/my-first-project/pull/5) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+1. Created branch `shivam01112-patch-3` in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+2. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+3. Merged PR [#5 — pull request](https://github.com/shivam01112/my-first-project/pull/5) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+4. Merged PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
+5. Opened PR [#6 — pull request](https://github.com/shivam01112/my-first-project/pull/6) in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
 <!--END_SECTION:activity-->
 
 <br />
