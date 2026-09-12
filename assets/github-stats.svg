@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Shivam&#39;s GitHub Signal, Rank: B-</title>
-        <desc id="descId">Total Stars Earned: 27, Total Commits  : 401, Total PRs: 8, Total PRs Merged: 8, Total PRs Reviewed: 0, Total Issues: 4, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 29, Total Commits  : 401, Total PRs: 8, Total PRs Merged: 8, Total PRs Reviewed: 0, Total Issues: 4, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 182.958972519777;
+        stroke-dashoffset: 181.51908722400165;
       }
     }
   
@@ -176,7 +176,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >27</text>
+      >29</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
