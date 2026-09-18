@@ -114,7 +114,6 @@
 2. Created branch `shivam01112-patch-5` in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
 3. Created branch `shivam01112-patch-2` in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
 4. Created branch `shivam01112-patch-1` in [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
-5. Pushed updates to [`shivam01112/my-first-project`](https://github.com/shivam01112/my-first-project)
 <!--END_SECTION:activity-->
 
 <br />
