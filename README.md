@@ -110,11 +110,11 @@
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-2. Merged PR [#1 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/1) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-3. Opened PR [#1 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/1) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-4. Created branch `claude/cool-planck-2fbnan` in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-5. Created branch `main` in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+1. Merged PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+2. Pushed updates to [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+3. Opened PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+4. Merged PR [#1 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/1) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+5. Opened PR [#1 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/1) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
 <!--END_SECTION:activity-->
 
 <br />
