@@ -110,11 +110,11 @@
 ### 🚀 Recent public work
 
 <!--START_SECTION:activity-->
-1. Pushed updates to [`shivam01112/saitronics`](https://github.com/shivam01112/saitronics)
-2. Merged PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-3. Pushed updates to [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-4. Opened PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
-5. Merged PR [#1 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/1) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+1. Pushed updates to [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+2. Created branch `feat/portfolio-redesign` in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+3. Pushed updates to [`shivam01112/saitronics`](https://github.com/shivam01112/saitronics)
+4. Merged PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
+5. Opened PR [#2 — pull request](https://github.com/shivam01112/interactive-3d-portfolio/pull/2) in [`shivam01112/interactive-3d-portfolio`](https://github.com/shivam01112/interactive-3d-portfolio)
 <!--END_SECTION:activity-->
 
 <br />
