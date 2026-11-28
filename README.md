@@ -111,7 +111,6 @@
 
 <!--START_SECTION:activity-->
 1. Pushed updates to [`shivam01112/bulk-sms-cender-by-shivam`](https://github.com/shivam01112/bulk-sms-cender-by-shivam)
-2. Pushed updates to [`shivam01112/saitronics`](https://github.com/shivam01112/saitronics)
 <!--END_SECTION:activity-->
 
 <br />
